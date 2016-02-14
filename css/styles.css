@@ -1,0 +1,174 @@
+/*
+Overriding CSS File 
+Created by Varun Kulkarni: Rock Ridge iGEM
+*/
+
+/**Across the board**/
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{max-width: 100%;   max-height: 100%;}
+
+/*@media screen and (max-width: 1000px){
+    body{
+        background-image: url("../images/universal/BG_Phone.png");
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+        background-image: url("../images/universal/BG_1024.png");
+    }
+}
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url("../images/universal/bg.jpg");
+    }
+}
+@media screen and (min-width: 1326px){
+    body{
+        background-image: url("../images/universal/BG_1326.png");
+    }
+}
+@media screen and (min-width: 1367px){
+    body{
+        background-image: url("../images/universal/BG_1920.png");
+    }
+}*/
+body{
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+      background-image: url("../images/universal/bg.jpg");
+}
+
+
+
+/**General Nav Bar Styles**/
+.navbar-fixed-top{
+    background-color: #702424;
+}
+#theMainNav{margin: 0; padding: 0;}
+
+.link-formatting{
+    font-family: "Arial";
+    font-size: 1.3em;
+    color: #FFFFFF;
+    display: block;
+}
+.link-formatting:hover {
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    color: #000000;
+}
+
+/**Dropdown Specific Styles**/
+#Project_Dropdown ul{
+    visibility: hidden;
+    position: absolute;
+    list-style-type: none;
+    text-indent: -2em;
+    width: 10em;
+}
+#Project_Dropdown:hover ul{
+    visibility: visible;
+    background-color: #800020;
+}
+#About_Dropdown ul{
+    visibility: hidden;
+    position: absolute;
+    list-style-type: none;
+    text-indent: -2em;
+    width: 12em;
+}
+#About_Dropdown:hover ul{
+    visibility: visible;
+    background-color: #800020;
+}
+#Outreach_Dropdown ul{
+    visibility: hidden;
+    position: absolute;
+    list-style-type: none;
+    text-indent: -2em;
+    width: 10em;
+}
+#Outreach_Dropdown:hover ul{
+    visibility: visible;
+    background-color: #800020;
+}
+.dropLink{
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.3em;
+}
+.dropLink:hover{
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    
+    -webkit-transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    color: #C2C2C6;
+}
+
+
+/**Landing Page Logo Styles**/
+.logo{
+    align-content: center;
+}
+.logo img{
+    width: 95%; 
+}
+
+/****General Content Styles****/
+.main-page-header{
+    
+    font-family: "Verdana";
+    font-size: 4em;
+    text-align: center;
+}
+.jumbotron{
+    background-color: #ccc;
+}
+
+.content-header-1-left{
+    font-family: "Arial";
+    font-size: 3em;
+    color: #CC3300;
+    font-weight: bold;
+    background-color: #D5D5D5;
+}
+.content-sub-1{
+    font-family: "Verdana";
+    font-size: 2.3em;
+    color: #1F1F2E;   
+}
+.standard-text-1{
+    font-family: "Arial";
+    font-size: 1.3em;
+    text-indent: 1em;
+}
+.standard-text-1-white{
+    font-family: "Arial";
+    font-size: 1.3em;
+    text-indent: 1em;
+    color: #FFFFFF;
+}
+.mass-text-box{
+    background-color: #CBD6E8;
+    opacity: 0.95;
+}
+
+.figCaption{
+    font-family: "Verdana";
+    font-weight: bold;
+    color: #FF3C00;
+    font-size: 1.2em;
+}
+
+.row{
+    background-color: none;
+    opacity: 100%;
+}
+.img1{
+    align-content: left;
+}
