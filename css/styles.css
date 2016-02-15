@@ -121,7 +121,6 @@ body{
 
 /****General Content Styles****/
 .main-page-header{
-    
     font-family: "Verdana";
     font-size: 4em;
     text-align: center;
@@ -142,6 +141,7 @@ body{
     font-size: 2.3em;
     color: #1F1F2E;   
 }
+
 .standard-text-1{
     font-family: "Arial";
     font-size: 1.3em;
@@ -171,4 +171,9 @@ body{
 }
 .img1{
     align-content: left;
+}
+
+/**Sectional Test**/
+#indexLayer1{
+    background-color: #661400;
 }
