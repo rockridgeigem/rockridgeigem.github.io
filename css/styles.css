@@ -172,3 +172,8 @@ body{
 .img1{
     align-content: left;
 }
+.Index-S1{
+    width: inherit;
+    height: 20em;
+    background-color: #6A0000;
+}
