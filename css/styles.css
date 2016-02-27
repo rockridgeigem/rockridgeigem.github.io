@@ -43,7 +43,7 @@ body{
         background-image: none;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-color: #7FADBD;
+        background-color: #B2CEE3;
     }
 }
 
@@ -54,6 +54,7 @@ body{
     background-color: #702424;
 }
 #theMainNav{margin: 0; padding: 0;}
+
 
 .link-formatting{
     font-family: "Arial";
@@ -162,7 +163,7 @@ body{
     color: #FFFFFF;
 }
 .mass-text-box{
-    background-color: #CBD6E8;
+    //background-color: #A11F1F;
     opacity: 0.95;
 }
 
@@ -182,6 +183,5 @@ body{
 }
 .Index-S1{
     width: inherit;
-    height: 20em;
-    background-color: #6A0000;
+    
 }
