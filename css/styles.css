@@ -53,6 +53,16 @@ body{
 .navbar-fixed-top{
     background-color: #702424;
 }
+@media screen and (max-width: 768px){
+    .mobHid{
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 768px){
+    .mobHid{
+        visibility: visible;
+    }
+}
 #theMainNav{margin: 0; padding: 0;}
 
 
