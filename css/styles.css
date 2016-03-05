@@ -52,17 +52,7 @@ body{
 /**General Nav Bar Styles**/
 .navbar-fixed-top{
     background-color: #702424;
-}
-@media screen and (max-width: 768px){
-    .mobHid{
-        visibility: hidden;
-    }
-}
-@media screen and (min-width: 768px){
-    .mobHid{
-        visibility: visible;
-    }
-}
+}  
 #theMainNav{margin: 0; padding: 0;}
 
 
@@ -128,7 +118,9 @@ body{
     -webkit-transition-timing-function: ease;
     color: #C2C2C6;
 }
-
+.icon-bar{
+    color: #FFFFFF; 
+}
 
 /**Landing Page Logo Styles**/
 .logo{
@@ -173,7 +165,7 @@ body{
     color: #FFFFFF;
 }
 .mass-text-box{
-    //background-color: #A11F1F;
+    background-color: #A11F1F;
     opacity: 0.95;
 }
 
