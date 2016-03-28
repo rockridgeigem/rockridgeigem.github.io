@@ -7,59 +7,49 @@
 
     <title>Team:Rock Ridge Virginia/About the Team</title>
     
+    <script type = "text/javascript" src = "../../js/jquery/jquery-1.11.2.min.js"></script>
+    <script type = "text/javascript" src = "../../js/bootstrap.js"></script>
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../css/styles.css">
-    
-    <script type = "text/javascript" src = "../../js/jquery/jquery-1.11.2.min.js"></script>
     
 </head>
 
 <body class = "background">
-    <div class="container">
-     <nav class="navbar navbar-fixed-top">
-        <div class="container-fluid">
+    <nav class = "navbar navbar-default navbar-fixed-top">
+        <div class = "navbar-header">
+            <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
+                <span class = "sr-only">Toggle Nav</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href = "../../index.html">
+                <img class = "nav-image-wrap" src = "../../images/universal/nav_logo.png" />
+            </a>
+        </div>
         
-            <!--For Mobile Device-->
-            <!--<div class="navbar-header">
-                <button type="button" role="img" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Navigation Toggle</span><!--Hides the code to sr only (screen reader, ie phones)
-                    <span class="icon-bar">Hi</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class = "navbar-brand" href="index.html"></a>
-            </div>-->
-            <!--End mobile device support-->
-            <div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a class = "link-formatting" href = "../../index.html">Rock Ridge High School iGEM</a></li>
-                    
-                    <li id = "About_Dropdown"><a class="link-formatting" href="#">About The Team<span class = "caret"></span></a>
-                        <ul>
-                            <li><a href = "about_team.html" class = "dropLink">Team Members</a></li>
-                            <li><a href = "sponsors.html" class = "dropLink">Sponsors</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li id="Project_Dropdown"><a class = "link-formatting" href = "#">Project<span class = "caret"></span></a>
-                        <ul><!--Dynamically change EM of these with respect to biggest text size-->
-                            <li><a href = "../projects/project_Lyme.html" class = "dropLink">Lyme Disease</a></li>
-                            <li><a href = "#" class = "dropLink">Project 2</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li id = "Outreach_Dropdown"><a class="link-formatting" href="#">Human Practices<span class = "caret"></span></a>
-                        <ul>
-                            <li><a href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices" class = "dropLink">2015</a></li>
-                            <li><a href = "../outreach/outreach_2016.html" class = "dropLink">2016</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        <div class = "collapse navbar-collapse" id = "nav-button">
+            <ul class = "nav navbar-nav">
+                <li>  <a class = "link-formatting" id = "About_Team" href = "about_team.html">About the Team</a> </li>
+                
+                <li>  <a class = "link-formatting" id = "Project" href = "../projects/project_Lyme.html">Projects</a> </li>
+                <li>  <a class = "link-formatting" id = "Outreach" href = "../outreach/outreach.html">Outreach</a> </li>
+            </ul>
         </div>
     </nav>
+    
+    <section class = "jumbotron page-header">
+        <h1 class = "main-page-header">Our Team</h1>
+    </section>
+    <div class = "panel" id = "panel-about-members">
+        <section class = "container"><p>Hi</p></section></div>
+    <div class = "panel" id = "panel-about-sponsors">
+        <section class = "container">
+            <h1 class = "header-1 font-Arial header-light">Sponsors</h1>
+            <img src = "../../images/team/sponsor-logos/All_Logos.png" />
+        </section>
     </div>
-        <section class = "jumbotron page-header">
+        <!--<section class = "jumbotron page-header">
             <h1 class = "main-page-header">The Rock Ridge Team</h1>
         </section>
         <section class="container">
@@ -117,9 +107,9 @@
             <section id = "quotes1">
                 <p class = "standard-text-1">I joined iGEM because of my liver transplant for MSUD. I saw iGEM as a way to help others by finding ways to prevent diseases like the one I was born with. ~Jakob Jasin, Tech Lead</p>
                 <p class = "standard-text-1">I joined iGEM since it struck me as a unique club which gives an experience very close to the real laboratory.  I've always wanted to try this experience and iGEM has allowed me to learn more about a lot about Synthetic Biology and topics which I wouldn't encounter in a normal Biology classroom. ~Varun Kulkarni, Rookie Team Member and Wiki Designer</p>
-            </section>-->
+</section>
             
             
-        </section>
+        </section>-->
 </body>
 </html>

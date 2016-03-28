@@ -3,28 +3,13 @@ Overriding CSS File
 Created by Varun Kulkarni: Rock Ridge iGEM
 */
 
-/**Across the board**/
+/************HTML OVERRIDE************/
+footer{background-color:#000000;height:100px;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
 img{max-width: 100%;   max-height: 100%;}
-
-body{
-    background-color: #EEEEEE;
-}
-
-/*body{
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-image: url("../images/universal/bg.jpg");
-}
-@media screen and(max-width: 1000px){
-    body{
-        background-image: none;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: #B2CEE3;
-    }
-}
+body{background-color: #EEEEEE;}
+section{margin: 0;}
 
 
 
@@ -47,14 +32,9 @@ navbar-toggle{color:#000000;}
     color: #000000;
     background-color: #FFFFFF;
 }
-.icon-bar{
-    background-color: #FFFFFF; 
-}
+.icon-bar{background-color: #FFFFFF;}
 
-.nav-image-wrap{
-    background-color: #CCCCCC;
-    
-}
+.nav-image-wrap{background-color: #CCCCCC;}
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
@@ -77,53 +57,83 @@ navbar-toggle{color:#000000;}
     background-color: #FFFFFF;
     color: #000000;
 }
-
-
+#Outreach{
+    font-family: "Arial";
+    color: #FFFFFF;
+}
+#Outreach:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+/***END NAVIGATION****/
 
 /***Landing page***/
 .stretch{
     width: inherit;
     max-height: auto;
 }
-#land-section-one{
-    width: inherit;
-    height: 10em;
-    background-color: #FFFFFF;
+/***END LANDING PAGE***/
+
+/***********PANELS***************/
+
+.panel{width: inherit;}
+#panel-index-hero{
+    background-color: inherit;
+    height: 30em;
 }
-.left-align-sm{
-    float: right;
+#panel-index-project{
+    background-color: #7E2020;
+    height: 20em;
 }
-.sm-box{
-    width: 100%;
-    height: 100%;
+#panel-index-team{
+    background-color: #DDDDDD;
+    height: 25em;
 }
-.index-descript-one{
-    background-color: #6A0000;
+#index-team-fixed{
+    opacity: 0.9;
+    position: fixed;
 }
+#panel-about-members{
+    background-color: firebrick;
+    height: 40em;
+}
+#panel-about-sponsors{
+    background-color: #7E2020;
+    height: 35em;
+}
+
+@media screen and (max-width: 736px){
+    #panel-about-sponsors{
+        height: 25em;
+    }
+}
+@media screen and (max-width: 450px){
+    #panel-about-sponsors{
+        height: 17em;
+    }
+}
+/****END PANELS*****/
 
 
 /****General Content Styles****/
+
+.my-jumbotron{
+    width: inherit;
+    height: 30%;
+    padding-top: 30px;
+}
+.jumbotron{background-color: #ccc;}
 .main-page-header{
     font-family: "Verdana";
     font-size: 4em;
     text-align: center;
 }
-.jumbotron{
-    background-color: #ccc;
-}
 
-.content-header-1-left{
-    font-family: "Arial";
-    font-size: 3em;
-    color: #CC3300;
-    font-weight: bold;
-    background-color: #D5D5D5;
-}
-.content-sub-1{
-    font-family: "Verdana";
-    font-size: 2.3em;
-    color: #1F1F2E;   
-}
+.header-1{font-size: 3em;}
+.header-dark{color: #000000;}
+.header-light{color: #F7F7F7;}
+.font-Arial{font-family: "Arial";}
+
 .standard-text-1{
     font-family: "Arial";
     font-size: 1.3em;
@@ -140,18 +150,9 @@ navbar-toggle{color:#000000;}
     opacity: 100%;
 }
 
-.layerOffSection{
-    background-color: transparent;
+.layer-off-section{
+    background-color: inherit;
 }
-.layerOnSection{
-    background-color: #FFFFFF;
-}
-
-.outline{
-    border-style: solid;
-}
-#spotlight{
-    width: 30%; 
-    height: 30%; 
-    background-color: #FFFFFF;
+.layer-on-section{
+    background-color: #860000;
 }
