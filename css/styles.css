@@ -25,6 +25,8 @@ navbar-toggle{color:#000000;}
 .link-formatting{
     font-size: 1.3em;
     display: inline-block;
+    height: 3.6em;
+    padding-top: 2em;
 }
 .link-formatting:hover {
     -webkit-transition-duration: 0.5s;
@@ -94,7 +96,7 @@ navbar-toggle{color:#000000;}
     position: fixed;
 }
 #panel-about-members{
-    background-color: firebrick;
+    background-color: inherit;
     height: 40em;
 }
 #panel-about-sponsors{
@@ -155,4 +157,23 @@ navbar-toggle{color:#000000;}
 }
 .layer-on-section{
     background-color: #860000;
+}
+
+
+/*******About the Team********/
+.square-250-250{
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 250px;
+}
+.about-plasmid-members{
+    height: 30%;
+    //background-color: #000000;
+}
+.plasmid-box{
+    height: 400px;
+    width: 400px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    
 }

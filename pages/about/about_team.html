@@ -4,11 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-
+    <link rel = "icon" type="image/png" href = "../../images/universal/favicon2.png" />
     <title>Team:Rock Ridge Virginia/About the Team</title>
     
     <script type = "text/javascript" src = "../../js/jquery/jquery-1.11.2.min.js"></script>
     <script type = "text/javascript" src = "../../js/bootstrap.js"></script>
+    <script type = "text/javascript">
+        $(document).ready(function() {
+            var imageLink = ["index": "one", "photo": "../../images/team/igem_Viggy.png"];
+            $('#one-link').click(function(){
+               $("#image img").
+            });
+        }
+    </script>
+    
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../css/styles.css">
     
@@ -41,8 +50,43 @@
     <section class = "jumbotron page-header">
         <h1 class = "main-page-header">Our Team</h1>
     </section>
-    <div class = "panel" id = "panel-about-members">
-        <section class = "container"><p>Hi</p></section></div>
+    <section class = "container-fluid">
+        <section class = "panel" id = "panel-about-members">
+            
+            <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
+                <section class = "plasmid-box">
+                    <div id = "image"><img src = "../../images/team/igem_Saavage2.png" /></div>
+                </section>
+            </section>
+            <a id = "one-link">Link</a>
+        </section>
+    </section>
+    <!--<div class = "panel" id = "panel-about-members">
+        <section class = "container-fluid">
+            <section class = "square-250-250">
+                <img id = "replace-image" src = "../../images/team/igem_Viggy.png" />
+                <p class = "standard-text-white">Vignesh the Sloth</p>
+            </section>
+            <hr style="color:#CCCCCC;">
+            <section id = "faces">
+                <section class = "col-sm-1">
+                    <a href = "#"><img src = "../../images/team/igem_Saavage2.png" /></a>
+                </section>
+                <section class = "col-sm-1">
+                    <a><img src = "../../images/team/igem_Saavage2.png" /></a>
+                </section>
+                <section class = "col-sm-1">
+                    <a><img src = "../../images/team/igem_Saavage2.png" /></a>
+                </section>
+                <section class = "col-sm-1">
+                    <a><img src = "../../images/team/igem_Saavage2.png" /></a>
+                </section>
+            </section>
+        </section>
+    </div>
+    
+    
+    
     <div class = "panel" id = "panel-about-sponsors">
         <section class = "container">
             <h1 class = "header-1 font-Arial header-light">Sponsors</h1>
