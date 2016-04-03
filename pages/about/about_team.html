@@ -11,11 +11,10 @@
     <script type = "text/javascript" src = "../../js/bootstrap.js"></script>
     <script type = "text/javascript">
         $(document).ready(function() {
-            var imageLink = ["index": "one", "photo": "../../images/team/igem_Viggy.png"];
-            $('#one-link').click(function(){
-               $("#image img").
+            $("#vig").click(function(){
+               $("#delta_image").attr("src", "../../images/team/igem_Viggy.png");
             });
-        }
+        });
     </script>
     
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
@@ -55,10 +54,14 @@
             
             <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
                 <section class = "plasmid-box">
-                    <div id = "image"><img src = "../../images/team/igem_Saavage2.png" /></div>
+                    <div id = "image">
+                        <img id = "delta_image" src = "../../images/team/igem_Saavage2.png" />
+                    </div>
                 </section>
             </section>
-            <a id = "one-link">Link</a>
+            <section id = "#img_cont">
+                <img id = "vig" index = '1' src = "../../images/team/igem_Viggy.png" />
+            </section>
         </section>
     </section>
     <!--<div class = "panel" id = "panel-about-members">
