@@ -11,8 +11,16 @@
     <script type = "text/javascript" src = "../../js/bootstrap.js"></script>
     <script type = "text/javascript">
         $(document).ready(function() {
-            $("#vig").click(function(){
-               $("#delta_image").attr("src", "../../images/team/igem_Viggy.png");
+            var teamMembers = {
+                "vignesh": "../../images/team/igem_Viggy.png",
+                "shrunal": "../../images/team/igem_Shrunal.png",
+                "uday": "../../images/team/igem_Uday.png",
+                "saavage": "../../images/team/igem_Saavage2.png"
+            };
+            $("#img_cont img").click(function(){
+                var localName = $(this).data('name');
+                alert(localName);
+                $("#delta_image").attr("src", teamMembers[localName]);
             });
         });
     </script>
@@ -55,12 +63,15 @@
             <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
                 <section class = "plasmid-box">
                     <div id = "image">
-                        <img id = "delta_image" src = "../../images/team/igem_Saavage2.png" />
+                        <img id = "delta_image" src = "../../images/team/igem_bignesh.png" />
                     </div>
                 </section>
             </section>
-            <section id = "#img_cont">
-                <img id = "vig" index = '1' src = "../../images/team/igem_Viggy.png" />
+            <section id = "img_cont">
+                <img data-name = "vignesh" src = "../../images/team/igem_Viggy.png" />
+                <img data-name = "shrunal" src = "../../images/team/igem_Shrunal.png" />
+                <img data-name = "uday" src = "../../images/team/igem_Uday.png" />
+                <img data-name = "saavage" src = "../../images/team/igem_Saavage2.png" />
             </section>
         </section>
     </section>
