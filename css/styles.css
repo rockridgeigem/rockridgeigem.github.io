@@ -173,7 +173,7 @@ navbar-toggle{color:#000000;}
 .plasmid-box{
     height: 400px;
     width: 400px;
-    background-color: #FFFFFF;
-    margin: 0 auto;
-    
+    /*background-color: #FFFFFF;*/
+    background-image: url("../images/team/frame.png");
+    margin: 0 auto;   
 }
