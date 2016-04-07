@@ -17,7 +17,7 @@
                 "uday": "../../images/team/igem_Uday.png",
                 "saavage": "../../images/team/igem_Saavage2.png"
             };
-            $("#img_cont img").click(function(){
+            $("#faces-bank img").click(function(){
                 var localName = $(this).data('name');
                 alert(localName);
                 $("#delta_image").attr("src", teamMembers[localName]);
@@ -62,13 +62,13 @@
             
             <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
                 <section class = "plasmid-box">
-                    
+                    <img id = "delta_image" />
                 </section>
             </section>
         </section>
         <div id = "faces-bank">
-            <img src="../../images/team/igem_Shrunal.png" />
-            <img src="../../images/team/igem_Uday.png" />
+            <img src="../../images/team/igem_Shrunal.png" data-name = "shrunal"/>
+            <img src="../../images/team/igem_Uday.png" data-name = "uday"/>
         </div>
     </section>
 </body>
