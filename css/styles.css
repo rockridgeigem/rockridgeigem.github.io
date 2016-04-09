@@ -168,15 +168,15 @@ navbar-toggle{color:#000000;}
 #plasmid-box{
     height: 600px;
     width: 600px;
-    background-image: url("../images/team/variant_5.png");
+    background-image: url("../images/team/plasmidiumBorder.png");
     margin: 0 auto;   
 }
 #faces-bank{
         //margin-top: 10em;
 }
-.expand{
-    width: 75%;
-    height: 75%;
+.shrinker{
+    width: 125px;
+    height: 125px;
 }
 /******Sponsors*******/
 .col-sm-6{
