@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <link rel = "icon" type="image/png" href = "../../images/universal/favicon2.png" />
+    <link rel = "icon" type="image/png" href = "../../images/universal/favicon.png" />
     <title>Team:Rock Ridge Virginia/About the Team</title>
     
     <script type = "text/javascript" src = "../../js/jquery/jquery-1.11.2.min.js"></script>
@@ -20,8 +20,9 @@
             };
             $("#faces-bank img").click(function(){
                 var localName = $(this).data('name');
-                alert(localName);
+                
                 $("#delta_image").attr("src", teamMembers[localName]);
+                $("#delta_image").attr("class", "expand");
             });
         });
     </script>
@@ -59,12 +60,9 @@
         <h1 class = "main-page-header">Our Team</h1>
     </section>
     <section class = "container-fluid">
-        <section class = "panel" id = "panel-about-members">
-            
-            <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
-                <section class = "plasmid-box">
-                    <img id = "delta_image" />
-                </section>
+        <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
+            <section class = "plasmid-box">
+                <img id = "delta_image" class = ""/>
             </section>
         </section>
         <div id = "faces-bank">
