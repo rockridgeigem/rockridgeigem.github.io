@@ -165,10 +165,10 @@ navbar-toggle{color:#000000;}
     margin-top: 12.5%;
     margin-left: 12.5%;
 }
-.plasmid-box{
+#plasmid-box{
     height: 600px;
     width: 600px;
-    background-image: url("../images/team/variant/variant_1.png");
+    background-image: url("../images/team/variant_5.png");
     margin: 0 auto;   
 }
 #faces-bank{

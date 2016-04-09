@@ -21,6 +21,7 @@
             $("#faces-bank img").click(function(){
                 var localName = $(this).data('name');
                 
+                
                 $("#delta_image").attr("src", teamMembers[localName]);
                 $("#delta_image").attr("class", "expand");
             });
@@ -61,7 +62,7 @@
     </section>
     <section class = "container-fluid">
         <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
-            <section class = "plasmid-box">
+            <section id = "plasmid-box">
                 <img id = "delta_image" class = ""/>
             </section>
         </section>
