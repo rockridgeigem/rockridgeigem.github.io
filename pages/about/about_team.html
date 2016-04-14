@@ -16,13 +16,11 @@
                 "shrunal": "../../images/team/igem_Shrunal.png",
                 "uday": "../../images/team/igem_Uday.png",
                 "saavage": "../../images/team/igem_Saavage2.png",
-                "pavan": "../../images/team/igem_pavan.png"
+                "pavan": "../../images/team/igem_pavan.png",
+                "varun": "../../images/team/igem_vski.png"
             };
             $("#faces-bank img").click(function(){
                 var localName = $(this).data('name');
-                
-                
-                
                 $("#delta_image").attr("src", teamMembers[localName]);
             });
         });
@@ -60,6 +58,9 @@
     <section class = "jumbotron page-header">
         <h1 class = "main-page-header">Our Team</h1>
     </section>
+    <section class = "container">
+        <h1 class = "header-1 header-dRed font-Arial">Click a member and hover to learn more about the parts that make them and their part in the team!</h1>
+    </section>
     <section class = "container-fluid">
         <section class = "about-plasmid-members" id = "box"><!--col-xs-1 col-lg-1-->
             <section id = "plasmid-box">
@@ -68,9 +69,10 @@
         </section>
         <div id = "faces-bank">
             <img src="../../images/team/igem_Viggy.png" data-name = "vignesh" />
-            <img src="../../images/team/igem_Shrunal.png" data-name = "shrunal"/>
+            <img class = "shrinker" src="../../images/team/igem_Shrunal.png" data-name = "shrunal"/>
             <img class = "shrinker" src="../../images/team/igem_Uday.png" data-name = "uday"/>
-            <img src="../../images/team/igem_pavan.png" data-name = "pavan" />
+            <img class = "shrinker" src="../../images/team/igem_pavan.png" data-name = "pavan" />
+            <img class = "shrinker" src="../../images/team/igem_vski.png" data-name = "varun" />
         </div>
     </section>
 </body>
