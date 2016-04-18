@@ -35,27 +35,38 @@
 </head>
 
 <body class = "background">
-    <nav class = "navbar navbar-default navbar-fixed-top">
-        <div class = "navbar-header">
-            <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
-                <span class = "sr-only">Toggle Nav</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+     <nav class = "navbar navbar-default navbar-fixed-top">
+       <div class = "navbar-header">
+           <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
+               <span class = "sr-only">Toggle Nav</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
             <a href = "../../index.html">
                 <img class = "nav-image-wrap" src = "../../images/universal/orig_logo.png" />
-            </a>
-        </div>
-        
-        <div class = "collapse navbar-collapse" id = "nav-button">
-            <ul class = "nav navbar-nav">
-                <li>  <a class = "link-formatting" id = "About_Team" href = "about_team.html">About the Team</a> </li>
-                
-                <li>  <a class = "link-formatting" id = "Project" href = "../projects/project_Lyme.html">Projects</a> </li>
-                <li>  <a class = "link-formatting" id = "Outreach" href = "../outreach/outreach.html">Outreach</a> </li>
-            </ul>
-        </div>
+           </a>
+       </div>
+
+       <div class = "collapse navbar-collapse" id = "nav-button">
+           <ul class = "nav navbar-nav">
+               <li><a id = "Team" class = "nav-link" data-toggle = "dropdown" href = "#">Team<span class = "caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class = "sublink" href = "about_team.html">Team Members</a></li>
+                        <li><a class = "sublink" href = "sponsors.html">Sponsors</a></li>
+                   </ul>
+               </li>
+               <li><a id = "Project" class = "nav-link" data-toggle = "dropdown" href = "#">Projects<span class = "caret"></span></a>
+                   <ul class = "dropdown-menu">
+                       <li><a class = "sublink sublink-head" href = "#">Overview of Projects</a></li>
+                       <li><a class = "sublink" href = "../projects/project_Lyme.html">Lyme Disease Vector</a></li>
+                       <li><a class = "sublink" href = "#">Harmless Phage</a></li>
+                       <li><a class = "sublink" href = "#">Plant Immune System</a></li>
+                       <li><a class = "sublink" href = "#">Allopregnanolone Affordability</a></li>
+                   </ul>
+               </li>
+           </ul>
+       </div>
     </nav>
     
     <section class = "jumbotron page-header">

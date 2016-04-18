@@ -25,6 +25,7 @@ navbar-toggle{color:#FFFFFF;}
 #Project:focus{color: #000000;}
 .nav-link{font-size: 1.3em; height: 3.45em;}
 
+.sublink-head{font-size: 1.3em;}
 .sublink{background-color: #FFFFFF;}
 
 .nav-image-wrap{background-color: #CCCCCC;}
@@ -115,10 +116,6 @@ navbar-toggle{color:#FFFFFF;}
     height: 125px;
 }
 /******Sponsors*******/
-.col-sm-6{
-    background-color: #FF0000;
-    border: 4px solid;
-}
 .logo{
     max-width: 100%;
     max-width: 100%;
