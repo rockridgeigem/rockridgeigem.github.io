@@ -15,26 +15,16 @@ section{margin: 0;}
 
 /******NAVIGATION******/
 .navbar-default{background-color: #18BD09;}
+navbar-toggle{color:#FFFFFF;}
 
-#theMainNav{margin: 0; padding: 0;}
-
-.icon-bar{color:#000000;}
-
-navbar-toggle{color:#000000;}
-
-.link-formatting{
-    font-size: 1.3em;
-    display: inline-block;
-    height: 3.63em;
-    font-weight: bold;
-}
-.link-formatting:hover {
-    -webkit-transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease;
-    color: #000000;
-    background-color: #FFFFFF;
-}
-.icon-bar{background-color: #FFFFFF;}
+#Team{color:#FFFFFF;}
+#Team:focus{color:#000000;}
+#Project{color: #FFFFFF;}
+#Project:focus{color: #000000;}
+#Outreach{color: #FFFFFF;}
+#Project:focus{color: #000000;}
+.nav-link{font-size: 1.3em; height: 3.45em;}
+.sublink{background-color: #FFFFFF;}
 
 .nav-image-wrap{background-color: #CCCCCC;}
 .nav-image-wrap:hover{
@@ -43,30 +33,6 @@ navbar-toggle{color:#000000;}
     background-color: #FFFFFF;
 }
 
-#About_Team{
-    font-family: "Arial";
-    color: #FFFFFF;
-}
-#About_Team:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-}
-#Project{
-    font-family: "Arial";
-    color: #FFFFFF;
-}
-#Project:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-}
-#Outreach{
-    font-family: "Arial";
-    color: #FFFFFF;
-}
-#Outreach:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-}
 /***END NAVIGATION****/
 
 /***Landing page***/
@@ -95,42 +61,18 @@ navbar-toggle{color:#000000;}
     opacity: 0.9;
     position: fixed;
 }
-#panel-about-members{
-    background-color: inherit;
-    height: 30em;
-}
-#panel-about-sponsors{
-    background-color: #7E2020;
-    height: 35em;
-}
 
-@media screen and (max-width: 736px){
-    #panel-about-sponsors{
-        height: 25em;
-    }
-}
-@media screen and (max-width: 450px){
-    #panel-about-sponsors{
-        height: 17em;
-    }
-}
 /****END PANELS*****/
 
 
 /****General Content Styles****/
 
-.my-jumbotron{
-    width: inherit;
-    height: 30%;
-    padding-top: 30px;
-}
 .jumbotron{background-color: #ccc;}
 .main-page-header{
     font-family: "Verdana";
     font-size: 4em;
     text-align: center;
 }
-
 .header-1{font-size: 3em;}
 .header-dark{color: #000000;}
 .header-dRed{color: #6A0000;}
@@ -162,18 +104,10 @@ navbar-toggle{color:#000000;}
 
 
 /*******About the Team********/
-/*#delta_image{
-    margin-top: 12.5%;
-    margin-left: 12.5%;
-}*/
 #plasmid-box{
     height: 600px;
     width: 600px;
-    background-image: url("../images/team/plasmidiumBorder.png");
     margin: 0 auto;   
-}
-#faces-bank{
-        //margin-top: 10em;
 }
 .shrinker{
     width: 125px;
