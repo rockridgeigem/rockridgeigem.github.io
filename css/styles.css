@@ -8,9 +8,10 @@ footer{background-color:#000000;height:100px;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
 
-body{background-color: #EEEEEE;}
+body{//background-color: #EFEED8;
+background-color: #FAF9E2;}
 section{margin: 0;}
-
+/***********############**********/
 
 
 /******NAVIGATION******/
@@ -33,16 +34,11 @@ navbar-toggle{color:#FFFFFF;}
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
     background-color: #FFFFFF;
-}
+}   
 
-/***END NAVIGATION****/
+/***********############**********/
 
-/***Landing page***/
-.stretch{
-    width: inherit;
-    max-height: auto;
-}
-/***END LANDING PAGE***/
+
 
 /***********PANELS***************/
 
@@ -64,12 +60,11 @@ navbar-toggle{color:#FFFFFF;}
     position: fixed;
 }
 
-/****END PANELS*****/
+/***********############**********/
 
 
 /****General Content Styles****/
-
-.jumbotron{background-color: #ccc;}
+.jumbotron{background-color: inherit;}
 .main-page-header{
     font-family: "Verdana";
     font-size: 4em;
@@ -96,14 +91,7 @@ navbar-toggle{color:#FFFFFF;}
     background-color: none;
     opacity: 100%;
 }
-
-.layer-off-section{
-    background-color: inherit;
-}
-.layer-on-section{
-    background-color: inherit;
-}
-
+/***********############**********/
 
 /*******About the Team********/
 #plasmid-box{
@@ -115,10 +103,16 @@ navbar-toggle{color:#FFFFFF;}
     width: 125px;
     height: 125px;
 }
+/***********############**********/
+
 /******Sponsors*******/
 .logo{
     max-width: 100%;
     max-width: 100%;
     border-bottom: 3px;
     border-bottom-color: #00FF00;
+
 }
+/***********############**********/
+
+/*******Projects*******/
