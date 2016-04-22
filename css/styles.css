@@ -70,15 +70,11 @@ navbar-toggle{color:#FFFFFF;}
     font-size: 4em;
     text-align: center;
 }
-.std-text{
-    font-family: "Arial" serif;
-    font-size: 1.4em;
-}
-@media screen and (max-width: 400px){
-    .std-txt{
-        font-size: 1em;
-        color: #FFFFFF;
-    }
+.header-1{
+    font-size: 2.0em;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: #6A0000;
 }
 
 /***********############**********/
