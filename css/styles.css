@@ -70,27 +70,17 @@ navbar-toggle{color:#FFFFFF;}
     font-size: 4em;
     text-align: center;
 }
-.header-1{font-size: 3em;}
-.header-dark{color: #000000;}
-.header-dRed{color: #6A0000;}
-.header-light{color: #F7F7F7;}
-.font-Arial{font-family: "Arial";}
+.std-text{
+    font-family: "Arial" serif;
+    font-size: 1.4em;
+}
+@media screen and (max-width: 400px){
+    .std-txt{
+        font-size: 1em;
+        color: #FFFFFF;
+    }
+}
 
-.standard-text-1{
-    font-family: "Arial";
-    font-size: 1.3em;
-    text-indent: 1em;
-}
-.standard-text-1-white{
-    font-family: "Arial";
-    font-size: 1.3em;
-    text-indent: 1em;
-    color: #FFFFFF;
-}
-.row{
-    background-color: none;
-    opacity: 100%;
-}
 /***********############**********/
 
 /*******About the Team********/
