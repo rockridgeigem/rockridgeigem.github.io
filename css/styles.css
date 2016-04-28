@@ -108,3 +108,29 @@ navbar-toggle{color:#FFFFFF;}
 /***********############**********/
 
 /*******Projects*******/
+.bg{
+    z-index: -1;
+}
+#parralax-image-1{
+    background: url("../images/project_Lyme/62976-200.png") repeat;
+    background-attachment: fixed;
+    height: 30em;
+}
+#parralax-image-2{
+    background: url("../images/project_Lyme/0.jpeg") repeat;
+    background-attachment: fixed;
+    height: 30em;
+}
+#parralax-image-3{
+    background: url("../images/project_Lyme/62976-200.png") repeat;
+    background-attachment: fixed;
+    height: 30em;
+}
+#parralax-image-4{
+    background: url("../images/project_Lyme/0.jpeg") repeat;
+    background-attachment: fixed;
+    height: 30em;
+}
+.content-section{
+    z-index: 3  ;
+}
