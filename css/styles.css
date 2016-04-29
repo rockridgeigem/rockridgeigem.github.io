@@ -64,8 +64,12 @@ navbar-toggle{color:#FFFFFF;}
 
 /****General Content Styles****/
 .jumbotron{background-color: inherit;}
+@font-face{
+    font-family: "Russo One";
+    src: url("../../fonts/RussoOne-Regular.ttf")
+}
 .main-page-header{
-    font-family: "Verdana";
+    font-family: "Russo One" "Verdana";
     font-size: 4em;
     text-align: center;
 }
