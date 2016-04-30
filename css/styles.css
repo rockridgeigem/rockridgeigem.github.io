@@ -65,24 +65,32 @@ navbar-toggle{color:#FFFFFF;}
 /****General Content Styles****/
 .jumbotron{background-color: inherit;}
 @font-face{
-    font-family: "Russo One";
-    src: url("../../fonts/RussoOne-Regular.ttf")
+    font-family: "Russo";
+    src: url("../fonts/RussoOne-Regular.ttf");
+}
+@font-face{
+    font-family: "Electrolize";
+    src: url("../fonts/Electrolize-Regular.ttf");
+}
+@font-face{
+    font-family: "Droid";
+    src: url("../fonts/DroidSans.ttf")
 }
 .main-page-header{
-    font-family: "Russo One" "Verdana";
+    font-family: "Russo" "Verdana" sans-serif;
     font-size: 4em;
     text-align: center;
 }
 .header-1{
     font-size: 2.0em;
-    font-family: "Trebuchet MS";
+    font-family: "Electrolize" "Trebuchet MS" monospace;
     font-weight: bold;
     color: #6A0000;
     line-height: 140%;
 }
 .std-text{
     color: #0F0000;
-    font-family: "Arial";
+    font-family: "Droid" "Arial" sans-serif;
     font-size: 1.3em;
     line-height: 140%;
 }
