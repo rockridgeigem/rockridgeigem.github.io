@@ -12,6 +12,19 @@ body{background-color: #FAF9E2;}
 section{margin: 0;}
 /***********############**********/
 
+/*****FONT FACE****/
+@font-face{
+    font-family: "Russo";
+    src: url("../fonts/RussoOne-Regular.ttf");
+}
+@font-face{
+    font-family: "Electrolize";
+    src: url("../fonts/Electrolize-Regular.ttf");
+}
+@font-face{
+    font-family: "Droid";
+    src: url("../fonts/DroidSans.ttf")
+}
 
 /******NAVIGATION******/
 .navbar-default{background-color: #18BD09;}
@@ -23,7 +36,11 @@ navbar-toggle{color:#FFFFFF;}
 #Project:focus{color: #000000;}
 #Outreach{color: #FFFFFF;}
 #Project:focus{color: #000000;}
-.nav-link{font-size: 1.3em; height: 3.45em;}
+.nav-link{
+    font-size: 1.3em; 
+    height: 3.45em;
+    font-family: "Electrolize" "Arial" serif;
+}
 
 .sublink-head{font-size: 1.3em;}
 .sublink{background-color: #FFFFFF;}
@@ -64,18 +81,7 @@ navbar-toggle{color:#FFFFFF;}
 
 /****General Content Styles****/
 .jumbotron{background-color: inherit;}
-@font-face{
-    font-family: "Russo";
-    src: url("../fonts/RussoOne-Regular.ttf");
-}
-@font-face{
-    font-family: "Electrolize";
-    src: url("../fonts/Electrolize-Regular.ttf");
-}
-@font-face{
-    font-family: "Droid";
-    src: url("../fonts/DroidSans.ttf")
-}
+.page-header{border-bottom: none; background-color: inherit; padding-bottom: none;}
 .main-page-header{
     font-family: "Russo" "Verdana" sans-serif;
     font-size: 4em;
