@@ -43,7 +43,10 @@ navbar-toggle{color:#FFFFFF;}
 }
 
 .sublink-head{font-size: 1.3em;}
-.sublink{background-color: #FFFFFF;}
+.sublink{
+    background-color: #FFFFFF;
+    font-family: "Droid" "Trebuchet MS" sans-serif;
+}
 
 .nav-image-wrap{background-color: #CCCCCC;}
 .nav-image-wrap:hover{
