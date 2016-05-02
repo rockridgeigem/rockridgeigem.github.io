@@ -111,10 +111,14 @@ navbar-toggle{color:#FFFFFF;}
     height: 600px;
     width: 600px;
     margin: 0 auto;   
+    z-index: 10;
 }
 .shrinker{
     width: 125px;
     height: 125px;
+}
+.text-plasmid{
+    
 }
 /***********############**********/
 
