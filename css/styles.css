@@ -117,8 +117,15 @@ navbar-toggle{color:#FFFFFF;}
     width: 125px;
     height: 125px;
 }
-.text-plasmid{
-    
+.plas-text-container{
+    z-index: 20;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+}
+.plasmid-text{
+    margin-left: 19em; 
+    margin-top: 20em;
 }
 /***********############**********/
 
