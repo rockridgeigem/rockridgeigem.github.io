@@ -11,7 +11,7 @@
     <script type = "text/javascript" src = "../../js/bootstrap.js"></script>
     <script type = "text/javascript">
         $(document).ready(function() {
-            
+            var localName;
             var teamMembers = {
                 "vignesh": "../../images/team/plas-pics/vignesh_valaboju.png",
                 "shrunal": "../../images/team/plas-pics/shrunal_pothagoni.png",
@@ -22,11 +22,20 @@
             
             
             $("#faces-bank img").click(function(){
-                var localName = $(this).data('name');
+                localName = $(this).data('name');
                 $("#delta_image").attr("src", teamMembers[localName]);
             });
             
+            $("#pRoj_text").click(function(){
+                $("#plas-text-container").show();
+            });
             
+            $("#plasmid-text").click(function(){
+                if($("#plas-text-container").is(":visible")){
+                    $("#plasmid-text").css("background-color", "#FFFFFF");
+                }
+            });
+               
         });
     </script>
     
@@ -79,19 +88,21 @@
             <section id = "plasmid-box" class = "col-sm-6">
                 <img id = "delta_image" usemap = "#about_map" src = "../../images/team/plas-pics/introplas.png"/>
             </section>
-           
+            <section id = "plas-text-container">
+                <p id = "plasmid-text">HI WORLD</p>
+            </section>
             <map name = "about_map">
-                <area shape = "rect" coords="5,96, 53,122" href = "#" />
-                <area shape="poly" coords="145,62, 125,76, 105,94, 87,112, 74,128, 62,147, 54,163, 45,178, 35,206, 28,263, 30,294, 33,325, 40,351, 49,376, 54,384, 67,377, 57,358, 51,333, 46,308, 44,281, 45,254, 53,213, 67,176, 84,147, 99,125, 119,106, 147,84, 157,76, 146,64, 145,62" href = "#"/>
+                <area shape = "rect" coords="5,96, 53,122" href = "#" id = "pRoj_text"/>
+                <area shape="poly" coords="145,62, 125,76, 105,94, 87,112, 74,128, 62,147, 54,163, 45,178, 35,206, 28,263, 30,294, 33,325, 40,351, 49,376, 54,384, 67,377, 57,358, 51,333, 46,308, 44,281, 45,254, 53,213, 67,176, 84,147, 99,125, 119,106, 147,84, 157,76, 146,64, 145,62" href = "#" id = "proj"/>
                 
-                <area shape = "rect" coords="268,527, 333,544" href = "#" />
-                <area shape = "poly" coords="177,484, 164,494, 187,505, 211,512, 237,517, 262,520, 275,521, 316,517, 358,505, 374,499, 397,486, 422,470, 427,465, 420,454, 393,473, 370,485, 349,493, 315,500, 275,507, 229,503, 201,494, 190, 490, 177,484" href="#" />
+                <area shape = "rect" coords="268,527, 333,544" href = "#" id = "igemi3_text"/>
+                <area shape = "poly" coords="177,484, 164,494, 187,505, 211,512, 237,517, 262,520, 275,521, 316,517, 358,505, 374,499, 397,486, 422,470, 427,465, 420,454, 393,473, 370,485, 349,493, 315,500, 275,507, 229,503, 201,494, 190, 490, 177,484" href="#" id = "igemi3"/>
                 
-                <area shape = "rect" coords="479,424, 530,444" href = "#" />
-                <area shape = "poly" coords="500,310, 517,308, 515,328, 508,351, 502,369, 495,385, 483,404, 467,427, 449,447, 430,464, 428,466, 420,451, 440,433, 464,405, 479,377, 489,350, 496,328, 499,311, 500,310" href = "#"/>
+                <area shape = "rect" coords="479,424, 530,444" href = "#" id = "hob_text"/>
+                <area shape = "poly" coords="500,310, 517,308, 515,328, 508,351, 502,369, 495,385, 483,404, 467,427, 449,447, 430,464, 428,466, 420,451, 440,433, 464,405, 479,377, 489,350, 496,328, 499,311, 500,310" href = "#" id = "hob"/>
                 
-                <area shape = "rect" coords="445,62, 497,81" href="#" />
-                <area shape = "poly" coords="382,54, 401,64, 428,83, 449,101, 466,119, 485,146, 497,171, 508,199, 510,209, 493,211, 485,187, 473,165, 461,142, 443,121, 424,102, 407,87, 388,76, 375,70, 382,54" href="#" />
+                <area shape = "rect" coords="445,62, 497,81" href="#" id = "pos_text"/>
+                <area shape = "poly" coords="382,54, 401,64, 428,83, 449,101, 466,119, 485,146, 497,171, 508,199, 510,209, 493,211, 485,187, 473,165, 461,142, 443,121, 424,102, 407,87, 388,76, 375,70, 382,54" href="#" id = "pos" />
                 
                 <area shape = "poly" coords = "250,9 255,29, 262,45, 266,45, 286,45, 290,31, 292,8, 250,9" href = "#" />
             </map>
