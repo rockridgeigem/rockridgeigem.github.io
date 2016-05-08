@@ -119,13 +119,15 @@ navbar-toggle{color:#FFFFFF;}
 }
 #plas-text-container{
     z-index: 20;
+    left: 30px;
     width: 550px;
     height: 550px;
     position: absolute;
     display: none;
+    background: url("../images/team/plas-pics/fade.png");
 }
 #plasmid-text{
-    margin-left: 19em; 
+    margin-left: 16em; 
     margin-top: 20em;
     color: #FFFFFF;
 }

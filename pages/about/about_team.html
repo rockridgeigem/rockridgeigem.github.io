@@ -8,36 +8,8 @@
     <title>About the Team</title>
     
     <script type = "text/javascript" src = "../../js/jquery/jquery-1.11.2.min.js"></script>
+    <script type = "text/javascript" src="plasmaBox.js"></script>
     <script type = "text/javascript" src = "../../js/bootstrap.js"></script>
-    <script type = "text/javascript">
-        $(document).ready(function() {
-            var localName;
-            var teamMembers = {
-                "vignesh": "../../images/team/plas-pics/vignesh_valaboju.png",
-                "shrunal": "../../images/team/plas-pics/shrunal_pothagoni.png",
-                "uday": "../../images/team/plas-pics/uday_sidhu.png",
-                "saavage": "../../images/team/igem_Saavage2.png",
-                "varun": "../../images/team/plas-pics/varun_kulkarni.png"
-            };
-            
-            
-            $("#faces-bank img").click(function(){
-                localName = $(this).data('name');
-                $("#delta_image").attr("src", teamMembers[localName]);
-            });
-            
-            $("#pRoj_text").click(function(){
-                $("#plas-text-container").show();
-            });
-            
-            $("#plasmid-text").click(function(){
-                if($("#plas-text-container").is(":visible")){
-                    $("#plasmid-text").css("background-color", "#FFFFFF");
-                }
-            });
-               
-        });
-    </script>
     
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../../css/styles.css">
@@ -89,7 +61,7 @@
                 <img id = "delta_image" usemap = "#about_map" src = "../../images/team/plas-pics/introplas.png"/>
             </section>
             <section id = "plas-text-container">
-                <p id = "plasmid-text">HI WORLD</p>
+                <p id = "plasmid-text"></p>
             </section>
             <map name = "about_map">
                 <area shape = "rect" coords="5,96, 53,122" href = "#" id = "pRoj_text"/>
