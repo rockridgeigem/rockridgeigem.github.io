@@ -18,16 +18,18 @@ $(document).ready(function(){
         $("#delta_image").attr("src", teamImage[localName]);
     });
     
-    $("#pRoj_text").click(function(){
+    $("#pRoj_text").click(function(e){
+        e.preventDefault();
         $("#plasmid-text").html("Hi people (click to hide)");
         $("#plas-text-container").show();
     });
-    $("#proj").click(function(){
+    $("#proj").click(function(e){
+        e.preventDefault();
         $("#plasmid-text").html("Wuzzup fam (click to hide)");
         $("#plas-text-container").show();
     });
     
-    $("#plasmid-text").click(function(){
+    $("#plasmid-text").click(function(e){
         if($("#plas-text-container").is(":visible")){
             $("#plas-text-container").hide();
         }
