@@ -38,7 +38,7 @@ navbar-toggle{color:#FFFFFF;}
 #Project:focus{color: #000000;}
 .nav-link{
     font-size: 1.3em; 
-    height: 3.45em;
+    height: 4.3em;
     font-family: "Electrolize" "Arial" serif;
 }
 
@@ -48,7 +48,10 @@ navbar-toggle{color:#FFFFFF;}
     font-family: "Droid" "Trebuchet MS" sans-serif;
 }
 
-.nav-image-wrap{background-color: #CCCCCC;}
+.nav-image-wrap{
+    background-color: #CCCCCC;
+    
+}
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
