@@ -37,7 +37,7 @@ navbar-toggle{color:#FFFFFF;}
 #Outreach{color: #FFFFFF;}
 #Project:focus{color: #000000;}
 .nav-link{
-    font-size: 1.3em; 
+    font-size: 1.345em; 
     height: 4.3em;
     font-family: "Electrolize" "Arial" serif;
 }
@@ -49,8 +49,7 @@ navbar-toggle{color:#FFFFFF;}
 }
 
 .nav-image-wrap{
-    background-color: #CCCCCC;
-    
+    background-color: #EEEEEE;
 }
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
