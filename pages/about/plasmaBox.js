@@ -6,9 +6,11 @@ $(document).ready(function(){
         "uday": "../../images/team/plas-pics/uday_sidhu.png",
         "saavage": "../../images/team/igem_Saavage2.png",
         "varun": "../../images/team/plas-pics/varun_kulkarni.png"
+        /*"gwyn": "../../images/team/plas-pics/gwyn_schloer.png"*/
+        
     };
     
-    var team
+    
     
     $("#faces-bank img").click(function(){
         localName = $(this).data('name');
