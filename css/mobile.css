@@ -28,7 +28,10 @@ navbar-toggle{color:#FFFFFF;}
 .sublink-head{font-size: 1.3em;}
 .sublink{background-color: #FFFFFF;}
 
-.nav-image-wrap{background-color: #CCCCCC;}
+.nav-image-wrap{
+    background-color: #CCCCCC;
+    height: 20%;
+}
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
