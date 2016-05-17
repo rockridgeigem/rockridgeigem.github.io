@@ -30,7 +30,8 @@ navbar-toggle{color:#FFFFFF;}
 
 .nav-image-wrap{
     background-color: #CCCCCC;
-    height: 20%;
+    height: 5%;
+    width: 5%;
 }
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
