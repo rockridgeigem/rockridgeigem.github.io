@@ -23,15 +23,13 @@ navbar-toggle{color:#FFFFFF;}
 #Project:focus{color: #000000;}
 #Outreach{color: #FFFFFF;}
 #Project:focus{color: #000000;}
-.nav-link{font-size: 1.3em; height: 3.45em;}
+.nav-link{font-size: 1.3em; height: 2.45em;}
 
 .sublink-head{font-size: 1.3em;}
 .sublink{background-color: #FFFFFF;}
 
 .nav-image-wrap{
     background-color: #CCCCCC;
-    height: 10%;
-    width: 10%;
 }
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
