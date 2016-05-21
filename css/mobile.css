@@ -45,7 +45,9 @@ navbar-toggle{color:#FFFFFF;}
 .SuperHeader{
     padding-top: 35vh;
 }
-
+.HERO_bg{
+    background-repeat: no-repeat;
+}
 /***********############**********/
 
 
