@@ -5,8 +5,8 @@ $(document).ready(function(){
         "shrunal": "../../images/team/plas-pics/shrunal_pothagoni.png",
         "uday": "../../images/team/plas-pics/uday_sidhu.png",
         "saavage": "../../images/team/igem_Saavage2.png",
-        "varun": "../../images/team/plas-pics/varun_kulkarni.png"
-        /*"gwyn": "../../images/team/plas-pics/gwyn_schloer.png"*/
+        "varun": "../../images/team/plas-pics/varun_kulkarni.png",
+        "gwyn": "../../images/team/plas-pics/gwyn_schloer.png"
         
     };
     
