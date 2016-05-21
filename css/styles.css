@@ -10,6 +10,7 @@ a:hover{text-decoration: none;}
 
 body{padding-top: 4em;}
 section{margin: 0;}
+
 /***********############**********/
 
 /******NAVIGATION******/
@@ -53,13 +54,36 @@ navbar-toggle{color:#FFFFFF;}
 /**INDEX***/
 .HERO{
     height: 100vh;
-    background-color: aliceblue;
+    background-color: transparent;
+    z-index: 1;
+}
+.HERO_bg{
+    z-index: -1;
+    background-image: url("../images/project_Lyme/deer-tick-996x504.jpg");
+    background-size: cover;
+    
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .SuperHeader{
     padding-top: 45vh;
     text-align: center;
     font-family: "Ubuntu-BOLD" "Trebuchet MS" sans-serif;
     font-size: 5em;   
+    color: #FF0000;
+    opacity: 0;
+    
+    
+    animation: fade ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
 }
 /***********############**********/
 /****General Content Styles****/
