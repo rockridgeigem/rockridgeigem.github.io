@@ -61,7 +61,7 @@ navbar-toggle{color:#FFFFFF;}
     width: 100%;
     z-index: -1;
     background-image: url("../images/project_Lyme/deer-tick-996x504.jpg");
-    background-size: cover;
+    background-size: contain;
     
 }
 @keyframes fade{
