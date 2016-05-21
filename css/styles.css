@@ -12,29 +12,6 @@ body{padding-top: 4em;}
 section{margin: 0;}
 /***********############**********/
 
-/*****FONT FACE****/
-@font-face{
-    font-family: "Russo";
-    src: url("../fonts/RussoOne-Regular.ttf");
-}
-@font-face{
-    font-family: "Electrolize";
-    src: url("../fonts/Electrolize-Regular.ttf");
-}
-@font-face{
-    font-family: "Droid";
-    src: url("../fonts/DroidSans.ttf")
-}
-@font-face{
-    font-family: "Ubuntu";
-    src: url("../fonts/Ubuntu-Regular.ttf")
-}
-@font-face{
-    font-family: "Ubuntu-BOLD";
-    src: url("../fonts/Ubuntu-Bold.ttf")
-}
-/***********############**********/
-
 /******NAVIGATION******/
 .navbar{margin-bottom: 0 !important;}
 .navbar-default{background-color: #18BD09;}
