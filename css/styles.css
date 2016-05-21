@@ -8,7 +8,7 @@ footer{background-color:#000000;height:100px;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
 
-body{background-color: #FAF9E2; padding-top: 5.5em;}
+body{padding-top: 5.5em;}
 section{margin: 0;}
 /***********############**********/
 
@@ -25,6 +25,8 @@ section{margin: 0;}
     font-family: "Droid";
     src: url("../fonts/DroidSans.ttf")
 }
+
+/***********############**********/
 
 /******NAVIGATION******/
 .navbar-default{background-color: #18BD09;}
@@ -63,30 +65,12 @@ navbar-toggle{color:#FFFFFF;}
 /***********############**********/
 
 
-
-/***********PANELS***************/
-
-.panel{width: inherit;}
-#panel-index-hero{
-    background-color: inherit;
-    height: 30em;
+/**INDEX***/
+.HERO{
+    height: 100vh;
+    background-color: aliceblue;
 }
-#panel-index-project{
-    background-color: #18BD09;
-    height: 20em;
-}
-#panel-index-team{
-    background-color: #DDDDDD;
-    height: 25em;
-}
-#index-team-fixed{
-    opacity: 0.9;
-    position: fixed;
-}
-
 /***********############**********/
-
-
 /****General Content Styles****/
 .jumbotron{background-color: inherit;}
 .page-header{border-bottom: none; background-color: inherit; padding-bottom: none;}
@@ -144,7 +128,6 @@ navbar-toggle{color:#FFFFFF;}
     max-width: 100%;
     border-bottom: 3px;
     border-bottom-color: #00FF00;
-
 }
 /***********############**********/
 
