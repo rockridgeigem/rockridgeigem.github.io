@@ -8,7 +8,7 @@ footer{background-color:#000000;height:100px;}
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
 
-body{background-color: #FAF9E2;}
+body{background-color: #FAF9E2; padding-top: 5.5em;}
 section{margin: 0;}
 /***********############**********/
 
@@ -37,14 +37,14 @@ navbar-toggle{color:#FFFFFF;}
 #Outreach{color: #FFFFFF;}
 #Outreach:focus{color: #000000;}
 .nav-link{
-    font-size: 1.345em; 
-    height: 4.3em;
+    font-size: 1.345em;
     font-family: "Electrolize" "Arial" serif;
 }
-
+.nav-link_enlarge{
+    height: 4.3em;
+}
 .sublink-head{font-size: 1.3em;}
 .sublink{
-    background-color: #FFFFFF;
     font-family: "Droid" "Trebuchet MS" sans-serif;
 }
 
@@ -55,7 +55,10 @@ navbar-toggle{color:#FFFFFF;}
     -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease;
     background-color: #FFFFFF;
-}   
+}
+.minify{
+    height: 3.6em;
+}
 
 /***********############**********/
 
