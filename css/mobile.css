@@ -41,24 +41,9 @@ navbar-toggle{color:#FFFFFF;}
 
 
 
-/***********PANELS***************/
-
-.panel{width: inherit;}
-#panel-index-hero{
-    background-color: inherit;
-    height: 30em;
-}
-#panel-index-project{
-    background-color: #18BD09;
-    height: 20em;
-}
-#panel-index-team{
-    background-color: #DDDDDD;
-    height: 25em;
-}
-#index-team-fixed{
-    opacity: 0.9;
-    position: fixed;
+/****INDEX****/
+.SuperHeader{
+    padding-top: 35vh;
 }
 
 /***********############**********/
