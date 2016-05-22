@@ -1,6 +1,7 @@
 @font-face{
     font-family: "Russo";
     src: url("../fonts/RussoOne-Regular.ttf");
+    
 }
 @font-face{
     font-family: "Electrolize";
@@ -8,7 +9,8 @@
 }
 @font-face{
     font-family: "Droid";
-    src: url("../fonts/DroidSans.ttf")
+    src: url("../fonts/DroidSans.ttf");
+    src: url("../fonts/DroidSans.woff");
 }
 @font-face{
     font-family: "Ubuntu";
