@@ -61,6 +61,7 @@ navbar-toggle{color:#FFFFFF;}
     width: 100%;
     z-index: -1;
     background-image: url("../images/project_Lyme/deer-tick-996x504.jpg");
+    background-repeat: no-repeat;
     background-size: contain;
     
 }
@@ -110,6 +111,37 @@ navbar-toggle{color:#FFFFFF;}
 }
 
 /***********############**********/
+
+
+/*****INDEX****/
+
+.index-about-button{
+    display: inline-block;
+    float: left;
+    color: #ccc;
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+}
+.inside-panel-text{
+    font-family: "Russo" "Verdana" sans-serif;
+    color: #FF0000;
+    font-size: 1.5em;
+}
+
+#team-index-bg{
+    background-image: url("../images/team/team2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;    
+}
+
+
+/*********###########*******/
+
+
+
+
 
 /*******About the Team********/
 #plasmid-box{
