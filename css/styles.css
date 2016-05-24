@@ -60,7 +60,7 @@ navbar-toggle{color:#FFFFFF;}
 .HERO_bg{
     width: 100%;
     z-index: -1;
-    background-image: url("../images/project_Lyme/deer-tick-996x504.jpg");
+    background-image: url("../images/index/deer-tick-996x504.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -123,7 +123,15 @@ navbar-toggle{color:#FFFFFF;}
     line-height: 200px;
     height: 200px;
 }
-.inside-panel-text{
+.index-lyme-button{
+    display: inline-block;
+    float: left;
+    color: #ccc;
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+}
+.inside-button-text{
     font-family: "Russo" "Verdana" sans-serif;
     color: #FF0000;
     font-size: 1.5em;
@@ -133,7 +141,13 @@ navbar-toggle{color:#FFFFFF;}
     background-image: url("../images/team/team2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: inherit;    
+    height: 200px;    
+}
+#lyme-index-bg{
+    background-image: url("../images/index/deer-tick-996x504.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
 }
 
 
