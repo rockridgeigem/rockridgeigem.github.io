@@ -27,6 +27,8 @@ navbar-toggle{color:#FFFFFF;}
 #Project:focus{color: #000000;}
 #Outreach{color: #FFFFFF;}
 #Outreach:focus{color: #000000;}
+#calendar{color: #FFFFFF;}
+#calendar:focus{color: #000000;}
 .nav-link{
     font-size: 1.345em;
     font-family: "Electrolize" "Arial" serif;
