@@ -12,7 +12,10 @@ body{padding-top: 4em;}
 section{margin: 0;}
 
 /***********############**********/
-
+.centerout{
+    margin-right: auto;
+    margin-left: auto;
+}
 /******NAVIGATION******/
 .navbar{margin-bottom: 0 !important;}
 .navbar-default{background-color: #18BD09;}
