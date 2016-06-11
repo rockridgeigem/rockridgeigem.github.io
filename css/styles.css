@@ -220,6 +220,11 @@ navbar-toggle{color:#FFFFFF;}
     background-attachment: fixed;
     height: 30em;
 }
+#parallax-lyme5k{
+    background: url("../images/outreach/lyme5k_1.jpg");
+    background-attachment: fixed;
+    height: 30em;
+}
 .content-section{
     z-index: 3  ;
 }
