@@ -48,6 +48,7 @@ navbar-toggle{color:#FFFFFF;}
 }
 .HERO_bg{
     background-repeat: no-repeat;
+    background-image: url("../images/index/deer-tick-996x504.jpg");
     max-height: 100%;
     max-width: 100%;
 }
