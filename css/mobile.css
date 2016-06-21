@@ -42,6 +42,9 @@ navbar-toggle{color:#FFFFFF;}
 
 
 /****INDEX****/
+.Hero{
+    height: 40vh;
+}
 .SuperHeader{
     padding-top: 20%;
     font-size: 3em;
