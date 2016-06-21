@@ -144,9 +144,9 @@ navbar-toggle{color:#FFFFFF;}
 }
 
 #team-index-bg{
-    background-image: url("../images/team/team2.jpg");
+    background-image: url("../images/index/teamVector.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     height: 200px;    
 }
 #lyme-index-bg{
