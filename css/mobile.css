@@ -47,6 +47,8 @@ navbar-toggle{color:#FFFFFF;}
 }
 .HERO_bg{
     background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
 }
 /***********############**********/
 
