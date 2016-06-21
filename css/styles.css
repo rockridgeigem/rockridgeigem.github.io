@@ -18,7 +18,7 @@ section{margin: 0;}
 }
 /******NAVIGATION******/
 .navbar{margin-bottom: 0 !important;}
-.navbar-default{background-color: #18BD09;}
+.navbar-default{background-color: #005253; border: 0}
 navbar-toggle{color:#FFFFFF;}
 
 #Team{color:#FFFFFF;}
@@ -65,7 +65,7 @@ navbar-toggle{color:#FFFFFF;}
 .HERO_bg{
     width: 100%;
     z-index: -1;
-    background-image: url("../images/index/deer-tick-996x504.jpg");
+    background-image: url("../images/index/new.png");
     background-repeat: no-repeat;
     background-size: contain;
     
