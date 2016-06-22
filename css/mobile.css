@@ -55,6 +55,10 @@ navbar-toggle{color:#FFFFFF;}
     max-height: 100%;
     max-width: 100%;
 }
+.index-about-button{
+    line-height: inherit;
+    height: 2em;
+}
 .inside-button-text{
     font-size: 1em;
 }
