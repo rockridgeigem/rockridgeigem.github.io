@@ -14,7 +14,7 @@ section{margin: 0;}
 
 
 /******NAVIGATION******/
-.navbar-default{background-color: #18BD09;}
+.navbar-default{background-color: #FFFFFF;}
 navbar-toggle{color:#FFFFFF;}
 
 #Team{color:#FFFFFF;}
@@ -23,6 +23,8 @@ navbar-toggle{color:#FFFFFF;}
 #Project:focus{color: #000000;}
 #Outreach{color: #FFFFFF;}
 #Project:focus{color: #000000;}
+#calendar{color: #FFFFFF;}
+#calendar:focus{color: #000000;}
 .nav-link{font-size: 1.3em; height: 2.45em;}
 
 .sublink-head{font-size: 1.3em;}
