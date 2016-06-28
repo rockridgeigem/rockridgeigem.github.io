@@ -45,7 +45,7 @@ navbar-toggle{color:#FFFFFF;}
 
 /****INDEX****/
 #gear-container-left{
-    align-content: center;
+    margin-left: 20%;
 }
 #gear-container-right{
     display: none;
