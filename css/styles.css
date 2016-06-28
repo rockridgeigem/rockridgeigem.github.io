@@ -84,17 +84,13 @@ navbar-toggle{color:#FFFFFF;}
 
 
 /**INDEX***/
-#gear-container-left{
-}
-#gear-container-right{
-    margin-left: 49vw;
-}
 #gear-1{
     position: fixed;
     max-width: 100%;
     max-height: 100%;
 }
 #gear-2{
+    margin-left: 49vw;  
     position: fixed;
     max-width: 100%;
     max-height: 100%;

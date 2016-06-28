@@ -44,10 +44,11 @@ navbar-toggle{color:#FFFFFF;}
 
 
 /****INDEX****/
-#gear-container-left{
-    margin-left: 50%;
+#gear-1{
+    left: 50%;
+    transform: translate(-50%);
 }
-#gear-container-right{
+#gear-2{
     display: none;
 }
 .HERO{
