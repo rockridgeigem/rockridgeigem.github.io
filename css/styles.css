@@ -90,10 +90,20 @@ navbar-toggle{color:#FFFFFF;}
     max-height: 100%;
 }
 #gear-2{
-    margin-left: 49vw;  
+    margin-left: 47vw;  
     position: fixed;
     max-width: 100%;
     max-height: 100%;
+    z-index: -1;
+}
+.overlay{
+    z-index: 30;
+    background-color: aliceblue;
+}
+#firstSectIndex{
+    margin-left: 49vw;
+    height: 100em;
+    width: 50vw;
 }
 .HERO{
     height: 100vh;
