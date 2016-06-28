@@ -46,7 +46,7 @@ navbar-toggle{color:#FFFFFF;}
 /****INDEX****/
 #gear-1{
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, 0);
 }
 #gear-2{
     display: none;
