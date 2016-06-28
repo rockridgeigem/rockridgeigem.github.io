@@ -49,8 +49,7 @@ navbar-toggle{color:#FFFFFF;}
     transform: translate(50%, 0);
 }
 #gear-2{
-    left: 50%;
-    transform: translate(-50%, 0);
+    display: none;
 }
 .HERO{
     height: 40vh;
