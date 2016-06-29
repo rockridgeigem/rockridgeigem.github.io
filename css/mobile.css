@@ -44,6 +44,9 @@ navbar-toggle{color:#FFFFFF;}
     
 
 /****INDEX****/
+.shift{
+    margin-left: -50px;
+}
 #gear-1{
     transform: translate(-50%,0);
 }

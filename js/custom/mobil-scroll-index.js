@@ -4,5 +4,6 @@ $(window).scroll(function(){
     $("#gear-1").css({
         transform: 'rotate(' + chg + 'rad)'
     });
+    $("#gear-1").addClass("shift")
     
 });
