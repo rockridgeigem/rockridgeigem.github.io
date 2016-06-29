@@ -45,6 +45,7 @@ navbar-toggle{color:#FFFFFF;}
 
 /****INDEX****/
 #gear-1{
+    display: block;
     margin: 0 auto;
 }
 #gear-2{
