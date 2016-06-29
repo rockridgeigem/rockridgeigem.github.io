@@ -47,6 +47,7 @@ navbar-toggle{color:#FFFFFF;}
 #gear-1{
     right: 50%;
     transform: translate(50%, 0);
+    position: fixed;
 }
 #gear-2{
     display: none;
