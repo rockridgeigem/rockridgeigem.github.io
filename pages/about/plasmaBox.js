@@ -22,12 +22,12 @@ $(document).ready(function(){
     
     $("#pRoj_text").click(function(e){
         e.preventDefault();
-        $("#plasmid-text").html("Hi people (click to hide)");
+        $("#plasmid-text").html("Content for project");
         $("#plas-text-container").show();
     });
     $("#proj").click(function(e){
         e.preventDefault();
-        $("#plasmid-text").html("Wuzzup fam (click to hide)");
+        $("#plasmid-text").html("Content for project");
         $("#plas-text-container").show();
     });
     
