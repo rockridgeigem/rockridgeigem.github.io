@@ -239,10 +239,8 @@ navbar-toggle{color:#FFFFFF;}
 .bg{
     z-index: -1;
 }
-#parralax-image-1{
-    background: url("../images/project_Lyme/62976-200.png") repeat;
-    background-attachment: fixed;
-    height: 30em;
+#lyme-bg{
+    max-width: 100%;
 }
 #parralax-image-2{
     background: url("../images/project_Lyme/0.jpeg") repeat;
