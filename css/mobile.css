@@ -14,17 +14,44 @@ section{margin: 0;}
 
 
 /******NAVIGATION******/
-.navbar-default{background-color: #FFFFFF;}
+.navbar-default{background-color: #005253;}
 navbar-toggle{color:#FFFFFF;}
 
-#Team{color:#000000;}
-#Team:focus{color:#FFFFFF;}
-#Project{color: #000000;}
-#Project:focus{color: #FFFFFF;}
-#Outreach{color: #000000;}
-#Project:focus{color: #FFFFFF;}
-#calendar{color: #000000;}
-#calendar:focus{color: #FFFFFF}
+#Team{color:#CCCCCC;}
+#Team:hover{
+    -webkit-transition: 0.5s ease;
+    transition 0.5s;
+    transition-timing-function: ease;
+    background-color: #006A6B;
+    color: #FFFFFF;
+}
+#Team:active{
+    background-color: #005253;
+}
+#Project{color: #CCCCCC;}
+#Project:hover{
+    -webkit-transition: 0.5s ease;
+    transition 0.5s;
+    transition-timing-function: ease;
+    background-color: #006A6B;
+    color: #FFFFFF;
+}
+#Outreach{color: #CCCCCC;}
+#Outreach:hover{
+    -webkit-transition: 0.5s ease;
+    transition 0.5s;
+    transition-timing-function: ease;
+    background-color: #006A6B;
+    color: #FFFFFF;
+}
+#calendar{color: #CCCCCC;}
+#calendar:hover{
+    -webkit-transition: 0.5s ease;
+    transition 0.5s;
+    transition-timing-function: ease;
+    background-color: #006A6B;
+    color: #FFFFFF;
+}
 .nav-link{font-size: 1.3em; height: 2.45em;}
 
 .sublink-head{font-size: 1.3em;}
@@ -32,8 +59,6 @@ navbar-toggle{color:#FFFFFF;}
 
 .nav-image-wrap{
     background-color: #CCCCCC;
-    width: 30%;
-    height: 30%;
 }
 .nav-image-wrap:hover{
     -webkit-transition-duration: 0.5s;
