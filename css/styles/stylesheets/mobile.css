@@ -214,3 +214,7 @@ p {
 .navbar-default {
   background-color: #FFFFFF;
 }
+/* line 6, ../sass/mobile.scss */
+.navbar-default a {
+  background-color: #FFFFFF;
+}
