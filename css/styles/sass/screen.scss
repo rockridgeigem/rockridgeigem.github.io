@@ -32,8 +32,8 @@ p{
     font-family: $body-font;
     line-height: 140%;
     font-size: 1.0em;
+    color: $white;
 }
-.wtext{color: $white;}
 
 .navbar-default{
     background-color: transparent;
@@ -119,5 +119,16 @@ p{
             margin-left: 50%;
             transform: translateX(-50%);
         }
+    }
+}
+#phage-content{
+    h1{
+        font-family: $head-font-family;
+        font-size: 1.6em;
+        line-height: 170%;
+        color: $red;
+    }
+    img{
+        max-width: 100%;
     }
 }

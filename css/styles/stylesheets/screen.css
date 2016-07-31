@@ -93,10 +93,6 @@ p {
   font-family: "PT" sans-serif;
   line-height: 140%;
   font-size: 1.0em;
-}
-
-/* line 36, ../sass/screen.scss */
-.wtext {
   color: #FFFFFF;
 }
 
@@ -109,7 +105,7 @@ p {
 
 /* line 44, ../sass/screen.scss */
 .nav a {
-  font-family: "Mitr" "Lucida Sans Console" sans-serif;
+  font-family: "Mitr" "Arial" sans-serif;
 }
 /* line 47, ../sass/screen.scss */
 .nav .sublink {
@@ -203,4 +199,16 @@ p {
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+/* line 125, ../sass/screen.scss */
+#phage-content h1 {
+  font-family: "Ubuntu" sans-serif;
+  font-size: 1.6em;
+  line-height: 170%;
+  color: #E41B15;
+}
+/* line 131, ../sass/screen.scss */
+#phage-content img {
+  max-width: 100%;
 }
