@@ -214,3 +214,7 @@ p {
 .navbar-static-top {
   opacity: 1;
 }
+/* line 7, ../sass/mobile.scss */
+.navbar-static-top .sublink {
+  background-color: #FFFFFF;
+}
