@@ -212,9 +212,10 @@ p {
 
 /* line 4, ../sass/mobile.scss */
 .navbar-default {
+  z-index: 100000;
   background-color: #FFFFFF;
 }
-/* line 6, ../sass/mobile.scss */
+/* line 7, ../sass/mobile.scss */
 .navbar-default a {
   background-color: #FFFFFF;
 }
