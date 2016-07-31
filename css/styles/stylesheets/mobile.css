@@ -210,12 +210,7 @@ p {
   max-width: 100%;
 }
 
-/* line 4, ../sass/mobile.scss */
-.navbar-default {
-  z-index: 100000;
-  background-color: #FFFFFF;
-}
-/* line 7, ../sass/mobile.scss */
-.navbar-default a {
-  background-color: #FFFFFF;
+/* line 5, ../sass/mobile.scss */
+.navbar-static-top {
+  opacity: 1;
 }
