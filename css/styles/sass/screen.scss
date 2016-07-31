@@ -1,0 +1,120 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "fonts";
+@import "compass/reset";
+
+$igem-blue: #005253;
+$nav-hover: #006A6B;
+$white: #FFFFFF;
+$light-grey: #EEEEEE;
+$nav-font-family: "Mitr" sans-serif;
+$nav-sub-font-family: "Droid" sans-serif;
+$head-font-family: "Ubuntu" sans-serif;
+$body-font: "PT" sans-serif;
+@mixin nav-hover(){
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: $nav-hover;
+    color: $white;
+}
+
+
+
+body{
+    background-color: $igem-blue;
+}
+p{
+    font-family: $body-font;
+    line-height: 140%;
+    font-size: 1.0em;
+}
+.wtext{color: $white;}
+
+.navbar-default{
+    background-color: transparent;
+    border: 0;
+    height: 4em;
+}
+.nav{
+    a{
+        font-family: $nav-font-family;
+    }
+    .sublink{
+        font-family: $nav-sub-font-family;
+        font-size: 0.95em;
+    }
+    .sublink-head{
+        font-size: 1em;
+    }
+    #Team, #Project, #Outreach, #Calendar{
+        font-size: 1.0em;
+        height: 4em;
+        color: $white;
+    }
+    #Team:hover, #Project:hover, #Outreach:hover, #Calendar:hover, .nav-img:hover{
+        @include nav-hover();
+    }
+}
+.nav-image-wrap{
+    height: 4em;
+}
+.nav-image-wrap:hover{
+    @include nav-hover();
+    background-color: $nav-hover;
+}
+
+.HERO{
+    height: 100vh;
+    img{
+        max-height: 100%;
+        max-width: 100%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+.jumbotron{
+    background-color: transparent;
+    border: 0;
+    h1{
+        text-align: center;
+        font-family: $head-font-family;
+        color: $white;
+    }
+}
+
+#plasmid-box{
+    height: 550px;
+    width: 550px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#faces-bank{
+    img{
+        width: 125px;
+        height: 125px;
+    }
+}
+
+#lyme-bg{
+    max-width: 100%;
+}
+#outreach-content{
+    h1{
+        font-family: $head-font-family;
+        font-size: 1.6em;
+        line-height: 170%;
+    }
+}
+#calendar-content{
+    section{
+        iframe{
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
