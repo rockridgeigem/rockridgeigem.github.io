@@ -115,14 +115,15 @@ p {
 /* line 51, ../sass/screen.scss */
 .nav .sublink-head {
   font-size: 1em;
+  font-weight: bold;
 }
-/* line 54, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .nav #Team, .nav #Project, .nav #Outreach, .nav #Calendar {
   font-size: 1.0em;
   height: 4em;
   color: #FFFFFF;
 }
-/* line 59, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .nav #Team:hover, .nav #Project:hover, .nav #Outreach:hover, .nav #Calendar:hover, .nav .nav-img:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -130,12 +131,12 @@ p {
   color: #FFFFFF;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .nav-image-wrap {
   height: 4em;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .nav-image-wrap:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -144,11 +145,11 @@ p {
   background-color: #006A6B;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .HERO {
   height: 100vh;
 }
-/* line 73, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .HERO img {
   max-height: 100%;
   max-width: 100%;
@@ -156,19 +157,19 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .jumbotron {
   background-color: transparent;
   border: 0;
 }
-/* line 85, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .jumbotron h1 {
   text-align: center;
   font-family: "Ubuntu" sans-serif;
   color: #FFFFFF;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 #plasmid-box {
   height: 550px;
   width: 550px;
@@ -176,18 +177,18 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #lyme-bg {
   max-width: 100%;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Ubuntu" sans-serif;
   font-size: 1.6em;
@@ -195,20 +196,20 @@ p {
   color: #E41B15;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Ubuntu" sans-serif;
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
-/* line 131, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
