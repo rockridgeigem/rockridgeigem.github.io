@@ -10,6 +10,8 @@ $igem-blue: #005253;
 $nav-hover: #006A6B;
 $white: #FFFFFF;
 $light-grey: #EEEEEE;
+$red: #E41B15;
+
 $nav-font-family: "Mitr" sans-serif;
 $nav-sub-font-family: "Droid" sans-serif;
 $head-font-family: "Ubuntu" sans-serif;
@@ -108,6 +110,7 @@ p{
         font-family: $head-font-family;
         font-size: 1.6em;
         line-height: 170%;
+        color: $red;
     }
 }
 #calendar-content{

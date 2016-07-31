@@ -18,7 +18,7 @@
   font-family: "PT";
   src: url("../../fonts/PT_Sans.ttf");
 }
-/* line 5, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,93 +40,93 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 body {
   background-color: #005253;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 p {
   font-family: "PT" sans-serif;
   line-height: 140%;
   font-size: 1.0em;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .wtext {
   color: #FFFFFF;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 .navbar-default {
   background-color: transparent;
   border: 0;
   height: 4em;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .nav a {
   font-family: "Mitr" sans-serif;
 }
-/* line 45, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .nav .sublink {
   font-family: "Droid" sans-serif;
   font-size: 0.95em;
 }
-/* line 49, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .nav .sublink-head {
   font-size: 1em;
 }
-/* line 52, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .nav #Team, .nav #Project, .nav #Outreach, .nav #Calendar {
   font-size: 1.0em;
   height: 4em;
   color: #FFFFFF;
 }
-/* line 57, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .nav #Team:hover, .nav #Project:hover, .nav #Outreach:hover, .nav #Calendar:hover, .nav .nav-img:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -134,12 +134,12 @@ p {
   color: #FFFFFF;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .nav-image-wrap {
   height: 4em;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .nav-image-wrap:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -148,11 +148,11 @@ p {
   background-color: #006A6B;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .HERO {
   height: 100vh;
 }
-/* line 71, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .HERO img {
   max-height: 100%;
   max-width: 100%;
@@ -160,19 +160,19 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .jumbotron {
   background-color: transparent;
   border: 0;
 }
-/* line 83, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .jumbotron h1 {
   text-align: center;
   font-family: "Ubuntu" sans-serif;
   color: #FFFFFF;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 #plasmid-box {
   height: 550px;
   width: 550px;
@@ -180,25 +180,26 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #lyme-bg {
   max-width: 100%;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Ubuntu" sans-serif;
   font-size: 1.6em;
   line-height: 170%;
+  color: #E41B15;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
