@@ -109,7 +109,7 @@ p {
 
 /* line 44, ../sass/screen.scss */
 .nav a {
-  font-family: "Mitr" sans-serif;
+  font-family: "Mitr" "Lucida Sans Console" sans-serif;
 }
 /* line 47, ../sass/screen.scss */
 .nav .sublink {
