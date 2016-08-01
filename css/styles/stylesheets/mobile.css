@@ -238,3 +238,8 @@ p {
 #phage-content img {
   max-width: 100%;
 }
+
+/* line 7, ../sass/mobile.scss */
+.navbar-default .navbar-nav .open .dropdown-menu {
+  background-color: #FFFFFF;
+}
