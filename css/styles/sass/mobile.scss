@@ -3,7 +3,7 @@
 @import "compass/reset";
 
 .navbar-static-top{
-    opacity: 1;
+    opacity: inherit;
     .sublink{
         background-color: $white;
     }
