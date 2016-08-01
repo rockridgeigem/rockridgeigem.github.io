@@ -236,6 +236,6 @@ p {
 }
 
 /* line 4, ../sass/mobile.scss */
-.dropdown-menu {
+.dropdown-menu.open {
   background-color: #FFFFFF;
 }
