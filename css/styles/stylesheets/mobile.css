@@ -102,7 +102,7 @@ p {
 
 /* line 44, ../sass/screen.scss */
 .navbar-default {
-  background-color: transparent;
+  background-color: #005253;
   border: 0;
   height: 4em;
 }
