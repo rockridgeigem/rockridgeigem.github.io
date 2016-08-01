@@ -166,25 +166,25 @@ p {
 }
 
 /* line 92, ../sass/screen.scss */
-#plasmid-box {
-  height: 550px;
-  width: 550px;
+#plasmid {
+  height: 536px;
+  width: 536px;
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 #lyme-bg {
   max-width: 100%;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Ubuntu" sans-serif;
   font-size: 1.6em;
@@ -192,20 +192,20 @@ p {
   color: #E41B15;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Ubuntu" sans-serif;
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
-/* line 131, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
