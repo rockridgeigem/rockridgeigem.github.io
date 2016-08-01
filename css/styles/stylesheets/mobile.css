@@ -239,3 +239,7 @@ p {
 .navbar-default .dropdown-menu {
   background-color: #FFFFFF;
 }
+/* line 8, ../sass/mobile.scss */
+.navbar-default .dropdown-menu li a {
+  background-color: #FFFFFF;
+}
