@@ -12,17 +12,23 @@ $white: #FFFFFF;
 $light-grey: #EEEEEE;
 $red: #E41B15;
 
-$nav-font-family: "Mitr" "Arial" sans-serif;
-$nav-sub-font-family: "Droid" sans-serif;
-$head-font-family: "Ubuntu" sans-serif;
-$body-font: "PT" sans-serif;
+$nav-font-family: 'Mitr';
+$nav-sub-font-family: 'Droid';
+$head-font-family: 'Ubuntu-B';
+$head-font-family-l: 'Ubuntu';
+$body-font: 'PT';
 @mixin nav-hover(){
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
     background-color: $nav-hover;
     color: $white;
 }
-
+@mixin page-header{
+    font-family: $head-font-family-l;
+    font-size: 1.6em;
+    line-height: 170%;
+    color: $red;
+}
 
 
 body{
@@ -77,6 +83,19 @@ p{
         transform: translateX(-50%);
     }
 }
+.mdl-grid{
+    .mdl-card__supporting-text{
+        p{
+            color: $red;
+        }
+    }
+    .mdl-card__title{
+        h2{
+            font-family: $head-font-family-l;
+            color: $igem-blue;
+        }
+    }
+}
 
 
 .jumbotron{
@@ -105,15 +124,9 @@ p{
     }
 }
 
-#lyme-bg{
-    max-width: 100%;
-}
 #outreach-content{
     h1{
-        font-family: $head-font-family;
-        font-size: 1.6em;
-        line-height: 170%;
-        color: $red;
+        @include page-header();
     }
 }
 #calendar-content{
@@ -124,12 +137,14 @@ p{
         }
     }
 }
+#lyme-content{
+    h1{
+        @include page-header();
+    }
+}
 #phage-content{
     h1{
-        font-family: $head-font-family;
-        font-size: 1.6em;
-        line-height: 170%;
-        color: $red;
+        @include page-header();
     }
     img{
         max-width: 100%;

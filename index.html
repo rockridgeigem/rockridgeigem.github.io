@@ -11,15 +11,11 @@
     <script type = "text/javascript" src = "js/jquery/jquery-2.2.3.min.js"></script>
     <script type = "text/javascript" src = "js/bootstrap/bootstrap.js"></script>
     <script type = "text/javascript" src = "js/custom/scroll-index.js"></script>
-    <script type = "text/javascript" media = "screen and (max-device-width: 800px)" src = "js/custom/mobil-scroll-index.js"></script>
-    <script type = "text/javascript">
-        $(document).ready(function(){
-           $(".SuperHeader").fadeIn(0.5); 
-        });
-    </script>
+    <script type = "text/javascript" src = "js/material/material.js"></script>
     
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles/stylesheets/screen.css">
+    <link rel="stylesheet" type="text/css" href="css/material/material.min.css">
     <link rel = "stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="../../css/mobile.css" />
 </head>
 
@@ -69,7 +65,51 @@
         <section class = "HERO">
             <img class="heroimg" src="images/index/hero.png" />
         </section>
-        <p>The site is still very much under construction, however please navigate to the above tabs and learn more about Rock Ridge's Team, the Lyme Project, and what we have done so far!</p>
+        
+        <div class="mdl-grid">
+            <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-shadow--2dp">
+                <div class="mdl-card__title"><h2 class="mdl-card__title-text">About the Team</h2></div>
+                <div class="mdl-card__supporting-text">
+                    <p>Our team is made up of a group of high schoolers from various grade levels.  We're deeply interested in Synthetic Biology as well as technology, two major things that iGEM exposes its students.  Click the links below to learn about the parts of our team!</p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="pages/about/about_team.html">The iGEM Team</a>
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="pages/about/sponsors.html">Sponsors</a>
+                </div>
+            </div>
+            
+            <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-shadow--2dp">
+                <div class="mdl-card__title"><h2 class="mdl-card__title-text">Projects</h2></div>
+                <div class="mdl-card__supporting-text">
+                    <p>This year, our team is tackling two projects that we hope will advance studies in Lyme Disease treatment.  Click below to learn more about our major undertakings for the season!</p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="pages/projects/project_Lyme.html">A Living Vaccine</a>
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="pages/projects/phage.html">The Trojan Phage</a>
+                </div>
+            </div>
+            
+            <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-shadow--2dp">
+                <div class="mdl-card__title"><h2 class="mdl-card__title-text">Human Practices and Outreach</h2></div>
+                <div class="mdl-card__supporting-text">
+                    <p>As a team we planned several opportunities to reach out to our community to educate them about Lyme Disease and its effects as well as the work we are doing.  Click below to learn more!</p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">Human Practices 2015</a>
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="pages/outreach/outreach.html">Human Practices 2016</a>
+                </div>
+            </div>
+            
+            <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-shadow--2dp">
+                <div class="mdl-card__title"><h2 class="mdl-card__title-text">Team Calendar</h2></div>
+                <div class="mdl-card__supporting-text">
+                    <p>As part of the site, we included our team's calendar to inform the public about upcoming events for our team.  Click below to view it!</p>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="pages/calendar/calendar.html">Our Team's Calendar</a>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 

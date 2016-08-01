@@ -12,6 +12,10 @@
 }
 @font-face {
   font-family: "Ubuntu";
+  src: url("../../fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-B";
   src: url("../../fonts/Ubuntu-Bold.ttf");
 }
 @font-face {
@@ -83,47 +87,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 body {
   background-color: #005253;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 p {
-  font-family: "PT" sans-serif;
+  font-family: "PT";
   line-height: 140%;
   font-size: 1.0em;
   color: #FFFFFF;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .navbar-default {
   background-color: transparent;
   border: 0;
   height: 4em;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .nav a {
-  font-family: "Mitr" "Arial" sans-serif;
+  font-family: "Mitr";
 }
-/* line 47, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .nav .sublink {
-  font-family: "Droid" sans-serif;
+  font-family: "Droid";
   font-size: 0.95em;
 }
-/* line 51, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .nav .sublink-head {
   font-size: 1em;
   font-weight: bold;
 }
-/* line 55, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .nav #Team, .nav #Project, .nav #Outreach, .nav #Calendar {
   font-size: 1.0em;
   height: 4em;
   color: #FFFFFF;
 }
-/* line 60, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 .nav #Team:hover, .nav #Project:hover, .nav #Outreach:hover, .nav #Calendar:hover, .nav .nav-img:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -131,12 +135,12 @@ p {
   color: #FFFFFF;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .nav-image-wrap {
   height: 4em;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .nav-image-wrap:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -145,7 +149,7 @@ p {
   background-color: #006A6B;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .HERO img {
   max-height: 100%;
   max-width: 100%;
@@ -153,19 +157,29 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
+.mdl-grid .mdl-card__supporting-text p {
+  color: #E41B15;
+}
+/* line 93, ../sass/screen.scss */
+.mdl-grid .mdl-card__title h2 {
+  font-family: "Ubuntu";
+  color: #005253;
+}
+
+/* line 101, ../sass/screen.scss */
 .jumbotron {
   background-color: transparent;
   border: 0;
 }
-/* line 85, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .jumbotron h1 {
   text-align: center;
-  font-family: "Ubuntu" sans-serif;
+  font-family: "Ubuntu-B";
   color: #FFFFFF;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #plasmid {
   height: 536px;
   width: 536px;
@@ -173,39 +187,42 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 108, ../sass/screen.scss */
-#lyme-bg {
-  max-width: 100%;
-}
-
-/* line 112, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #outreach-content h1 {
-  font-family: "Ubuntu" sans-serif;
+  font-family: "Ubuntu";
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 128, ../sass/screen.scss */
-#phage-content h1 {
-  font-family: "Ubuntu" sans-serif;
+/* line 141, ../sass/screen.scss */
+#lyme-content h1 {
+  font-family: "Ubuntu";
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
-/* line 134, ../sass/screen.scss */
+
+/* line 146, ../sass/screen.scss */
+#phage-content h1 {
+  font-family: "Ubuntu";
+  font-size: 1.6em;
+  line-height: 170%;
+  color: #E41B15;
+}
+/* line 149, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
