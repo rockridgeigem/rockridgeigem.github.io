@@ -4,7 +4,9 @@
 
 .navbar-static-top{
     opacity: inherit;
-    .sublink{
-        background-color: $white;
+    .dropdown-menu{
+        a{
+            color: $white;
+        }
     }
 }

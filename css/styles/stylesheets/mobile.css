@@ -235,7 +235,7 @@ p {
 .navbar-static-top {
   opacity: inherit;
 }
-/* line 7, ../sass/mobile.scss */
-.navbar-static-top .sublink {
-  background-color: #FFFFFF;
+/* line 8, ../sass/mobile.scss */
+.navbar-static-top .dropdown-menu a {
+  color: #FFFFFF;
 }
