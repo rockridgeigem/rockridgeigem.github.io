@@ -121,17 +121,25 @@ p {
   font-size: 0.95em;
 }
 /* line 58, ../sass/screen.scss */
+.nav .dropdown-menu {
+  background-color: #006A6B;
+}
+/* line 60, ../sass/screen.scss */
+.nav .dropdown-menu a {
+  color: #FFFFFF;
+}
+/* line 64, ../sass/screen.scss */
 .nav .sublink-head {
   font-size: 1em;
   font-weight: bold;
 }
-/* line 62, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .nav #Team, .nav #Project, .nav #Outreach, .nav #Calendar {
   font-size: 1.0em;
   height: 4em;
   color: #FFFFFF;
 }
-/* line 67, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .nav #Team:hover, .nav #Project:hover, .nav #Outreach:hover, .nav #Calendar:hover, .nav .nav-img:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -139,12 +147,12 @@ p {
   color: #FFFFFF;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .nav-image-wrap {
   height: 4em;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .nav-image-wrap:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -153,7 +161,7 @@ p {
   background-color: #006A6B;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .HERO img {
   max-height: 100%;
   max-width: 100%;
@@ -161,29 +169,29 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .mdl-grid .mdl-card__supporting-text p {
   color: #E41B15;
 }
-/* line 94, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .mdl-grid .mdl-card__title h2 {
   font-family: "Ubuntu";
   color: #005253;
 }
 
-/* line 102, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .jumbotron {
   background-color: transparent;
   border: 0;
 }
-/* line 105, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .jumbotron h1 {
   text-align: center;
   font-family: "Ubuntu-B";
   color: #FFFFFF;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #plasmid {
   height: 536px;
   width: 536px;
@@ -191,13 +199,13 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
@@ -205,13 +213,13 @@ p {
   color: #E41B15;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 142, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #lyme-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
@@ -219,23 +227,14 @@ p {
   color: #E41B15;
 }
 
-/* line 147, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
-/* line 150, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
-}
-
-/* line 5, ../sass/mobile.scss */
-.navbar-static-top {
-  opacity: inherit;
-}
-/* line 8, ../sass/mobile.scss */
-.navbar-static-top .dropdown-menu a {
-  color: #FFFFFF;
 }

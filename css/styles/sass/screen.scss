@@ -55,6 +55,12 @@ p{
         font-family: $nav-sub-font-family;
         font-size: 0.95em;
     }
+    .dropdown-menu{
+        background-color: $nav-hover;
+        a{
+            color: $white;
+        }
+    }
     .sublink-head{
         font-size: 1em;
         font-weight: bold;
