@@ -2,11 +2,7 @@
 @import "screen";
 @import "compass/reset";
 .navbar-default{
-    .navbar-nav{
-        .open{
-            .dropdown-menu{
-                background-color: $white;
-            }
-        }
+    .dropdown-menu{
+        background-color: $white;
     }
 }
