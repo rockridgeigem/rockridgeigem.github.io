@@ -1,6 +1,8 @@
 @import "fonts";
 @import "screen";
 @import "compass/reset";
-.dropdown-menu.open{
-    background-color: #FFFFFF;
+.navbar-collapse{
+    a{
+        color: red;
+    }
 }
