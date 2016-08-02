@@ -10,13 +10,6 @@
     <script type = "text/javascript" async src = "../../js/jquery/jquery-2.2.3.min.js"></script>
     <script type = "text/javascript" async src = "../../js/bootstrap/bootstrap.min.js"></script>
     <script type = "text/javascript" async src = "../../js/stellar/stellar.js"></script>
-
-    
-    <script type = "text/javascript">
-    $(document).ready(function(){
-           $(window).stellar();
-        });
-    </script>
     
     <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../css/styles/stylesheets/screen.css">
@@ -26,48 +19,51 @@
 </head>
 
 <body class = "background">
-    <nav class = "navbar navbar-default">
-        <div class = "navbar-header">
-            <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
-                <span class = "sr-only">Toggle Nav</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href = "../../index.html">
-                <img class = "nav-image-wrap" src = "../../images/universal/igem-nav.png" />
-           </a>
-        </div>
-        
-        <div class = "collapse navbar-collapse" id = "nav-button">
-            <ul class = "nav navbar-nav">
-                <li><a id = "Team" class = "nav-link" data-toggle = "dropdown" href = "#">Team<span class = "caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a class = "sublink" href = "../about/about_team.html">Team Members</a></li>
-                        <li><a class = "sublink" href = "../about/sponsors.html">Sponsors</a></li>
-                   </ul>
-                </li>
-                <li><a id = "Project" class = "nav-link" data-toggle = "dropdown" href = "#">Projects<span class = "caret"></span></a>
-                    <ul class = "dropdown-menu">
-                        <li><a class = "sublink sublink-head" href = "#">Overview of Projects</a></li>
-                        <li><a class = "sublink" href = "project_Lyme.html">A Living Vaccine</a></li>
-                        <li><a class = "sublink" href = "phage.html">Trojan Phage</a></li>
-                    </ul>
-                </li>
-               <li><a id = "Outreach" class = "nav-link" data-toggle = "dropdown" href = "#">Human Practices<span class = "caret"></span></a>
-                   <ul class = "dropdown-menu">
-                       <li><a class = "sublink" href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
-                       <li><a class = "sublink" href = "../outreach/outreach.html">2016 Human Practices</a></li>
-                   </ul>
-               </li>
-               <li><a id = "Calendar" class = "nav-link" href = "../calendar/calendar.html">Calendar</a></li>
-            </ul>
+    <nav class = "navbar navbar-default navbar-static-top">
+       <div class="container-fluid">
+           <div class = "navbar-header">
+               <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
+                   <span class = "sr-only">Toggle Nav</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+                <a href = "index.html">
+                    <img class = "nav-image-wrap" src = "images/universal/igem-nav.png" />
+               </a>
+           </div>
+
+           <div class = "collapse navbar-collapse" id = "nav-button">
+               <ul class = "nav navbar-nav">
+                   <li><a id = "Team" class = "nav-link" data-toggle = "dropdown" href = "#">Team<span class = "caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class = "sublink" href = "pages/about/about_team.html">Team Members</a></li>
+                            <li><a class = "sublink" href = "pages/about/sponsors.html">Sponsors</a></li>
+                       </ul>
+                   </li>
+                   <li><a id = "Project" class = "nav-link" data-toggle = "dropdown" href = "#">Projects<span class = "caret"></span></a>
+                       <ul class = "dropdown-menu">
+                           <li><a class = "sublink sublink-head" href = "#">Overview of Projects</a></li>
+                           <li><a class = "sublink" href = "pages/projects/project_Lyme.html">A Living Vaccine</a></li>
+                           <li><a class = "sublink" href = "pages/projects/phage.html">Trojan Phage</a></li>
+                       </ul>
+                   </li>
+                   <li><a id = "Outreach" class = "nav-link" data-toggle = "dropdown" href = "#">Human Practices<span class = "caret"></span></a>
+                       <ul class = "dropdown-menu">
+                           <li><a class = "sublink" href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
+                           <li><a class = "sublink" href = "pages/outreach/outreach.html">2016 Human Practices</a></li>
+                       </ul>
+                   </li>
+                   <li><a id = "Calendar" class = "nav-link" href = "pages/calendar/calendar.html">Calendar</a></li>
+               </ul>
+           </div>
         </div>
     </nav>
     
     <section class = "jumbotron">
         <h1>A Living Vaccine</h1>
     </section>
+    
     <section class = "container-fluid" id="lyme-content">
         <h1>Project Overview</h1>
         <section class = "content-section" id = "lyme-section-1">
@@ -81,7 +77,7 @@
             <iframe width="560" height="315" align = "middle" src="https://www.youtube.com/embed/a1Or2R-e79k" frameborder="0" allowfullscreen></iframe>
         </div>
      </section>
-</body>
+    </body>
 </html>
 
 

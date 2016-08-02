@@ -189,8 +189,8 @@ p {
 
 /* line 115, ../sass/screen.scss */
 #plasmid {
-  height: 536px;
-  width: 536px;
+  max-height: 536px;
+  max-width: 536px;
   margin-left: 50%;
   transform: translateX(-50%);
 }
