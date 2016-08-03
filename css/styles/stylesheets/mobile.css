@@ -84,8 +84,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 4, ../sass/mobile.scss */
-.navbar-default {
-  background-color: white;
+body {
+  background-color: #FFFFFF;
 }
 
 /* line 8, ../sass/mobile.scss */
