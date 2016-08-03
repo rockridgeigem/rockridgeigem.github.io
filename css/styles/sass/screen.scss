@@ -154,3 +154,12 @@ p{
         max-width: 100%;
     }
 }
+#sponsor-content{
+    .col-sm-6, .col-sm-12{
+        img{
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

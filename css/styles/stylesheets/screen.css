@@ -234,3 +234,10 @@ p {
 #phage-content img {
   max-width: 100%;
 }
+
+/* line 159, ../sass/screen.scss */
+#sponsor-content .col-sm-6 img, #sponsor-content .col-sm-12 img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

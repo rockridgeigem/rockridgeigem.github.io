@@ -87,3 +87,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .navbar-default {
   background-color: white;
 }
+
+/* line 8, ../sass/mobile.scss */
+.jumbotron h1 {
+  font-size: 500%;
+}
