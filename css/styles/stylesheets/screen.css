@@ -186,8 +186,14 @@ p {
   font-family: "Ubuntu-B";
   color: #FFFFFF;
 }
+@media screen and (max-width: 50em) {
+  /* line 108, ../sass/screen.scss */
+  .jumbotron h1 {
+    font-size: 3em;
+  }
+}
 
-/* line 115, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 #plasmid {
   max-height: 536px;
   max-width: 536px;
@@ -195,13 +201,13 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
@@ -209,13 +215,13 @@ p {
   color: #E41B15;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 145, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #lyme-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
@@ -223,19 +229,19 @@ p {
   color: #E41B15;
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
-/* line 153, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 #sponsor-content .col-sm-6 img, #sponsor-content .col-sm-12 img {
   position: relative;
   left: 50%;

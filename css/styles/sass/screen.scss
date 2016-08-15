@@ -109,6 +109,9 @@ p{
         text-align: center;
         font-family: $head-font-family;
         color: $white;
+        @media screen and (max-width: 50em){
+            font-size: 3em;
+        }
     }
 }
 
