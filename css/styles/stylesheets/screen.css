@@ -89,7 +89,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 34, ../sass/screen.scss */
 body {
-  background-color: #005253;
+  background-color: #FF0000;
 }
 
 /* line 37, ../sass/screen.scss */
@@ -102,14 +102,14 @@ p {
 
 /* line 44, ../sass/screen.scss */
 .navbar-default {
-  background-color: #005253;
+  background-color: #FF0000;
   border: 0;
   height: 4em;
 }
 
 /* line 49, ../sass/screen.scss */
 .nav {
-  background-color: #005253;
+  background-color: #FF0000;
 }
 /* line 51, ../sass/screen.scss */
 .nav a {
@@ -172,7 +172,7 @@ p {
 /* line 97, ../sass/screen.scss */
 .mdl-grid .mdl-card__title h2 {
   font-family: "Ubuntu";
-  color: #005253;
+  color: #FF0000;
 }
 
 /* line 105, ../sass/screen.scss */
