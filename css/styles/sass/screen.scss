@@ -9,6 +9,8 @@
 $igem-blue: #005253;
 $nav-hover: #006A6B;
 $white: #FFFFFF;
+$dark-red: #630000;
+
 $light-grey: #EEEEEE;
 $red: #E41B15;
 
@@ -29,7 +31,9 @@ $body-font: 'PT';
     line-height: 170%;
     color: $red;
 }
-
+*{
+    z-index: 1;
+}
 
 body{
     background-color: $white;
@@ -84,24 +88,13 @@ p{
         height: 80vh;
         margin-left: 50%;
         transform: translateX(-50%);
-        //background-color: $igem-blue;
     }
+    z-index: 1;
 }
-.mdl-grid{
-    .mdl-card__supporting-text{
-        p{
-            color: $red;
-        }
-    }
-    .mdl-card__title{
-        h2{
-            font-family: $head-font-family-l;
-            color: $igem-blue;
-        }
-    }
+.index-bg{
+    background-image: url("/images/project_Lyme/Lyme1.png"); 
+    z-index: -1;
 }
-
-
 .jumbotron{
     background-color: transparent;
     border: 0;
