@@ -1,3 +1,4 @@
+@import "compass/reset";
 @font-face{
     font-family: "Mitr";
     src: url("../../fonts/Mitr-Light.ttf");
@@ -18,3 +19,9 @@
     font-family: "PT";
     src: url("../../fonts/PT_Sans.ttf");
 }
+
+$nav-font-family: 'Mitr';
+$nav-sub-font-family: 'Droid';
+$head-font-family: 'Ubuntu-B';
+$head-font-family-l: 'Ubuntu';
+$body-font: 'PT';

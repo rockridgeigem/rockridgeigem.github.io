@@ -2,26 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-@font-face {
-  font-family: "Mitr";
-  src: url("../../fonts/Mitr-Light.ttf");
-}
-@font-face {
-  font-family: "Droid";
-  src: url("../../fonts/DroidSans.ttf");
-}
-@font-face {
-  font-family: "Ubuntu";
-  src: url("../../fonts/Ubuntu-Regular.ttf");
-}
-@font-face {
-  font-family: "Ubuntu-B";
-  src: url("../../fonts/Ubuntu-Bold.ttf");
-}
-@font-face {
-  font-family: "PT";
-  src: url("../../fonts/PT_Sans.ttf");
-}
 /* line 5, ../../../../../Downloads/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -87,17 +67,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 34, ../sass/screen.scss */
+@font-face {
+  font-family: "Mitr";
+  src: url("../../fonts/Mitr-Light.ttf");
+}
+@font-face {
+  font-family: "Droid";
+  src: url("../../fonts/DroidSans.ttf");
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../../fonts/Ubuntu-Regular.ttf");
+}
+@font-face {
+  font-family: "Ubuntu-B";
+  src: url("../../fonts/Ubuntu-Bold.ttf");
+}
+@font-face {
+  font-family: "PT";
+  src: url("../../fonts/PT_Sans.ttf");
+}
+/*@mixin awesome-indexbar{
+    text-align: center;
+    background-color: $igem-blue;
+    p{
+        font-family: "Mitr", sans-serif;
+        font-size: 3rem;
+        color: $white;
+    }
+}*/
+/* line 11, ../sass/screen.scss */
 * {
   z-index: 1;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 body {
   background-color: #FFFFFF;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 p {
   font-family: "PT";
   line-height: 140%;
@@ -105,42 +114,42 @@ p {
   color: #006A6B;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 .navbar-default {
   background-color: #FFFFFF;
   border: 0;
   height: 4em;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .nav {
   background-color: #FFFFFF;
 }
-/* line 55, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .nav a {
   font-family: "Mitr";
 }
-/* line 58, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .nav .sublink {
   font-family: "Droid";
   font-size: 0.95em;
 }
-/* line 62, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .nav .dropdown-menu {
   background-color: #FFFFFF;
 }
-/* line 65, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .nav .sublink-head {
   font-size: 1em;
   font-weight: bold;
 }
-/* line 69, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .nav #Team, .nav #Project, .nav #Outreach, .nav #Calendar {
   font-size: 1.0em;
   height: 4em;
   color: #005253;
 }
-/* line 74, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .nav #Team:hover, .nav #Project:hover, .nav #Outreach:hover, .nav #Calendar:hover, .nav .nav-img:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -148,12 +157,12 @@ p {
   color: #FFFFFF;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .nav-image-wrap {
   height: 4em;
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .nav-image-wrap:hover {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
@@ -162,21 +171,53 @@ p {
   background-color: #006A6B;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .HERO {
+  height: 100vh;
   z-index: 1;
 }
-/* line 87, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .HERO img {
-  height: 80vh;
+  height: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 94, ../sass/screen.scss */
-.index-bg {
-  background-image: url("/images/project_Lyme/Lyme1.png");
+/* line 73, ../sass/screen.scss */
+#index-proj {
+  background-attachment: fixed;
+  background-size: cover;
   z-index: -1;
+  height: 80vh;
+  background-image: url(/images/project_Lyme/Lyme1.png);
+}
+
+/* line 77, ../sass/screen.scss */
+#index-team {
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+  height: 80vh;
+  background-image: url(/images/team/team2.jpg);
+}
+
+/* line 81, ../sass/screen.scss */
+#index-outreach {
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+  height: 80vh;
+  background-image: url(/images/outreach/lyme5k_1.png);
+}
+
+/* line 85, ../sass/screen.scss */
+.index-parallax-banner {
+  color: #005253;
+  font-family: "Mitr";
+  text-align: center;
+  font-size: 2.4em;
+  padding: 1em;
+  text-decoration: underline;
 }
 
 /* line 98, ../sass/screen.scss */

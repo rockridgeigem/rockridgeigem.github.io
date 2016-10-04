@@ -1,0 +1,37 @@
+@import "compass/reset";
+@import "fonts";
+@import "colors";
+
+@mixin nav-hover(){
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: $nav-hover;
+    color: $white;
+}
+@mixin page-header{
+    font-family: $head-font-family-l;
+    font-size: 1.6em;
+    line-height: 170%;
+    color: $red;
+}
+@mixin index-bg(){
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    height: 80vh;
+}
+@media screen and (max-width: 50em){
+    @mixin index-bg(){
+        background: none;
+    }
+    
+}
+/*@mixin awesome-indexbar{
+    text-align: center;
+    background-color: $igem-blue;
+    p{
+        font-family: "Mitr", sans-serif;
+        font-size: 3rem;
+        color: $white;
+    }
+}*/
