@@ -87,15 +87,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "PT";
   src: url("../../fonts/PT_Sans.ttf");
 }
-/*@mixin awesome-indexbar{
-    text-align: center;
-    background-color: $igem-blue;
-    p{
-        font-family: "Mitr", sans-serif;
-        font-size: 3rem;
-        color: $white;
-    }
-}*/
 /* line 11, ../sass/screen.scss */
 * {
   z-index: 1;
@@ -151,10 +142,10 @@ p {
 }
 /* line 51, ../sass/screen.scss */
 .nav #Team:hover, .nav #Project:hover, .nav #Outreach:hover, .nav #Calendar:hover, .nav .nav-img:hover {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  background-color: #006A6B;
-  color: #FFFFFF;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+  border: 3px solid #006A6B;
+  color: #006A6B;
 }
 
 /* line 55, ../sass/screen.scss */
@@ -164,53 +155,87 @@ p {
 
 /* line 58, ../sass/screen.scss */
 .nav-image-wrap:hover {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  background-color: #006A6B;
-  color: #FFFFFF;
-  background-color: #006A6B;
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+  border: 3px solid #006A6B;
+  color: #006A6B;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .HERO {
   height: 100vh;
   z-index: 1;
 }
-/* line 65, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .HERO img {
   height: 90%;
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 #index-proj {
-  background-attachment: fixed;
-  background-size: cover;
+  /*background-attachment: fixed;
   z-index: -1;
   height: 80vh;
+  @media screen and (max-width: 50em){
+      height: 20vh;
+      
+  }
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
   background-image: url(/images/project_Lyme/Lyme1.png);
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 #index-team {
-  background-attachment: fixed;
-  background-size: cover;
+  /*background-attachment: fixed;
   z-index: -1;
   height: 80vh;
+  @media screen and (max-width: 50em){
+      height: 20vh;
+      
+  }
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
   background-image: url(/images/team/team2.jpg);
 }
 
-/* line 81, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #index-outreach {
-  background-attachment: fixed;
-  background-size: cover;
+  /*background-attachment: fixed;
   z-index: -1;
   height: 80vh;
+  @media screen and (max-width: 50em){
+      height: 20vh;
+      
+  }
+  background-size: contain;
+  background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
   background-image: url(/images/outreach/lyme5k_1.png);
+  /*@media screen and (max-width: 50em){
+      img{
+          width: 100%;
+          z-index: -1;
+      }
+  }
+  @media screen and (min-width: 50em){
+      img{
+          display: none;
+      }
+  }*/
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .index-parallax-banner {
   color: #005253;
   font-family: "Mitr";
@@ -220,25 +245,33 @@ p {
   text-decoration: underline;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
+.index-parallax-banner:hover {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  color: #630000;
+  border: 10px solid #630000;
+}
+
+/* line 114, ../sass/screen.scss */
 .jumbotron {
   background-color: transparent;
   border: 0;
 }
-/* line 101, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .jumbotron h1 {
   text-align: center;
   font-family: "Ubuntu-B";
   color: #005253;
 }
 @media screen and (max-width: 50em) {
-  /* line 101, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   .jumbotron h1 {
     font-size: 3em;
   }
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 #plasmid {
   max-height: 536px;
   max-width: 536px;
@@ -246,27 +279,31 @@ p {
   transform: translateX(-50%);
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
+/* line 147, ../sass/screen.scss */
+#outreach-content #5k-title {
+  font-family: "Ubuntu";
+}
 
-/* line 134, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 #lyme-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
@@ -274,21 +311,35 @@ p {
   color: #E41B15;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Ubuntu";
   font-size: 1.6em;
   line-height: 170%;
   color: #E41B15;
 }
-/* line 149, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
 
-/* line 155, ../sass/screen.scss */
-#sponsor-content .col-sm-6 img, #sponsor-content .col-sm-12 img {
-  position: relative;
-  left: 50%;
+/* line 172, ../sass/screen.scss */
+#sponsor-content {
+  /*.col-sm-6, .col-sm-12{
+      img{
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  }*/
+}
+/* line 173, ../sass/screen.scss */
+#sponsor-content section {
+  border: 1px #E41B15 dashed;
+}
+/* line 176, ../sass/screen.scss */
+#sponsor-content section img {
+  margin-left: 50%;
   transform: translateX(-50%);
+  height: 100px;
 }

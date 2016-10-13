@@ -3,10 +3,10 @@
 @import "colors";
 
 @mixin nav-hover(){
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-    background-color: $nav-hover;
-    color: $white;
+    -webkit-transition: 0.1s ease;
+    transition: 0.1s ease;
+    border: 3px solid $nav-hover;
+    color: $nav-hover;
 }
 @mixin page-header{
     font-family: $head-font-family-l;
@@ -15,18 +15,22 @@
     color: $red;
 }
 @mixin index-bg(){
-    background-attachment: fixed;
-    background-size: cover;
+    /*background-attachment: fixed;
     z-index: -1;
     height: 80vh;
-}
-@media screen and (max-width: 50em){
-    @mixin index-bg(){
-        background: none;
+    @media screen and (max-width: 50em){
+        height: 20vh;
+        
     }
+    background-size: contain;
+    background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
     
 }
-/*@mixin awesome-indexbar{
+
+@mixin awesome-indexbar{
     text-align: center;
     background-color: $igem-blue;
     p{
@@ -34,4 +38,4 @@
         font-size: 3rem;
         color: $white;
     }
-}*/
+}

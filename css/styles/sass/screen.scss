@@ -57,7 +57,6 @@ p{
 }
 .nav-image-wrap:hover{
     @include nav-hover();
-    background-color: $nav-hover;
 }
 
 .HERO{
@@ -79,8 +78,20 @@ p{
     background-image: url(/images/team/team2.jpg);
 }
 #index-outreach{
+    
     @include index-bg();
     background-image: url(/images/outreach/lyme5k_1.png);
+    /*@media screen and (max-width: 50em){
+        img{
+            width: 100%;
+            z-index: -1;
+        }
+    }
+    @media screen and (min-width: 50em){
+        img{
+            display: none;
+        }
+    }*/
 }
 .index-parallax-banner{
     color: $igem-blue;
@@ -90,7 +101,12 @@ p{
     padding: 1em;
     text-decoration: underline;
 }
-
+.index-parallax-banner:hover{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    color: $dark-red;
+    border: 10px solid $dark-red;
+}
 
 
 
@@ -128,6 +144,9 @@ p{
     h1{
         @include page-header();
     }
+    #5k-title{
+        font-family: $head-font-family-l;
+    }
 }
 #calendar-content{
     section{
@@ -151,11 +170,20 @@ p{
     }
 }
 #sponsor-content{
-    .col-sm-6, .col-sm-12{
+    section{
+        border: 1px $red dashed;
+        //padding: 10px;
+        img{
+            margin-left: 50%;
+            transform: translateX(-50%);
+            height: 100px;
+        }
+    }
+    /*.col-sm-6, .col-sm-12{
         img{
             position: relative;
             left: 50%;
             transform: translateX(-50%);
         }
-    }
+    }*/
 }
