@@ -5,37 +5,32 @@
 @mixin nav-hover(){
     -webkit-transition: 0.1s ease;
     transition: 0.1s ease;
-    border: 3px solid $nav-hover;
-    color: $nav-hover;
+    //border: 3px solid $blue-2;
+    //border-top: 3px solid $blue-2;
+    border-left: 3px solid $blue-2;
+    border-right: 3px solid $blue-2;
+    color: $blue-2;
 }
 @mixin page-header{
-    font-family: $head-font-family-l;
+    font-family: $droid-sans;
     font-size: 1.6em;
     line-height: 170%;
-    color: $red;
+    color: $imp-blue;
 }
-@mixin index-bg(){
-    /*background-attachment: fixed;
-    z-index: -1;
-    height: 80vh;
-    @media screen and (max-width: 50em){
-        height: 20vh;
-        
-    }
-    background-size: contain;
-    background-repeat: no-repeat;*/
-    background-attachment: fixed;
-    background-size: cover;
-    height: 60vh;
-    
+@mixin centerH(){
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
 }
-
-@mixin awesome-indexbar{
-    text-align: center;
-    background-color: $igem-blue;
-    p{
-        font-family: "Mitr", sans-serif;
-        font-size: 3rem;
-        color: $white;
-    }
+@mixin rotate($deg){
+    transform: rotate($deg);
+    -webkit-transform: rotate($deg);
+    -ms-transform: rotate($deg);
+}
+@mixin miniHeader(){
+    font-family: $droid-sans;
+    color: $dark-red;
+    text-decoration: underline;
+    text-decoration-color: black;
 }

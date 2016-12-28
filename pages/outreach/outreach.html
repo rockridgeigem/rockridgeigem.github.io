@@ -1,85 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <link rel = "icon" type="image/png" href = "../../images/universal/favicon.png" />
-    <title>Community Outreach</title>
-    
-    <script type = "text/javascript" src = "../../js/jquery/jquery-2.2.3.min.js"></script>
-    <script type = "text/javascript" async src = "../../js/bootstrap/bootstrap.min.js"></script>
-    <script type = "text/javascript" async src = "../../js/stellar/stellar.js"></script>
-    
-    <script type = "text/javascript">
-    $(document).ready(function(){
-           $(window).stellar();
-        });
-    </script>
-    
-    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/styles/stylesheets/screen.css">
-    
-    <link rel = "stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="../../css/mobile.css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
+        <link rel = "icon" type="image/png" href = "/images/universal/favicon.png" />
+        <title>Rock Ridge iGEM Virginia 2016 Home</title>
 
-<body class = "background">
-    <nav class = "navbar navbar-default navbar-static-top">
-       <div class="container-fluid">
-           <div class = "navbar-header">
-               <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
-                   <span class = "sr-only">Toggle Nav</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-                <a href = "/index.html">
-                    <img class = "nav-image-wrap" src = "/images/universal/igem-nav.png" />
-               </a>
-           </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-           <div class = "collapse navbar-collapse" id = "nav-button">
-               <ul class = "nav navbar-nav">
-                   <li><a id = "Team" class = "nav-link" data-toggle = "dropdown" href = "#">Team<span class = "caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class = "sublink" href = "/pages/about/about_team.html">Team Members</a></li>
-                            <li><a class = "sublink" href = "/pages/about/sponsors.html">Sponsors</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Project" class = "nav-link" data-toggle = "dropdown" href = "#">Projects<span class = "caret"></span></a>
-                       <ul class = "dropdown-menu">
-                           <li><a class = "sublink sublink-head" href = "#">Overview of Projects</a></li>
-                           <li><a class = "sublink" href = "/pages/projects/project_Lyme.html">A Living Vaccine</a></li>
-                           <li><a class = "sublink" href = "/pages/projects/phage.html">Trojan Phage</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Outreach" class = "nav-link" data-toggle = "dropdown" href = "#">Human Practices<span class = "caret"></span></a>
-                       <ul class = "dropdown-menu">
-                           <li><a class = "sublink" href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
-                           <li><a class = "sublink" href = "/pages/outreach/outreach.html">2016 Human Practices</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Calendar" class = "nav-link" href = "/pages/calendar/calendar.html">Calendar</a></li>
-               </ul>
-           </div>
+
+        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+    </head>
+
+    <body class = "background">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#igem-navigation" >
+                        <span class = "sr-only">Toggle Nav</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="/images/universal/nav-brand.png" />
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="igem-navigation">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a data-toggle="dropdown" id="one" href="#">About the Team<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "/pages/about/about_team.html">Team Members</a></li>
+                                <li><a href = "/pages/about/sponsors.html">Sponsors</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" id="two" href="#">Projects<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "/pages/projects/project_Lyme.html">The Lyme Project</a></li>
+                                <li><a href = "/pages/projects/phage.html">The Trojan Phage</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a data-toggle="dropdown" id="three" href="#">Human Practices<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
+                                <li><a href = "/pages/outreach/outreach.html">2016 Human Practices</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a id="four" href="/pages/calendar/calendar.html">Team Calendar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </nav>
-    
-    <section class = "jumbotron">
-        <h1>2016 Season Human Practices</h1>
-    </section>
-    
-    <section class="container-fluid" id="outreach-content">
-        <!--<h1>The Brambleton Lyme 5K</h1>
-        <p>The Brambleton Lyme 5K is a run held annually by Loudoun Lyme in order to support Capital Lyme.  The run is used to raise money and awareness for Lyme Disease.  Our team set up a booth at the run and we talked to people there to spread awareness about our solution to Lyme with Synthetic Biology.</p>
-        
-        <img src = "../../images/outreach/lyme5k_1.png" style = "max-width: 100%" />
-        
-        <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Purifying DNA and designing your own organism <a href="https://twitter.com/LoCoSTEMday">@LoCoSTEMday</a> <a href="https://t.co/BMFMA5Tdlb">pic.twitter.com/BMFMA5Tdlb</a></p>&mdash; Rock Ridge iGem (@Rock_Ridge_IGEM) <a href="https://twitter.com/Rock_Ridge_IGEM/status/782344209588162560">October 1, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
-        <section id="lyme-5k">
-            <img src = "/images/outreach/lyme5k_1.png" style = "max-width: 100%" />
-            <section id="5k-title">The Brambleton Lyme 5K</section>
+
+        <section class = "jumbotron">
+            <h1>2016 Season Human Practices</h1>
         </section>
-    </section>
+
+        <section class="container-fluid" id="outreach-content">
+           
+            <!--<h1>The Brambleton Lyme 5K</h1>
+            
+            <p>The Brambleton Lyme 5K is a run held annually by Loudoun Lyme in order to support Capital Lyme.  The run is used to raise money and awareness for Lyme Disease.  Our team set up a booth at the run and we talked to people there to spread awareness about our solution to Lyme with Synthetic Biology.</p>
+            
+            <img src = "../../images/outreach/lyme5k_1.png" style = "max-width: 100%" />
+            
+            <blockquote class="twitter-tweet" data-lang="en">
+                <p lang="en" dir="ltr">Purifying DNA and designing your own organism 
+                    <a href="https://twitter.com/LoCoSTEMday">@LoCoSTEMday</a> 
+                    <a href="https://t.co/BMFMA5Tdlb">pic.twitter.com/BMFMA5Tdlb</a>
+                </p>&mdash; Rock Ridge iGem (@Rock_Ridge_IGEM) 
+                <a href="https://twitter.com/Rock_Ridge_IGEM/status/782344209588162560">October 1, 2016</a>
+            </blockquote>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            -->
+            
+            
+            <h1>The Brambleton Lyme 5K</h1>
+            <p>One of our most important fundraising events which occured this year was the Loudoun Lyme 5K Run.  The run was an excellent area for us to showcase our research, as it was based very close to our location and many people participated.  Through this run, we learned about other comapnies' work on lyme disease, presented our work, and interacted with many people who came to support Loudoun Lyme and Capital Lyme.  We additionally were able to make more and more people in our community aware about synthetic biology</p>
+            <div class="row">
+                <div class="col-xs-6" id="a"></div>
+                <div class="col-xs-6" id="b"></div>
+            </div>
+            
+            <h1>Loudoun County STEM at NOVA</h1>
+            <blockquote class="twitter-tweet" data-lang="en">
+                <p lang="en" dir="ltr">Purifying DNA and designing your own organism 
+                    <a href="https://twitter.com/LoCoSTEMday">@LoCoSTEMday</a> 
+                    <a href="https://t.co/BMFMA5Tdlb">pic.twitter.com/BMFMA5Tdlb</a>
+                </p>&mdash; Rock Ridge iGem (@Rock_Ridge_IGEM) 
+                <a href="https://twitter.com/Rock_Ridge_IGEM/status/782344209588162560">October 1, 2016</a>
+            </blockquote>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p>The Loudoun County STEM Day was another key opportunity for us to interact with our community to educate them about synthetic biology.  During the event, we talked to many residents around our NOVA College campus about how synthetic biology is impacting the world and what our team is doing to help drive it.  Many young students also came to the event, and for them we had a short activity on purifying DNA from strawberries and students were able to take home a sample of DNA.</p>
+        </section>
     </body>
 </html>

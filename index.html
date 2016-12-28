@@ -1,106 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
-    <link rel = "icon" type="image/png" href = "images/universal/favicon.png" />
-    <title>Rock Ridge iGEM Virginia 2016 Home</title>
-    
-    <script type = "text/javascript" src = "js/jquery/jquery-2.2.3.min.js"></script>
-    <script type = "text/javascript" async src = "../../js/stellar/stellar.js"></script>
-    <script type = "text/javascript" async src = "js/bootstrap/bootstrap.min.js"></script>
-    <script type = "text/javascript" async src = "js/material/material.min.js"></script>
-    
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/material/material.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles/stylesheets/screen.css">
-    <link rel = "stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="css/mobile.css" />
-    
-    <script>
-       $.stellar();
-    </script>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
+        <link rel = "icon" type="image/png" href = "/images/universal/favicon.png" />
+        <title>Rock Ridge iGEM Virginia 2016 Home</title>
 
-<body class = "background">
-   <nav class = "navbar navbar-default navbar-static-top">
-       <div class="container-fluid">
-           <div class = "navbar-header">
-               <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
-                   <span class = "sr-only">Toggle Nav</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-                <a href = "index.html">
-                    <img class = "nav-image-wrap" src = "images/universal/igem-nav.png" />
-               </a>
-           </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script type = "text/javascript" async src = "https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
 
-           <div class = "collapse navbar-collapse" id = "nav-button">
-               <ul class = "nav navbar-nav">
-                   <li><a id = "Team" class = "nav-link" data-toggle = "dropdown" href = "#">Team<span class = "caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class = "sublink" href = "pages/about/about_team.html">Team Members</a></li>
-                            <li><a class = "sublink" href = "pages/about/sponsors.html">Sponsors</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Project" class = "nav-link" data-toggle = "dropdown" href = "#">Projects<span class = "caret"></span></a>
-                       <ul class = "dropdown-menu">
-                           <li><a class = "sublink sublink-head" href = "#">Overview of Projects</a></li>
-                           <li><a class = "sublink" href = "pages/projects/project_Lyme.html">A Living Vaccine</a></li>
-                           <li><a class = "sublink" href = "pages/projects/phage.html">Trojan Phage</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Outreach" class = "nav-link" data-toggle = "dropdown" href = "#">Human Practices<span class = "caret"></span></a>
-                       <ul class = "dropdown-menu">
-                           <li><a class = "sublink" href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
-                           <li><a class = "sublink" href = "pages/outreach/outreach.html">2016 Human Practices</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Calendar" class = "nav-link" href = "pages/calendar/calendar.html">Calendar</a></li>
-               </ul>
-           </div>
+        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+        <script>
+            $.stellar();
+        </script>
+    </head>
+
+    <body class = "background">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#igem-navigation" >
+                        <span class = "sr-only">Toggle Nav</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/images/universal/nav-brand.png" />
+                    </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="igem-navigation">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a data-toggle="dropdown" id="one" href="#">About the Team<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "/pages/about/about_team.html">Team Members</a></li>
+                                <li><a href = "/pages/about/sponsors.html">Sponsors</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" id="two" href="#">Projects<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "/pages/projects/project_Lyme.html">The Lyme Project</a></li>
+                                <li><a href = "/pages/projects/phage.html">The Trojan Phage</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a data-toggle="dropdown" id="three" href="#">Human Practices<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
+                                <li><a href = "/pages/outreach/outreach.html">2016 Human Practices</a></li>                            </ul>
+                        </li> 
+                        <li>
+                            <a id="four" href="/pages/calendar/calendar.html">Team Calendar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </nav>
-
-    <section class = "container-fluid">
-        <section class = "HERO">
-            <img class="heroimg" src="images/index/hero.png" />
-        </section>
         
-        <a href="pages/projects/project_Lyme.html">
-            <section class="index-parallax-banner">The Project</section>
-        </a>
-            <section id="index-proj" data-stellar-background-ratio="0.5"></section>
-        
-        
-        <a href="pages/about/about_team.html">
-            <section class="index-parallax-banner">The Team</section>
-        </a>
-            <section id="index-team" data-stellar-background-ratio="0.5"></section>
-        
-        
-        <a href="pages/outreach/outreach.html">
-            <section class="index-parallax-banner">Human Practices</section>
-        </a>
-        <section id="index-outreach" data-stellar-background-ratio="0.5"></section>
-        
-        <!--<section class="index-back" id="first" data-stellar-background-ratio="0.5"></section>
-        
-        <section class="index-over" id="t-second" data-stellar-ratio="0.5">    
-            <p>Our Outreach</p>
-        </section>
-        <section class="index-back" id="second" data-stellar-background-ratio="0.5"></section>
-        
-        <section class="index-over" id="t-third" data-stellar-ratio="0.5">
-            <p></p>
-        </section>-->
-        
-    </section>
-    
-    
-</body>
+        <div class="container-fluid">
+                <section class="row">
+                    <div class="col-xs-6 four-section" id="proj"><h1>Projects</h1></div>
+                    <div class="col-xs-6 four-section" id="calendar"></div>
+                </section>
+                <section class="row">
+                    
+                    <div class="col-xs-6 four-section" id="team"><h1>The Team</h1></div>
+                    <div class="col-xs-6 four-section" id="human"></div>
+                </section>
+            <div id="cont">
+                <div class="square">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </body>
 
 </html>

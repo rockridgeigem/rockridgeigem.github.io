@@ -1,27 +1,6 @@
 @import "compass/reset";
-@font-face{
-    font-family: "Mitr";
-    src: url("../../fonts/Mitr-Light.ttf");
-}
-@font-face{
-    font-family: "Droid";
-    src: url("../../fonts/DroidSans.ttf");
-}
-@font-face{
-    font-family: "Ubuntu";
-    src: url("../../fonts/Ubuntu-Regular.ttf")
-}
-@font-face{
-    font-family: "Ubuntu-B";
-    src: url("../../fonts/Ubuntu-Bold.ttf")
-}
-@font-face{
-    font-family: "PT";
-    src: url("../../fonts/PT_Sans.ttf");
-}
-
-$nav-font-family: 'Mitr';
-$nav-sub-font-family: 'Droid';
-$head-font-family: 'Ubuntu-B';
-$head-font-family-l: 'Ubuntu';
-$body-font: 'PT';
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Mitr|PT+Sans|Ubuntu');
+$mitr: 'Mitr', sans-serif;
+$droid-sans: 'Droid Sans', sans-serif;
+$jumbotron-font: 'Ubuntu', sans-serif;
+$body-font: 'PT Sans', sans-serif;

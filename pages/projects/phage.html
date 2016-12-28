@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-    <link rel = "icon" type="image/png" href = "../../images/universal/favicon.png" />
-    <title>The Trojan Phage</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
+        <link rel = "icon" type="image/png" href = "/images/universal/favicon.png" />
+        <title>Rock Ridge iGEM Virginia 2016 Home</title>
 
-    <script type = "text/javascript" src = "../../js/jquery/jquery-2.2.3.min.js"></script>
-    <script type = "text/javascript" async src = "../../js/bootstrap/bootstrap.min.js"></script>
-    <script type = "text/javascript" async src = "../../js/stellar/stellar.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../css/styles/stylesheets/screen.css">
 
-    <link rel = "stylesheet" type="text/css" media="screen and (max-device-width: 800px)" href="../../css/mobile.css" />
-</head>
+        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+    </head>
 
-<body class="background">
-    <nav class = "navbar navbar-default navbar-static-top">
-       <div class="container-fluid">
-           <div class = "navbar-header">
-               <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#nav-button" >
-                   <span class = "sr-only">Toggle Nav</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-                <a href = "/index.html">
-                    <img class = "nav-image-wrap" src = "/images/universal/igem-nav.png" />
-               </a>
-           </div>
+    <body class = "background">
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#igem-navigation" >
+                        <span class = "sr-only">Toggle Nav</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index.html">
+                        <img src="/images/universal/nav-brand.png" />
+                    </a>
+                </div>
 
-           <div class = "collapse navbar-collapse" id = "nav-button">
-               <ul class = "nav navbar-nav">
-                   <li><a id = "Team" class = "nav-link" data-toggle = "dropdown" href = "#">Team<span class = "caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a class = "sublink" href = "/pages/about/about_team.html">Team Members</a></li>
-                            <li><a class = "sublink" href = "/pages/about/sponsors.html">Sponsors</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Project" class = "nav-link" data-toggle = "dropdown" href = "#">Projects<span class = "caret"></span></a>
-                       <ul class = "dropdown-menu">
-                           <li><a class = "sublink sublink-head" href = "#">Overview of Projects</a></li>
-                           <li><a class = "sublink" href = "/pages/projects/project_Lyme.html">A Living Vaccine</a></li>
-                           <li><a class = "sublink" href = "/pages/projects/phage.html">Trojan Phage</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Outreach" class = "nav-link" data-toggle = "dropdown" href = "#">Human Practices<span class = "caret"></span></a>
-                       <ul class = "dropdown-menu">
-                           <li><a class = "sublink" href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
-                           <li><a class = "sublink" href = "/pages/outreach/outreach.html">2016 Human Practices</a></li>
-                       </ul>
-                   </li>
-                   <li><a id = "Calendar" class = "nav-link" href = "/pages/calendar/calendar.html">Calendar</a></li>
-               </ul>
-           </div>
+                <div class="collapse navbar-collapse" id="igem-navigation">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a data-toggle="dropdown" id="one" href="#">About the Team<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "/pages/about/about_team.html">Team Members</a></li>
+                                <li><a href = "/pages/about/sponsors.html">Sponsors</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a data-toggle="dropdown" id="two" href="#">Projects<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "/pages/projects/project_Lyme.html">The Lyme Project</a></li>
+                                <li><a href = "/pages/projects/phage.html">The Trojan Phage</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a data-toggle="dropdown" id="three" href="#">Human Practices<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
+                                <li><a href = "/pages/outreach/outreach.html">2016 Human Practices</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a id="four" href="/pages/calendar/calendar.html">Team Calendar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </nav>
-
-    <section class="jumbotron">
-        <h1>The Trojan Phage</h1>
-    </section>
-    <section class="container-fluid" id="phage-content">
-        <h1>Project Overview</h1>
-        <p>
-            The goal of the Trojan Phage project is to reduce any chance of Lyme Bacteria from further replicating if they are in a host.  In this project, we have two plasmids.  One plasmid will contain structural genes to make the protein coat and full structure of a T4 Bacteriophage.  The other plasmid will contain CRISPR and Cas9 protein genes.  Both of these will be implemented into an existing T4 Bacteriophage virus inside a sample cell.  The plasmids for CRISPR/Cas9 and the T4 genome should theoretically combine into a single plasmid.  The T4 will then use this combined plasmid to replicate, with the structural genes making new T4 structures, and the CRISPR/Cas9 replicating within to implement itself into new T4 viruses.  The T4 will replicate inside the sample cell and eventually lyse it when it finishes and the newly made T4 Bacteriophages will then attack Lyme Bacteria.  Once the virus finds Lyme, it will inject the plasmid it has, which would contain only CRISPR and Cas9 genes.  These genes will attack the Lyme genome, breaking it into pieces and adding extra base pairs to mess up the resulting sticky ends.  The genome will have been rendered useless and Lyme would not be able to replicate.  Soon, the immune system of the organism would flush it out and then no trace of Lyme would remain.
-        </p>
-        <br><br>
-        <img src="../../images/phage/bigger.png" />
-    </section>
-</body>
+        <section class="jumbotron">
+            <h1>The Trojan Phage</h1>
+        </section>
+        <section class="container-fluid" id="phage-content">
+            <h1>Project Overview</h1>
+            <p>
+                The goal of the Trojan Phage project is to reduce any chance of Lyme Bacteria from further replicating if they are in a host.  In this project, we have two plasmids.  One plasmid will contain structural genes to make the protein coat and full structure of a T4 Bacteriophage.  The other plasmid will contain CRISPR and Cas9 protein genes.  Both of these will be implemented into an existing T4 Bacteriophage virus inside a sample cell.  The plasmids for CRISPR/Cas9 and the T4 genome should theoretically combine into a single plasmid.  The T4 will then use this combined plasmid to replicate, with the structural genes making new T4 structures, and the CRISPR/Cas9 replicating within to implement itself into new T4 viruses.  The T4 will replicate inside the sample cell and eventually lyse it when it finishes and the newly made T4 Bacteriophages will then attack Lyme Bacteria.  Once the virus finds Lyme, it will inject the plasmid it has, which would contain only CRISPR and Cas9 genes.  These genes will attack the Lyme genome, breaking it into pieces and adding extra base pairs to mess up the resulting sticky ends.  The genome will have been rendered useless and Lyme would not be able to replicate.  Soon, the immune system of the organism would flush it out and then no trace of Lyme would remain.
+            </p>
+            <br><br>
+            <img src="../../images/phage/bigger.png" />
+        </section>
+    </body>
 </html>
