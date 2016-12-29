@@ -102,23 +102,25 @@ border: none;
 }
 $squarewidth: 30vh;
 #cont{
-    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;   
     justify-content: center;
     align-items: center;
 }
 .square{
-    width: $squarewidth;
-    height: $squarewidth;
+    width: 30vh;
+    height: 30vh;
     border-radius: 2em;
     overflow: hidden;
     display: block;
-    background: $imp-blue;
+    background: #005169;
     position: absolute;
     margin-top: -50vh;
-    background: url("/images/index/hero.png") no-repeat center $light-grey;
+    background: url("/images/index/hero.png") no-repeat center #cccccc;
     background-size: contain;
-    
-    //margin-bottom: 50vh;
 }
 
 .jumbotron{

@@ -8239,12 +8239,16 @@ border: none;
 
 /* line 104, ../sass/screen.scss */
 #cont {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .square {
   width: 30vh;
   height: 30vh;
@@ -8258,12 +8262,12 @@ border: none;
   background-size: contain;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .jumbotron {
   background-color: transparent;
   border: 0;
 }
-/* line 127, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .jumbotron h1 {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
@@ -8271,17 +8275,17 @@ border: none;
   color: #005253;
 }
 @media screen and (max-width: 50em) {
-  /* line 127, ../sass/screen.scss */
+  /* line 129, ../sass/screen.scss */
   .jumbotron h1 {
     font-size: 3em;
   }
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 #plasmid {
   align-content: center;
 }
-/* line 141, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #plasmid div {
   width: inherit;
   margin-left: 50%;
@@ -8290,32 +8294,32 @@ border: none;
   -ms-transform: translateX(-50%);
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 #outreach-content .row {
   height: 40vh;
 }
-/* line 158, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 #outreach-content .row .col-xs-6 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: inherit;
 }
-/* line 164, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 #outreach-content .row #a {
   background-image: url("/images/outreach/5k_1.jpg");
 }
-/* line 167, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #outreach-content .row #b {
   background-image: url("/images/outreach/5k_2.jpg");
 }
-/* line 171, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Droid Sans", sans-serif;
   color: #630000;
@@ -8323,7 +8327,7 @@ border: none;
   text-decoration-color: black;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 #calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8331,7 +8335,7 @@ border: none;
   -ms-transform: translateX(-50%);
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 #lyme-content h1 {
   font-family: "Droid Sans", sans-serif;
   font-size: 1.6em;
@@ -8339,23 +8343,23 @@ border: none;
   color: #005169;
 }
 
-/* line 201, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Droid Sans", sans-serif;
   font-size: 1.6em;
   line-height: 170%;
   color: #005169;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
 
-/* line 209, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #sponsor-content section {
   border: 1px #630000 dashed;
 }
-/* line 211, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 #sponsor-content section img {
   margin-left: 50%;
   transform: translateX(-50%);
