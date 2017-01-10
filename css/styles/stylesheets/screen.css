@@ -8249,9 +8249,9 @@ border: none;
 }
 
 /* line 113, ../sass/screen.scss */
-.square {
-  width: 30vh;
-  height: 30vh;
+#index-square {
+  width: 20vh;
+  height: 20vh;
   border-radius: 2em;
   overflow: hidden;
   display: block;
