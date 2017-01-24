@@ -5,15 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1">
         <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
-        
-        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+
+        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/styles.css">
         <link rel = "icon" type="image/png" href = "/images/universal/favicon.png" />
         <title>Rock Ridge iGEM Virginia 2016 Home</title>
 
-        
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <script src="/js/custom/plasma.js" type="text/javascript"></script>
         <script src="/js/parallax/parallax.js" type="text/javascript"></script>
     </head>
 
@@ -68,26 +67,35 @@
             <h1>Our Team</h1>
         </section>
 
-        <section class = "container-fluid">    
-            <section id = "plasmid">
-                <div><img usemap = "#about_map" src = "/images/team/plas/intro.png"/></div>
+        <section class = "container-fluid" id="scene">
+            <section id="about-wrapper">
+                <section class="layer" data-depth="0.2" id="plasmid-container">
+                    <div><img usemap = "#about_map" src="/images/team/plas/intro.png" /></div>
+                </section>
+                <div id="faces" class="layer" data-depth="0.3" >
+                    <img src="/images/team/bank/viggy.png" alt="Vignesh Valaboju" data-name="Vignesh" />
+                    <img src="/images/team/bank/uday.png" alt="Uday Sidhu" data-name="Uday" />
+                    <img src="/images/team/bank/shrunal.png" alt="Shrunal Pothagoni" data-name="Shrunal" />
+                    <img src="/images/team/bank/varun.png"  alt="Varun Kulkarni" data-name="Varun" />
+                    <img src="/images/team/bank/kat.png" alt="Katarina Acosta" data-name="Katarina" />
+                    <img src="/images/team/bank/gwyn.png" alt="Gwyn Schloer" data-name="Gwyn" />
+                </div>
             </section>
+            
+            <map name="about_map">
+                
+                <area href="/index.html" shape="poly" coords="130,30, 121,36, 106,46, 89,59, 76,70, 60,87, 47,102, 32,123, 21,145, 14,163, 8,184, 3,255, 0,250, 2,275, 6,301, 14,329, 20,348, 28,365, 40,353, 31,333, 23,308, 16,276, 15,244, 17,209, 24,177, 36,145, 51,120, 70,95, 92,71, 116,51, 135,40, 130,30" alt="index" />
+                    <!--<area alt="" title="" href="/index.html" shape="poly" coords="281,482,276,500,288,500,307,497,321,492,331,489,345,483,359,479,367,475,382,470,392,462,400,456,410,448,416,443,425,432,437,422,443,413,446,410,453,402,460,395,463,387,468,378,472,371,477,362,478,358,477,356,474,355,470,354,467,353,463,351,458,360,450,370,447,377,444,382,438,388,434,396,427,405,420,412,413,418,405,425,394,434,381,444,367,452,361,455,353,458,345,465,332,471" />-->
 
-            <ul id = "faces-bank scene">
-                <li class="layer"><img src="/images/team/bank/viggy.png" alt="Vignesh Valaboju" data-name="Vignesh" /></li>
-                <li class="layer"><img src="/images/team/bank/uday.png" alt="Uday Sidhu" data-name="Uday" /></li>
-                <li class="layer"><img src="/images/team/bank/shrunal.png" alt="Shrunal Pothagoni" data-name="Shrunal" /></li>
-                <li class="layer"><img src="/images/team/bank/gwyn.png" alt="Gwyn Schloer" data-name="Gwyn" /></li>
-                <li class="layer"><img src="/images/team/bank/varun.png" alt="Varun Kulkarni" data-name="Varun" /></li>
-                <li class="layer"><img src="/images/team/bank/kat.png" alt="Katarina Acosta" data-name="Katarina" /></li>
-            </div>
+            </map>
         </section>
-        
+
         <script type="text/javascript">
             $(document).ready(function(){
-                alert("ready");
-                alert(document.getElementById("scene") == null);
+                var scene = document.getElementById("scene");
+                var parallax = new Parallax(scene);
             });
         </script>
+        <script src="/js/custom/plasma.js" type="text/javascript"></script>
     </body>
 </html>

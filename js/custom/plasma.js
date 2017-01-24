@@ -9,8 +9,8 @@ $(document).ready(function(){
     };
     
     var dataName = "";
-    $("#faces-bank img").click(function(){
+    $("#faces img").click(function(){
         dataName = $(this).data('name');
-        $("#plasmid img").attr("src", images[dataName]);
+        $("#plasmid-container img").attr("src", images[dataName]);
     });
 });
