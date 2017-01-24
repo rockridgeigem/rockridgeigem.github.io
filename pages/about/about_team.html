@@ -5,14 +5,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name = "viewport" content = "width = device-width, initial-scale = 1">
         <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
+        
+        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
         <link rel = "icon" type="image/png" href = "/images/universal/favicon.png" />
         <title>Rock Ridge iGEM Virginia 2016 Home</title>
 
+        
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="/js/custom/plasma.js" type="text/javascript"></script>
-
-        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+        <script src="/js/parallax/parallax.js" type="text/javascript"></script>
     </head>
 
     <body class = "background">
@@ -67,20 +69,25 @@
         </section>
 
         <section class = "container-fluid">    
-            <section>
-                <section id = "plasmid">
-                    <div><img usemap = "#about_map" src = "../../images/team/plas/intro.png"/></div>
-                </section>
+            <section id = "plasmid">
+                <div><img usemap = "#about_map" src = "/images/team/plas/intro.png"/></div>
             </section>
 
-            <div id = "faces-bank">
-                <img src="../../images/team/bank/viggy.png" alt="Vignesh Valaboju" data-name="Vignesh" />
-                <img src="../../images/team/bank/uday.png" alt="Uday Sidhu" data-name="Uday" />
-                <img src="../../images/team/bank/shrunal.png" alt="Shrunal Pothagoni" data-name="Shrunal" />
-                <img src="../../images/team/bank/gwyn.png" alt="Gwyn Schloer" data-name="Gwyn" />
-                <img src="../../images/team/bank/varun.png" alt="Varun Kulkarni" data-name="Varun" />
-                <img src="../../images/team/bank/kat.png" alt="Katarina Acosta" data-name="Katarina" />
+            <ul id = "faces-bank scene">
+                <li class="layer"><img src="/images/team/bank/viggy.png" alt="Vignesh Valaboju" data-name="Vignesh" /></li>
+                <li class="layer"><img src="/images/team/bank/uday.png" alt="Uday Sidhu" data-name="Uday" /></li>
+                <li class="layer"><img src="/images/team/bank/shrunal.png" alt="Shrunal Pothagoni" data-name="Shrunal" /></li>
+                <li class="layer"><img src="/images/team/bank/gwyn.png" alt="Gwyn Schloer" data-name="Gwyn" /></li>
+                <li class="layer"><img src="/images/team/bank/varun.png" alt="Varun Kulkarni" data-name="Varun" /></li>
+                <li class="layer"><img src="/images/team/bank/kat.png" alt="Katarina Acosta" data-name="Katarina" /></li>
             </div>
         </section>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                alert("ready");
+                alert(document.getElementById("scene") == null);
+            });
+        </script>
     </body>
 </html>

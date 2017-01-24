@@ -8095,7 +8095,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 10, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 html {
   font-size: 16px;
 }
@@ -8106,6 +8106,30 @@ body {
 }
 
 /* line 13, ../sass/screen.scss */
+.container-fluid {
+  clear: both;
+}
+
+/* line 14, ../sass/screen.scss */
+.jumbotron {
+  background-color: transparent;
+  border: 0;
+}
+/* line 17, ../sass/screen.scss */
+.jumbotron h1 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #005253;
+}
+@media screen and (max-width: 50em) {
+  /* line 17, ../sass/screen.scss */
+  .jumbotron h1 {
+    font-size: 3em;
+  }
+}
+
+/* line 29, ../sass/screen.scss */
 p {
   font-family: "PT Sans", sans-serif;
   line-height: 140%;
@@ -8113,21 +8137,21 @@ p {
   color: #006A6B;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .navbar-default {
   background-color: #fffffe;
   border-bottom: 3px solid #008888;
   padding: 0;
 }
-/* line 24, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .navbar-default .navbar-brand {
   padding: 0;
 }
-/* line 27, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .navbar-default img {
   height: inherit;
 }
-/* line 30, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 .navbar-default .navbar-brand:hover img {
   -webkit-transition: 0.1s ease;
   transition: 0.1s ease;
@@ -8135,16 +8159,16 @@ p {
   border-right: 3px solid #006A6B;
   color: #006A6B;
 }
-/* line 33, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .navbar-default .nav #one, .navbar-default .nav #two, .navbar-default .nav #three, .navbar-default .nav #four {
   color: #005253;
 }
-/* line 34, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 .navbar-default .nav a {
   font-family: "Mitr", sans-serif;
   height: inherit;
 }
-/* line 35, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .navbar-default .nav a:hover {
   -webkit-transition: 0.1s ease;
   transition: 0.1s ease;
@@ -8153,43 +8177,17 @@ p {
   color: #006A6B;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .navbar {
   margin-bottom: 0;
 }
 
-/* 
-
-.nav{
-
-a{
-height: 4rem;
-font-family: $mitr;
-}
-a:hover{
-@include nav-hover();
-}
-.dropdown-menu{
-font-family: $droid-sans;
-a{
-height: 2em;
-}
-a:hover{
-border: none;
-}
-}
-}*/
-/* line 63, ../sass/screen.scss */
-.container-fluid {
-  clear: both;
-}
-
-/* line 65, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .four-section {
   height: 50vh;
   position: relative;
 }
-/* line 68, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .four-section h1 {
   text-align: center;
   font-family: "Droid Sans", sans-serif;
@@ -8198,14 +8196,14 @@ border: none;
   margin-top: 25%;
 }
 @media screen and (max-width: 30em) {
-  /* line 68, ../sass/screen.scss */
+  /* line 62, ../sass/screen.scss */
   .four-section h1 {
     font-size: 3em;
     margin-top: 70%;
   }
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 #proj {
   background: #005253;
   background-image: url("/images/index/proj.png");
@@ -8214,7 +8212,7 @@ border: none;
   background-position: top;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 #team {
   background: #fffffe;
   background-image: url("/images/index/team.png");
@@ -8222,22 +8220,22 @@ border: none;
   background-repeat: no-repeat;
   background-position: top;
 }
-/* line 93, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 #team h1 {
   color: #005253;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 #human {
   background: #008888;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 #calendar {
   background: #006A6B;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 #cont {
   display: -webkit-box;
   display: -moz-box;
@@ -8248,7 +8246,7 @@ border: none;
   align-items: center;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 #index-square {
   width: 20vh;
   height: 20vh;
@@ -8262,64 +8260,51 @@ border: none;
   background-size: contain;
 }
 
-/* line 126, ../sass/screen.scss */
-.jumbotron {
-  background-color: transparent;
-  border: 0;
-}
-/* line 129, ../sass/screen.scss */
-.jumbotron h1 {
-  text-align: center;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-  color: #005253;
-}
-@media screen and (max-width: 50em) {
-  /* line 129, ../sass/screen.scss */
-  .jumbotron h1 {
-    font-size: 3em;
-  }
-}
-
-/* line 140, ../sass/screen.scss */
-#plasmid {
-  align-content: center;
-}
-/* line 143, ../sass/screen.scss */
-#plasmid div {
-  width: inherit;
+/* line 123, ../sass/screen.scss */
+#plasmid div img {
   margin-left: 50%;
   transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 #faces-bank img {
   width: 125px;
   height: 125px;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
+#sponsor-content section {
+  border: 1px #630000 dashed;
+}
+/* line 139, ../sass/screen.scss */
+#sponsor-content section img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  height: 100px;
+}
+
+/* line 147, ../sass/screen.scss */
 #outreach-content .row {
   height: 40vh;
 }
-/* line 160, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #outreach-content .row .col-xs-6 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   height: inherit;
 }
-/* line 166, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 #outreach-content .row #a {
   background-image: url("/images/outreach/5k_1.jpg");
 }
-/* line 169, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #outreach-content .row #b {
   background-image: url("/images/outreach/5k_2.jpg");
 }
-/* line 173, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #outreach-content h1 {
   font-family: "Droid Sans", sans-serif;
   color: #630000;
@@ -8327,15 +8312,7 @@ border: none;
   text-decoration-color: black;
 }
 
-/* line 192, ../sass/screen.scss */
-#calendar-content section iframe {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-}
-
-/* line 198, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #lyme-content h1 {
   font-family: "Droid Sans", sans-serif;
   font-size: 1.6em;
@@ -8343,27 +8320,22 @@ border: none;
   color: #005169;
 }
 
-/* line 203, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #phage-content h1 {
   font-family: "Droid Sans", sans-serif;
   font-size: 1.6em;
   line-height: 170%;
   color: #005169;
 }
-/* line 206, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #phage-content img {
   max-width: 100%;
 }
 
-/* line 211, ../sass/screen.scss */
-#sponsor-content section {
-  border: 1px #630000 dashed;
-}
-/* line 213, ../sass/screen.scss */
-#sponsor-content section img {
+/* line 196, ../sass/screen.scss */
+#calendar-content section iframe {
   margin-left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  height: 100px;
 }

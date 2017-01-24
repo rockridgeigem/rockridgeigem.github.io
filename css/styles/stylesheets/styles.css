@@ -1,4 +1,70 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Mitr|PT+Sans|Ubuntu");
+/* line 5, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -8024,4 +8090,123 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 8, ../sass/styles.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 9, ../sass/styles.scss */
+body {
+  background: #fffffe;
+}
+
+/* line 11, ../sass/styles.scss */
+.jumbotron {
+  background: transparent;
+  border: 0;
+}
+
+/* line 19, ../sass/styles.scss */
+.navbar-default {
+  background: #fffffe;
+  border-bottom: 3px solid #008888;
+  margin: 0;
+}
+/* line 23, ../sass/styles.scss */
+.navbar-default .navbar-brand {
+  padding: 0;
+}
+/* line 25, ../sass/styles.scss */
+.navbar-default .navbar-brand img {
+  height: inherit;
+}
+/* line 30, ../sass/styles.scss */
+.navbar-default .navbar-brand:hover img {
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+  border-left: 3px solid #006A6B;
+  border-right: 3px solid #006A6B;
+  color: #006A6B;
+}
+/* line 35, ../sass/styles.scss */
+.navbar-default .nav #one, .navbar-default .nav #two, .navbar-default .nav #three, .navbar-default .nav #four {
+  color: #005253;
+}
+/* line 36, ../sass/styles.scss */
+.navbar-default .nav a {
+  font: "Mitr", sans-serif;
+  height: inherit;
+}
+/* line 37, ../sass/styles.scss */
+.navbar-default .nav a:hover {
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+  border-left: 3px solid #006A6B;
+  border-right: 3px solid #006A6B;
+  color: #006A6B;
+}
+
+/* line 40, ../sass/styles.scss */
+.four-section {
+  height: 50vh;
+  font-family: "Droid Sans", sans-serif;
+  position: relative;
+}
+/* line 44, ../sass/styles.scss */
+.four-section h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+}
+
+/* line 53, ../sass/styles.scss */
+#proj {
+  color: #fffffe;
+  background: #005253 url("/images/index/proj.png") no-repeat top;
+  background-size: cover;
+}
+
+/* line 58, ../sass/styles.scss */
+#team {
+  color: #005253;
+  background: #fffffe url("/images/index/team.png") no-repeat top;
+  background-size: cover;
+}
+
+/* line 63, ../sass/styles.scss */
+#human {
+  background: #008888;
+}
+
+/* line 66, ../sass/styles.scss */
+#calendar {
+  background: #006A6B;
+}
+
+/* line 70, ../sass/styles.scss */
+#foursquare {
+  position: relative;
+}
+/* line 72, ../sass/styles.scss */
+#foursquare #index-square {
+  width: 150px;
+  height: 150px;
+  border-radius: 2em;
+  overflow: hidden;
+  display: block;
+  background: url("/images/index/hero.png") no-repeat center #ccc;
+  background-size: contain;
+  position: absolute;
+  top: -webkit-calc(50% - 75px);
+  top: -moz-calc(50% - 75px);
+  top: -ms-calc(50% - 75px);
+  top: calc(50% - 75px);
+  left: -webkit-calc(50% - 75px);
+  left: -moz-calc(50% - 75px);
+  left: -ms-calc(50% - 75px);
+  left: calc(50% - 75px);
 }

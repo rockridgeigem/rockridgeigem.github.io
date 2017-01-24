@@ -1,3 +1,91 @@
+@import "compass/reset";
 @import "bootstrap-compass";
 @import "bootstrap-variables";
 @import "bootstrap";
+@import "colors";
+@import "fonts";
+@import "mixins";
+html{font-size: 16px;}
+body{background: $white;}
+
+.jumbotron{
+    background: transparent; 
+    border: 0;
+    h1{
+        
+    }
+}
+
+.navbar-default{
+    background: $white;
+    border-bottom: 3px solid $blue-3;
+    margin: 0;
+    .navbar-brand{
+        padding: 0;
+        img{
+            height: inherit;
+        }
+    }
+    .navbar-brand:hover{
+        img{
+            @include nav-hover();
+        }
+    }
+    .nav{
+        #one, #two, #three, #four{color: $igem-blue;}
+        a{font: $mitr; height: inherit;}
+        a:hover{@include nav-hover();}
+    }
+}
+.four-section{
+    height: 50vh;
+    font-family: $droid-sans;
+    position: relative;
+    h1{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4em;
+    }
+}
+#proj{
+    color: $white;
+    background: $igem-blue url("/images/index/proj.png") no-repeat top;
+    background-size: cover;
+}
+#team{
+    color: $igem-blue;
+    background: $white url("/images/index/team.png") no-repeat top;
+    background-size: cover;
+}
+#human{
+    background: $blue-3;
+}
+#calendar{
+    background: $blue-2;
+}
+
+#foursquare{
+    position: relative;
+    #index-square{
+        width: 150px;
+        height: 150px;
+        border-radius: 2em;
+        overflow: hidden;
+        display: block;
+        background: url("/images/index/hero.png") no-repeat center #ccc;
+        background-size: contain;   
+        position: absolute;
+        top: -webkit-calc(50% - 75px);
+        top:    -moz-calc(50% - 75px);
+        top:     -ms-calc(50% - 75px);
+        top:         calc(50% - 75px);
+        left: -webkit-calc(50% - 75px);
+        left:    -moz-calc(50% - 75px);
+        left:     -ms-calc(50% - 75px);
+        left:         calc(50% - 75px);
+    }
+    //display: none;
+}

@@ -7,9 +7,25 @@
 @import "mixins";
 @import "colors";
 @import "fonts";
-html{font-size: 16px;}
 
+html{font-size: 16px;}
 body{background-color: $white;}
+.container-fluid{clear: both;}
+.jumbotron{
+    background-color: transparent;
+    border: 0;
+    h1{
+        text-align: center;
+        font-family: $jumbotron-font; 
+        font-weight: bold;
+        color: $igem-blue;
+        @media screen and (max-width: 50em){
+            font-size: 3em;
+        }
+    }
+}
+
+
 p{
     font-family: $body-font;
     line-height: 140%;
@@ -38,29 +54,7 @@ p{
 .navbar{
     margin-bottom: 0;
 }
-/* 
 
-.nav{
-
-a{
-height: 4rem;
-font-family: $mitr;
-}
-a:hover{
-@include nav-hover();
-}
-.dropdown-menu{
-font-family: $droid-sans;
-a{
-height: 2em;
-}
-a:hover{
-border: none;
-}
-}
-}*/
-
-.container-fluid{clear: both;}
 
 .four-section{
     height: 50vh;
@@ -123,29 +117,14 @@ $squarewidth: 30vh;
     background-size: contain;
 }
 
-.jumbotron{
-    background-color: transparent;
-    border: 0;
-    h1{
-        text-align: center;
-        font-family: $jumbotron-font; 
-        font-weight: bold;
-        color: $igem-blue;
-        @media screen and (max-width: 50em){
-            font-size: 3em;
+#plasmid{
+    div{
+        //background: blue;
+        img{
+            margin-left: 50%;
+            transform: translateX(-50%);
         }
     }
-}
-
-#plasmid{
-    //background-color: beige;
-    align-content: center;
-    div{
-        //background-color: aliceblue;
-        width: inherit;
-        @include centerH();
-    }
-    //@include centerH();
 }
 #faces-bank{
     img{
@@ -153,6 +132,17 @@ $squarewidth: 30vh;
         height: 125px;
     }
 }
+
+#sponsor-content{
+    section{
+        border: 1px $dark-red dashed;
+        img{
+            @include centerH();
+            height: 100px;
+        }
+    }
+}
+
 #outreach-content{
     .row{
         height: 40vh;
@@ -187,13 +177,7 @@ $squarewidth: 30vh;
 
 
 
-#calendar-content{
-    section{
-        iframe{
-            @include centerH();
-        }
-    }
-}
+
 #lyme-content{
     h1{
         @include page-header();
@@ -207,13 +191,10 @@ $squarewidth: 30vh;
         max-width: 100%;
     }
 }
-#sponsor-content{
+#calendar-content{
     section{
-        border: 1px $dark-red dashed;
-        img{
+        iframe{
             @include centerH();
-            height: 100px;
         }
     }
 }
-

@@ -5,8 +5,6 @@
 @mixin nav-hover(){
     -webkit-transition: 0.1s ease;
     transition: 0.1s ease;
-    //border: 3px solid $blue-2;
-    //border-top: 3px solid $blue-2;
     border-left: 3px solid $blue-2;
     border-right: 3px solid $blue-2;
     color: $blue-2;
