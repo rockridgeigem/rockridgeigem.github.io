@@ -8173,14 +8173,14 @@ body {
 /* line 56, ../sass/styles.scss */
 #proj {
   color: #fffffe;
-  background: #005253 url("/images/index/proj.png") no-repeat top;
+  background: #005253 url("/images/index/Vector_Proj.svg") no-repeat top;
   background-size: cover;
 }
 
 /* line 61, ../sass/styles.scss */
 #team {
   color: #005253;
-  background: #fffffe url("/images/index/team.png") no-repeat top;
+  background: #fffffe url("/images/index/index_team.svg") no-repeat top;
   background-size: cover;
 }
 

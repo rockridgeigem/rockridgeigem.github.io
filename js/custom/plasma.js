@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    var dataName = "";
     var images = {
         "Varun": "../../images/team/plas/varun.png",
         "Gwyn": "../../images/team/plas/gwyn.png",
@@ -8,9 +9,16 @@ $(document).ready(function(){
         "Vignesh": "../../images/team/plas/viggy.png"
     };
     
-    var dataName = "";
+    var hobbies = {
+        "Varun"  : "coding"
+    };
+    
     $("#faces img").click(function(){
         dataName = $(this).data('name');
         $("#plasmid-container img").attr("src", images[dataName]);
+    });
+    
+    $("#area-hobby").click(function(){
+        alert(hobbies[dataName]);
     });
 });
