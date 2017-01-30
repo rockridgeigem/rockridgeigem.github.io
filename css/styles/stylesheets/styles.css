@@ -8232,13 +8232,14 @@ body {
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
+  width: 536px;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 #faces {
   margin-top: 536px;
 }
-/* line 105, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 #faces img {
   width: 150px;
 }

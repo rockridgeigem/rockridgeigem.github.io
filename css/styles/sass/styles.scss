@@ -97,6 +97,7 @@ body{background: $white;}
         @include centerH();
         img{
             @include centerH();
+            width: 536px;
         }
     }
 }
