@@ -8186,19 +8186,21 @@ body {
 
 /* line 66, ../sass/styles.scss */
 #human {
-  background: #008888;
+  background-image: url("/images/index/outreach.svg") no-repeat top;
+  background-size: cover;
+  color: #005253;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #calendar {
   background: #006A6B;
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 #foursquare {
   position: relative;
 }
-/* line 75, ../sass/styles.scss */
+/* line 77, ../sass/styles.scss */
 #foursquare #index-square {
   width: 150px;
   height: 150px;
@@ -8218,7 +8220,7 @@ body {
   left: calc(50% - 75px);
 }
 
-/* line 95, ../sass/styles.scss */
+/* line 97, ../sass/styles.scss */
 #plasmid-container div {
   width: inherit;
   margin-left: 50%;
@@ -8226,7 +8228,7 @@ body {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
 }
-/* line 98, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 #plasmid-container div img {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8235,11 +8237,30 @@ body {
   width: 536px;
 }
 
-/* line 105, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
+#sponsor-content {
+  border: none;
+}
+/* line 108, ../sass/styles.scss */
+#sponsor-content img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+
+/* line 112, ../sass/styles.scss */
 #faces {
   margin-top: 536px;
 }
-/* line 107, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 #faces img {
   width: 150px;
+}
+
+/* line 118, ../sass/styles.scss */
+area {
+  background: #fff;
+  opacity: 0;
+  position: absolute;
 }

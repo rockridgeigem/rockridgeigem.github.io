@@ -14,9 +14,9 @@
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="/js/parallax/parallax.js"></script>
 
-
-        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/styles.css">
     </head>
 
     <body class = "background">
@@ -71,13 +71,19 @@
         </section>
 
         <section class = "container-fluid" id="sponsor-content">
-            <section class="col-sm-6"><img src="/images/team/sponsor-logos/claude.png" alt="Claude Moore Charitable Foundation" /></section>
-            <section class="col-sm-6"><img src="/images/team/sponsor-logos/geneious.png" alt="Geneious"/></section>
+            <section class="col-sm-6"><img class="layer" src="/images/team/sponsor-logos/claude.png" alt="Claude Moore Charitable Foundation" data-depth="0.3" /></section>
+            <section class="col-sm-6"><img class="layer" src="/images/team/sponsor-logos/geneious.png" alt="Geneious" data-depth="0.4"/></section>
             <section class="col-sm-6"><img src="/images/team/sponsor-logos/genescript.png" alt="Genescript"/></section>
             <section class="col-sm-6"><img src="/images/team/sponsor-logos/idt.png" alt="Integrated DNA Technologies (IDT)" /></section>
             <section class="col-sm-6"><img src="/images/team/sponsor-logos/lef.png" alt="Loudoun Education Foundation" /></section>
             <section class="col-sm-6"><img src="/images/team/sponsor-logos/neb.png" alt="New England Biolabs" /></section>
             <section class="col-sm-12"><img src="/images/team/sponsor-logos/mathworks.png" alt="Mathworks" /></section>
         </section>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var scene = document.getElementById("#sponsor-content");
+                var parallax = new Parallax(scene);
+            });
+        </script>
     </body>
 </html>

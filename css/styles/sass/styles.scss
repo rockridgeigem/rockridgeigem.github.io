@@ -64,7 +64,9 @@ body{background: $white;}
     background-size: cover;
 }
 #human{
-    background: $blue-3;
+    background-image: url("/images/index/outreach.svg") no-repeat top;
+    background-size: cover;
+    color: $igem-blue;
 }
 #calendar{
     background: $blue-2;
@@ -99,6 +101,12 @@ body{background: $white;}
             @include centerH();
             width: 536px;
         }
+    }
+}
+#sponsor-content{
+    border: none;
+    img{
+        @include centerH();
     }
 }
 #faces{
