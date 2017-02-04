@@ -64,9 +64,9 @@ body{background: $white;}
     background-size: cover;
 }
 #human{
-    background-image: url("/images/index/outreach.svg") no-repeat top;
-    background-size: cover;
-    color: $igem-blue;
+    color: $white;
+    background: $igem-blue url("/images/index/outreach.svg") no-repeat top;
+    background-size: contain;
 }
 #calendar{
     background: $blue-2;

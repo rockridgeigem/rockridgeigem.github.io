@@ -8186,9 +8186,9 @@ body {
 
 /* line 66, ../sass/styles.scss */
 #human {
-  background-image: url("/images/index/outreach.svg") no-repeat top;
-  background-size: cover;
-  color: #005253;
+  color: #fffffe;
+  background: #005253 url("/images/index/outreach.svg") no-repeat top;
+  background-size: contain;
 }
 
 /* line 71, ../sass/styles.scss */
