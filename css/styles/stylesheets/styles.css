@@ -8191,16 +8191,38 @@ body {
   background-size: contain;
 }
 
-/* line 71, ../sass/styles.scss */
-#calendar {
-  background: #006A6B;
+/* line 72, ../sass/styles.scss */
+#lastyear {
+  color: #fffffe;
+  background: #006A6B url("/images/index/oldLogo.svg") no-repeat top;
+  background-size: contain;
 }
 
-/* line 75, ../sass/styles.scss */
+/*#super{height: 100vh; overflow: hidden;}
+#proj-tri{
+    height: 50%;
+    background: $igem-blue url("/images/index/Vector_Proj.svg") no-repeat top;
+    background-size: contain;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#team-tri{
+    height: 50%;
+    transform: translateY(-50%);
+    background: $blue-2;
+    clip-path: polygon(0% 0%, 50% 50%, 50% 100%, 0% 100%);
+    border: 4px black;
+}
+#outreach-tri{
+    height: 50%;
+    transform: translateY(-150%);
+    background-color: red;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
+}*/
+/* line 97, ../sass/styles.scss */
 #foursquare {
   position: relative;
 }
-/* line 77, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 #foursquare #index-square {
   width: 150px;
   height: 150px;
@@ -8220,7 +8242,7 @@ body {
   left: calc(50% - 75px);
 }
 
-/* line 97, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 #plasmid-container div {
   width: inherit;
   margin-left: 50%;
@@ -8228,7 +8250,7 @@ body {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
 }
-/* line 100, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 #plasmid-container div img {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8237,11 +8259,11 @@ body {
   width: 536px;
 }
 
-/* line 106, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 #sponsor-content {
   border: none;
 }
-/* line 108, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 #sponsor-content img {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8249,16 +8271,16 @@ body {
   -ms-transform: translateX(-50%);
 }
 
-/* line 112, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 #faces {
   margin-top: 536px;
 }
-/* line 114, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 #faces img {
   width: 150px;
 }
 
-/* line 118, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 area {
   background: #fff;
   opacity: 0;

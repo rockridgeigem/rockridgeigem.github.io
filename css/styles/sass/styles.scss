@@ -67,11 +67,33 @@ body{background: $white;}
     color: $white;
     background: $igem-blue url("/images/index/outreach.svg") no-repeat top;
     background-size: contain;
+    
 }
-#calendar{
+#lastyear{
+    color: $white;
+    background: $blue-2 url("/images/index/oldLogo.svg") no-repeat top;
+    background-size: contain;
+}
+/*#super{height: 100vh; overflow: hidden;}
+#proj-tri{
+    height: 50%;
+    background: $igem-blue url("/images/index/Vector_Proj.svg") no-repeat top;
+    background-size: contain;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#team-tri{
+    height: 50%;
+    transform: translateY(-50%);
     background: $blue-2;
+    clip-path: polygon(0% 0%, 50% 50%, 50% 100%, 0% 100%);
+    border: 4px black;
 }
-
+#outreach-tri{
+    height: 50%;
+    transform: translateY(-150%);
+    background-color: red;
+    clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
+}*/
 #foursquare{
     position: relative;
     #index-square{
