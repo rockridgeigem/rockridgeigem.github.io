@@ -21,6 +21,13 @@
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
 }
+@mixin centerV(){
+    //position: absolute;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
 @mixin rotate($deg){
     transform: rotate($deg);
     -webkit-transform: rotate($deg);

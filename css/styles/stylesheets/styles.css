@@ -8249,28 +8249,53 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
   left: calc(50% - 75px);
 }
 
-/* line 127, ../sass/styles.scss */
-#plasmid-container div {
+/* line 126, ../sass/styles.scss */
+#plasmid-container {
+  width: 100%;
+  height: 500px;
+}
+/* line 129, ../sass/styles.scss */
+#plasmid-container #imgwrap {
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
   width: inherit;
+  height: inherit;
+}
+/* line 134, ../sass/styles.scss */
+#plasmid-container #imgwrap img {
+  display: block;
   margin-left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
 }
-/* line 130, ../sass/styles.scss */
-#plasmid-container div img {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  width: 536px;
+/* line 138, ../sass/styles.scss */
+#plasmid-container #imgwrap #plasmid-flash {
+  background-color: #005253;
+  color: #fffffe;
+  max-height: 100px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  margin-top: -webkit-calc(50% - 50px);
+  margin-top: -moz-calc(50% - 50px);
+  margin-top: -ms-calc(50% - 50px);
+  margin-top: calc(50% - 50px);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-/* line 136, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 #sponsor-content {
   border: none;
 }
-/* line 138, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 #sponsor-content img {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8278,16 +8303,16 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
   -ms-transform: translateX(-50%);
 }
 
-/* line 142, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 #faces {
   margin-top: 536px;
 }
-/* line 144, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 #faces img {
   width: 150px;
 }
 
-/* line 148, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 area {
   background: #fff;
   opacity: 0;

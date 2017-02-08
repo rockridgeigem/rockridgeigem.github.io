@@ -74,7 +74,7 @@ body{background: $white;}
     background: $igem-blue url("/images/index/outreach.svg") no-repeat center;
     background-size: contain;
     h1{
-        
+
     }
 }
 #lastyear{
@@ -124,19 +124,45 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
     }
 }
 #plasmid-container{
-    div{
-        width: inherit;
+    width: 100%;
+    height: 500px;
+    #imgwrap{
+        position: relative;
         @include centerH();
+        width: inherit;
+        height: inherit;
         img{
+            display: block;
             @include centerH();
-            width: 536px;
+        }
+        #plasmid-flash{
+            background-color: $igem-blue;
+            color: $white;
+            max-height: 100px;
+            overflow: hidden;
+            display: block;
+            position: absolute;
+            margin-top: -webkit-calc(50% - 50px);
+            margin-top:    -moz-calc(50% - 50px);
+            margin-top:     -ms-calc(50% - 50px);
+            margin-top:         calc(50% - 50px);
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
         }
     }
+
 }
 #sponsor-content{
     border: none;
     img{
-        @include centerH();
+        //@include centerH();//
+        margin-left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
     }
 }
 #faces{

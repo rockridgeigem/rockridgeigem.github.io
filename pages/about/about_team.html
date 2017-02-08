@@ -77,8 +77,15 @@
         <section class = "container-fluid" id="scene">
             <section id="about-wrapper">
                 <section class="layer" data-depth="0.2" id="plasmid-container">
-                    <div><img usemap = "#about_map" src="/images/team/plas/introPlas.svg" /></div>
+                    <div id="imgwrap">
+                        <div>
+                            <img usemap = "#about_map" src="/images/team/plas/introPlas.svg"></img>
+                        </div>
+                        <div class="layer" data-depth="0.4" id="plasmid-flash">DUMMMYYYY</div>
+                    </div>
+
                 </section>
+
                 <div id="faces" class="layer" data-depth="0.3" >
                     <img src="/images/team/bank/viggy.png" alt="Vignesh Valaboju" data-name="Vignesh" />
                     <img src="/images/team/bank/uday.png" alt="Uday Sidhu" data-name="Uday" />
@@ -91,8 +98,10 @@
 
 
             <map name="about_map">
-                <area alt="major" shape="rect" coords="220, 1, 280, 11" href="#">
-                <area alt="minor" shape="poly" coords="128, 25, 12, 154, 124, 152, 127, 40" href="#">
+                <area id="area-hobbies" coords="129,30,112,41,94,55,74,72,59,88,44,104,33,118,23,140,14,157,5,191,0,224,0,260,3,295,8,318,13,338,23,355,27,366,40,354,30,337,21,308,18,284,18,259,16,233,19,213,30,166,43,138,84,83,106,63,126,47,136,41" shape="poly">
+                <area id="area-ori" shape="rect" coords="219, 2, 280, 13" />
+                <area id="area-position" coords="376,30,362,41,375,49,385,53,398,63,416,80,430,95,444,115,453,130,470,127,459,109,450,93,425,67,411,53,390,38" shape="poly">
+                <area id="area-why" coords="282,481,322,469,358,452,390,435,415,411,427,398,443,373,459,352,478,357,471,373,455,395,440,416,424,432,402,452,378,468,351,482,321,493,279,499" shape="poly">
             </map>
 
         </section>
