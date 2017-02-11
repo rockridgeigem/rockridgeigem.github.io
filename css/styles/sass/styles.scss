@@ -131,26 +131,30 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
         @include centerH();
         width: inherit;
         height: inherit;
+        border: 1px solid red;
         img{
             display: block;
             @include centerH();
         }
         #plasmid-flash{
-            background-color: $igem-blue;
+            background-color: rgba(0, 82, 83, 0.6);
             color: $white;
             max-height: 100px;
-            overflow: hidden;
+            width: 35%;
+            overflow: scroll;
             display: block;
             position: absolute;
-            margin-top: -webkit-calc(50% - 50px);
-            margin-top:    -moz-calc(50% - 50px);
-            margin-top:     -ms-calc(50% - 50px);
-            margin-top:         calc(50% - 50px);
             left: 0;
             right: 0;
             margin-left: auto;
             margin-right: auto;
             text-align: center;
+            margin-top: 250px;
+            padding: 1em;
+            border-radius: 1em;
+            @media screen and (max-width: 50em){
+                width: 100%;
+            }
         }
     }
 
@@ -170,9 +174,4 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
     img{
         width: 150px;
     }
-}
-area{
-    background: #fff;
-    opacity: 0;
-    position: absolute;
 }
