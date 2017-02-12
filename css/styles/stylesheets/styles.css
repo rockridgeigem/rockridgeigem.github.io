@@ -8273,13 +8273,7 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
 }
-@media screen and (max-width: 50em) {
-  /* line 135, ../sass/styles.scss */
-  #plasmid-container #imgwrap img {
-    width: 100%;
-  }
-}
-/* line 147, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
 #plasmid-container #imgwrap #plasmid-flash {
   background-color: rgba(0, 82, 83, 0.6);
   color: #fffffe;
@@ -8298,17 +8292,17 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
   border-radius: 1em;
 }
 @media screen and (max-width: 50em) {
-  /* line 147, ../sass/styles.scss */
+  /* line 142, ../sass/styles.scss */
   #plasmid-container #imgwrap #plasmid-flash {
     width: 100%;
   }
 }
 
-/* line 170, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 #sponsor-content {
   border: none;
 }
-/* line 172, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 #sponsor-content img {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8316,11 +8310,11 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
   -ms-transform: translateX(-50%);
 }
 
-/* line 180, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 #faces {
   margin-top: 536px;
 }
-/* line 182, ../sass/styles.scss */
+/* line 177, ../sass/styles.scss */
 #faces img {
   width: 150px;
 }
