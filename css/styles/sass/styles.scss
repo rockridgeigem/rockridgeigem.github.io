@@ -135,6 +135,9 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
         img{
             display: block;
             @include centerH();
+            @media screen and (max-width: 50em){
+                width: 100%;
+            }
         }
         @media screen and (max-width: 50em){
             #about_map{
