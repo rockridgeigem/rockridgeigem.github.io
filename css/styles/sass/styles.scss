@@ -1,13 +1,12 @@
 @import "compass/reset";
 @import "bootstrap-compass";
-@import "bootstrap-variables";
 @import "bootstrap";
 @import "colors";
 @import "fonts";
 @import "mixins";
 html{font-size: 16px;}
 body{background: $white;}
-
+button{display: none;}
 .jumbotron{
     background: transparent; 
     border: 0;
@@ -125,20 +124,23 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
 }
 #plasmid-container{
     width: 100%;
-    height: 500px;
+    max-height: 500px;
+    @media screen and (max-width: 50em){
+        height: inherit;
+    }
     #imgwrap{
         position: relative;
         @include centerH();
         width: inherit;
         height: inherit;
-        border: 1px solid red;
+        //border: 1px solid red;
         img{
             display: block;
             @include centerH();
             @media screen and (max-width: 50em){
+                width: 100%;
             }
         }
-        
         #plasmid-flash{
             background-color: rgba(0, 82, 83, 0.6);
             color: $white;
@@ -157,8 +159,10 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
             border-radius: 1em;
             @media screen and (max-width: 50em){
                 width: 100%;
+                margin-top: 50%;
             }
         }
+
     }
 
 }
@@ -176,5 +180,7 @@ clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 50% 50%);
     margin-top: 536px;
     img{
         width: 150px;
+        @include centerH();
     }
+
 }

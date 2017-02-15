@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/* Welcome to Compass.
-* In this file you should write your main styles. (or centralize your imports)
-* Import this file using the following HTML or equivalent:
-* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans|Mitr|PT+Sans|Ubuntu");
 /* line 5, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
@@ -437,8 +433,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1480033764);
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1480033764#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1480033764) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1480033764) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1480033764#glyphicons_halflingsregular) format("svg");
 }
 /* line 25, ../../../../../../../Applications/compass.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8095,247 +8091,131 @@ button.close {
     display: none !important;
   }
 }
-/* line 11, ../sass/screen.scss */
-html {
-  font-size: 16px;
+/* line 8, ../sass/b4-styles.scss */
+nav {
+  margin: 0;
+  background: #fffffe;
+  font-family: "Mitr", sans-serif;
 }
-
-/* line 12, ../sass/screen.scss */
-body {
-  background-color: #fffffe;
+/* line 12, ../sass/b4-styles.scss */
+nav .navbar-brand {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
 }
-
-/* line 13, ../sass/screen.scss */
-.container-fluid {
-  clear: both;
+/* line 16, ../sass/b4-styles.scss */
+nav .navbar-brand img {
+  height: inherit;
 }
-
-/* line 14, ../sass/screen.scss */
-.jumbotron {
-  background-color: transparent;
-  border: 0;
-}
-/* line 17, ../sass/screen.scss */
-.jumbotron h1 {
-  text-align: center;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
+/* line 20, ../sass/b4-styles.scss */
+nav li {
   color: #005253;
+  margin-left: 10px;
+}
+/* line 24, ../sass/b4-styles.scss */
+nav a:hover {
+  -webkit-transition: 0.1s ease;
+  transition: 0.1s ease;
+  border-left: 3px solid #006A6B;
+  border-right: 3px solid #006A6B;
+  color: #006A6B;
+}
+
+/* line 29, ../sass/b4-styles.scss */
+.jumbotron {
+  font-family: "Ubuntu", sans-serif;
+  background: none;
+}
+/* line 32, ../sass/b4-styles.scss */
+.jumbotron h1 {
+  color: #005253;
+  text-align: center;
+}
+
+/* line 38, ../sass/b4-styles.scss */
+#plasmid-container {
+  width: 100%;
+  max-height: 500px;
+}
+/* line 41, ../sass/b4-styles.scss */
+#plasmid-container #cont-big-img {
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: inherit;
+  height: inherit;
+}
+/* line 47, ../sass/b4-styles.scss */
+#plasmid-container #cont-big-img #theActualImage {
+  width: inherit;
+}
+/* line 49, ../sass/b4-styles.scss */
+#plasmid-container #cont-big-img #theActualImage #deltaImg {
+  height: inherit;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
 }
 @media screen and (max-width: 50em) {
-  /* line 17, ../sass/screen.scss */
-  .jumbotron h1 {
-    font-size: 3em;
+  /* line 49, ../sass/b4-styles.scss */
+  #plasmid-container #cont-big-img #theActualImage #deltaImg {
+    width: inherit;
   }
 }
-
-/* line 29, ../sass/screen.scss */
-p {
-  font-family: "PT Sans", sans-serif;
-  line-height: 140%;
-  font-size: 1.2em;
-  color: #006A6B;
-}
-
-/* line 36, ../sass/screen.scss */
-.navbar-default {
-  background-color: #fffffe;
-  border-bottom: 3px solid #008888;
-  padding: 0;
-}
-/* line 40, ../sass/screen.scss */
-.navbar-default .navbar-brand {
-  padding: 0;
-}
-/* line 43, ../sass/screen.scss */
-.navbar-default img {
-  height: inherit;
-}
-/* line 46, ../sass/screen.scss */
-.navbar-default .navbar-brand:hover img {
-  -webkit-transition: 0.1s ease;
-  transition: 0.1s ease;
-  border-left: 3px solid #006A6B;
-  border-right: 3px solid #006A6B;
-  color: #006A6B;
-}
-/* line 49, ../sass/screen.scss */
-.navbar-default .nav #one, .navbar-default .nav #two, .navbar-default .nav #three, .navbar-default .nav #four {
-  color: #005253;
-}
-/* line 50, ../sass/screen.scss */
-.navbar-default .nav a {
-  font-family: "Mitr", sans-serif;
-  height: inherit;
-}
-/* line 51, ../sass/screen.scss */
-.navbar-default .nav a:hover {
-  -webkit-transition: 0.1s ease;
-  transition: 0.1s ease;
-  border-left: 3px solid #006A6B;
-  border-right: 3px solid #006A6B;
-  color: #006A6B;
-}
-
-/* line 54, ../sass/screen.scss */
-.navbar {
-  margin-bottom: 0;
-}
-
-/* line 59, ../sass/screen.scss */
-.four-section {
-  height: 50vh;
-  position: relative;
-}
-/* line 62, ../sass/screen.scss */
-.four-section h1 {
-  text-align: center;
-  font-family: "Droid Sans", sans-serif;
+/* line 56, ../sass/b4-styles.scss */
+#plasmid-container #cont-big-img #theActualImage #plasmid-flash {
+  background-color: rgba(0, 82, 83, 0.6);
   color: #fffffe;
-  font-size: 4rem;
-  margin-top: 25%;
+  width: 50%;
+  overflow: scroll;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: auto;
+  border-radius: 1em;
+  padding: 10px;
 }
-@media screen and (max-width: 30em) {
-  /* line 62, ../sass/screen.scss */
-  .four-section h1 {
-    font-size: 3em;
-    margin-top: 70%;
+
+/* line 76, ../sass/b4-styles.scss */
+#button-bank button {
+  color: #006A6B;
+  font-family: "PT Sans", sans-serif;
+}
+/* line 80, ../sass/b4-styles.scss */
+#button-bank button:hover {
+  background-color: #005253;
+  color: #fffffe;
+  border-color: #005253;
+}
+
+/* line 86, ../sass/b4-styles.scss */
+#faces {
+  position: absolute;
+  align-content: center;
+}
+/* line 89, ../sass/b4-styles.scss */
+#faces img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  width: 150px;
+}
+@media screen and (max-width: 50em) {
+  /* line 89, ../sass/b4-styles.scss */
+  #faces img {
+    width: 100px;
   }
 }
 
-/* line 74, ../sass/screen.scss */
-#proj {
-  background: #005253;
-  background-image: url("/images/index/proj.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-/* line 81, ../sass/screen.scss */
-#team {
-  background: #fffffe;
-  background-image: url("/images/index/team.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-/* line 87, ../sass/screen.scss */
-#team h1 {
-  color: #005253;
-}
-
-/* line 91, ../sass/screen.scss */
-#human {
-  background: #008888;
-}
-
-/* line 94, ../sass/screen.scss */
-#calendar {
-  background: #006A6B;
-}
-
-/* line 98, ../sass/screen.scss */
-#cont {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 107, ../sass/screen.scss */
-#index-square {
-  width: 20vh;
-  height: 20vh;
-  border-radius: 2em;
-  overflow: hidden;
-  display: block;
-  background: #005169;
-  position: absolute;
-  margin-top: -50vh;
-  background: url("/images/index/hero.png") no-repeat center #cccccc;
-  background-size: contain;
-}
-
-/* line 123, ../sass/screen.scss */
-#plasmid div img {
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-/* line 130, ../sass/screen.scss */
-#faces-bank img {
-  width: 125px;
-  height: 125px;
-}
-
-/* line 137, ../sass/screen.scss */
-#sponsor-content section {
-  border: 1px #630000 dashed;
-}
-/* line 139, ../sass/screen.scss */
-#sponsor-content section img {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  height: 100px;
-}
-
-/* line 147, ../sass/screen.scss */
-#outreach-content .row {
-  height: 40vh;
-}
-/* line 150, ../sass/screen.scss */
-#outreach-content .row .col-xs-6 {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: inherit;
-}
-/* line 156, ../sass/screen.scss */
-#outreach-content .row #a {
-  background-image: url("/images/outreach/5k_1.jpg");
-}
-/* line 159, ../sass/screen.scss */
-#outreach-content .row #b {
-  background-image: url("/images/outreach/5k_2.jpg");
-}
-/* line 163, ../sass/screen.scss */
-#outreach-content h1 {
-  font-family: "Droid Sans", sans-serif;
-  color: #630000;
-  text-decoration: underline;
-  text-decoration-color: black;
-}
-
-/* line 182, ../sass/screen.scss */
-#lyme-content h1 {
-  font-family: "Droid Sans", sans-serif;
-  font-size: 1.6em;
-  line-height: 170%;
-  color: #005169;
-}
-
-/* line 187, ../sass/screen.scss */
-#phage-content h1 {
-  font-family: "Droid Sans", sans-serif;
-  font-size: 1.6em;
-  line-height: 170%;
-  color: #005169;
-}
-/* line 190, ../sass/screen.scss */
-#phage-content img {
-  max-width: 100%;
-}
-
-/* line 196, ../sass/screen.scss */
-#calendar-content section iframe {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
+/* line 98, ../sass/b4-styles.scss */
+#right {
+  float: right;
 }
