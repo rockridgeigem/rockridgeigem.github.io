@@ -8094,30 +8094,31 @@ button.close {
 /* line 8, ../sass/b4-styles.scss */
 nav {
   margin: 0;
+  background: #fffffe;
   font-family: "Mitr", sans-serif;
 }
-/* line 11, ../sass/b4-styles.scss */
+/* line 12, ../sass/b4-styles.scss */
 nav .navbar-brand {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  background-color: #cccccc;
 }
-/* line 15, ../sass/b4-styles.scss */
+/* line 16, ../sass/b4-styles.scss */
 nav .navbar-brand img {
   height: inherit;
 }
-/* line 19, ../sass/b4-styles.scss */
+/* line 20, ../sass/b4-styles.scss */
 nav li {
   color: #005253;
   margin-left: 10px;
 }
-/* line 23, ../sass/b4-styles.scss */
+/* line 24, ../sass/b4-styles.scss */
 nav a:hover {
   -webkit-transition: 0.1s ease;
   transition: 0.1s ease;
   border-left: 3px solid #006A6B;
   border-right: 3px solid #006A6B;
   color: #006A6B;
-  background-color: none;
 }
 
 /* line 29, ../sass/b4-styles.scss */
