@@ -8219,3 +8219,121 @@ nav a:hover {
 #right {
   float: right;
 }
+
+/* line 102, ../sass/b4-styles.scss */
+#foursquare {
+  position: relative;
+}
+/* line 104, ../sass/b4-styles.scss */
+#foursquare #index-square {
+  width: 150px;
+  height: 150px;
+  border-radius: 2em;
+  overflow: hidden;
+  display: block;
+  background: url("/images/index/hero.png") no-repeat center #ccc;
+  background-size: contain;
+  position: absolute;
+  top: -webkit-calc(50% - 75px);
+  top: -moz-calc(50% - 75px);
+  top: -ms-calc(50% - 75px);
+  top: calc(50% - 75px);
+  left: -webkit-calc(50% - 75px);
+  left: -moz-calc(50% - 75px);
+  left: -ms-calc(50% - 75px);
+  left: calc(50% - 75px);
+}
+
+/* line 123, ../sass/b4-styles.scss */
+.four-section {
+  height: 50vh;
+  font-family: "Droid Sans", sans-serif;
+  position: relative;
+}
+/* line 127, ../sass/b4-styles.scss */
+.four-section h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  text-align: center;
+}
+@media screen and (max-width: 50em) {
+  /* line 137, ../sass/b4-styles.scss */
+  .four-section h1 {
+    font-size: 3em;
+  }
+}
+
+/* line 142, ../sass/b4-styles.scss */
+#proj {
+  color: #fffffe;
+  background: #005253 url("/images/index/Vector_Proj.svg") no-repeat top;
+  background-size: cover;
+}
+
+/* line 148, ../sass/b4-styles.scss */
+#team {
+  color: #005253;
+  background: #fffffe url("/images/index/index_team.svg") no-repeat top;
+  background-size: cover;
+  border: .4em solid #25bbbd;
+}
+
+/* line 154, ../sass/b4-styles.scss */
+#human {
+  color: #fffffe;
+  background: #005253 url("/images/index/outreach.svg") no-repeat center;
+  background-size: contain;
+}
+
+/* line 162, ../sass/b4-styles.scss */
+#lastyear {
+  color: #fffffe;
+  background: #006A6B url("/images/index/oldLogo.svg") no-repeat center;
+  background-size: cover;
+}
+
+/* line 170, ../sass/b4-styles.scss */
+#outreach-content .row img {
+  width: 100%;
+}
+
+/* line 176, ../sass/b4-styles.scss */
+.header-long {
+  font-family: "Droid Sans", sans-serif;
+  color: #006A6B;
+}
+
+/* line 180, ../sass/b4-styles.scss */
+.long {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.25em;
+}
+
+/* line 185, ../sass/b4-styles.scss */
+#foo-spon img {
+  width: 100%;
+}
+
+/* line 192, ../sass/b4-styles.scss */
+#phage-parallax {
+  position: relative;
+  height: 300vh;
+}
+/* line 196, ../sass/b4-styles.scss */
+#phage-parallax .initial-plasmid img {
+  width: 40%;
+  position: absolute;
+  top: 0;
+}
+/* line 202, ../sass/b4-styles.scss */
+#phage-parallax #first {
+  left: 0px;
+}
+/* line 205, ../sass/b4-styles.scss */
+#phage-parallax #second {
+  right: 0;
+}

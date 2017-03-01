@@ -98,3 +98,111 @@ nav{
 #right{
     float: right;
 }
+
+#foursquare{
+    position: relative;
+    #index-square{
+        width: 150px;
+        height: 150px;
+        border-radius: 2em;
+        overflow: hidden;
+        display: block;
+        background: url("/images/index/hero.png") no-repeat center #ccc;
+        background-size: contain;   
+        position: absolute;
+        top: -webkit-calc(50% - 75px);
+        top:    -moz-calc(50% - 75px);
+        top:     -ms-calc(50% - 75px);
+        top:         calc(50% - 75px);
+        left: -webkit-calc(50% - 75px);
+        left:    -moz-calc(50% - 75px);
+        left:     -ms-calc(50% - 75px);
+        left:         calc(50% - 75px);
+    }
+}
+.four-section{
+    height: 50vh;
+    font-family: $droid-sans;
+    position: relative;
+    h1{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4em;
+        text-align: center;
+    }
+    @media screen and (max-width: 50em){
+        h1{
+            font-size: 3em;
+        }
+    }
+}
+#proj{
+    color: $white;
+    background: $igem-blue url("/images/index/Vector_Proj.svg") no-repeat top;
+    background-size: cover;
+}
+
+#team{
+    color: $igem-blue;
+    background: $white url("/images/index/index_team.svg") no-repeat top;
+    background-size: cover;
+    border: .4em solid #25bbbd;
+}
+#human{
+    color: $white;
+    background: $igem-blue url("/images/index/outreach.svg") no-repeat center;
+    background-size: contain;
+    h1{
+
+    }
+}
+#lastyear{
+    color: $white;
+    background: $blue-2 url("/images/index/oldLogo.svg") no-repeat center;
+    background-size: cover;
+}
+
+#outreach-content{
+    .row{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.header-long{
+    font-family: $droid-sans;
+    color: $blue-2;
+}
+.long{
+    font-family: $body-font;
+    font-size: 1.25em;
+}
+#foo-spon{
+    img{
+        width: 100%;
+    }
+}
+#x{
+
+}
+#phage-parallax{
+    position: relative;
+    height: 300vh;
+    .initial-plasmid{
+        img{
+            width: 40%;
+            position: absolute;
+            top: 0;
+        }
+    }
+    #first{
+        left: 0px;
+    }
+    #second{
+        right: 0;
+    }
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="62.436317mm"
+   height="62.436317mm"
+   viewBox="0 0 221.23105 221.23105"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="virus-plasmid.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="71.707466"
+     inkscape:cy="88.05456"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="true"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-nodes="false"
+     inkscape:window-width="1253"
+     inkscape:window-height="756"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(186.32984,-20.318107)">
+    <circle
+       id="path4142"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ec5631;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(-0.8660254,-0.5,0.5,-0.8660254,0,0)"
+       cx="0.10371189"
+       cy="-151.24901"
+       r="110" />
+    <path
+       style="fill:#ec5631;fill-opacity:1;stroke:none;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4136"
+       sodipodi:type="arc"
+       sodipodi:cx="-75.714287"
+       sodipodi:cy="130.93364"
+       sodipodi:rx="110"
+       sodipodi:ry="110"
+       sodipodi:start="0"
+       sodipodi:end="0.52359878"
+       d="m 34.285713,130.93364 a 110,110 0 0 1 -14.737206,55 l -95.262794,-55 z" />
+    <path
+       d="m 240.93365,75.71431 a 110,110 0 0 1 -14.7372,55 l -95.2628,-55 z"
+       sodipodi:end="0.52359878"
+       sodipodi:start="0"
+       sodipodi:ry="110"
+       sodipodi:rx="110"
+       sodipodi:cy="75.71431"
+       sodipodi:cx="130.93365"
+       sodipodi:type="arc"
+       id="path4138"
+       style="fill:#ec5631;fill-opacity:1;stroke:#713bd6;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <path
+       transform="matrix(-0.8660254,-0.5,0.5,-0.8660254,0,0)"
+       style="fill:#ec5631;fill-opacity:1;stroke:#713bd6;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4140"
+       sodipodi:type="arc"
+       sodipodi:cx="0.10371189"
+       sodipodi:cy="-151.24901"
+       sodipodi:rx="110"
+       sodipodi:ry="110"
+       sodipodi:start="0"
+       sodipodi:end="0.52359878"
+       d="M 110.10371,-151.24901 A 110,110 0 0 1 95.366506,-96.249008 L 0.10371189,-151.24901 Z" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#ec5631;stroke-width:1.52691066;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4147"
+       cx="-75.714287"
+       cy="130.93364"
+       r="98.971504" />
+  </g>
+</svg>

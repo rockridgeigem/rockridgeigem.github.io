@@ -7,96 +7,58 @@
         <meta name="keywords" content="rock ridge igem, rock ridge igem 2016, rock ridge, lyme disease" />
         <link rel = "icon" type="image/png" href = "/images/universal/favicon.png" />
         <title>Human Practices</title>
-        <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-        <link rel="stylesheet" type="text/css" href="/css/styles/stylesheets/screen.css">
+        <!--Bootstrap CSS CDN-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <!---Jquery, Tether, and Bootstrap minified files-->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <!---Custom JS--->
+        <script src="/js/parallax/parallax.js" type="text/javascript"></script>
+        <!--My CSS -->
+        <link rel="stylesheet" href="/css/styles/stylesheets/b4-styles.css" >
     </head>
 
-    <body class = "background">
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#igem-navigation" >
-                        <span class = "sr-only">Toggle Nav</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/index.html">
-                        <img src="/images/universal/nav-brand.png" />
-                    </a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="igem-navigation">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a data-toggle="dropdown" id="one" href="#">About the Team<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href = "/pages/about/about_team.html">Team Members</a></li>
-                                <li><a href = "/pages/about/sponsors.html">Sponsors</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a data-toggle="dropdown" id="two" href="#">Projects<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href = "/pages/projects/project_Lyme.html">The Lyme Project</a></li>
-                                <li><a href = "/pages/projects/phage.html">The Trojan Phage</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a data-toggle="dropdown" id="three" href="#">Human Practices<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href = "http://2015.igem.org/Team:Rock_Ridge_Virginia/Practices">2015 Human Practices</a></li>
-                                <li><a href = "/pages/outreach/outreach.html">2016 Human Practices</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a id="four" href="/pages/calendar/calendar.html">Team Calendar</a>
-                        </li>
-                    </ul>
-                </div>
+    <body class = "background clearfix">
+        <nav class="navbar navbar-toggleable-sm navbar-light">
+            <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse" data-target="#igem-navigation" aria-controls="igem-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="/images/universal/nav-brand.png"/></a>
+            <div class="collapse navbar-collapse" id="igem-navigation">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" id="team-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">The Team</a>
+                        <div class="dropdown-menu" aria-labelledby="team-dropdown">
+                            <a class="dropdown-item" href="/pages/about/about_team.html">Team Members</a>
+                            <a class="dropdown-item" href="/pages/about/sponsors.html">Sponsors</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" id="projects-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Projects</a>
+                        <div class="dropdown-menu" aria-labelledby="projects-dropdown">
+                            <a class="dropdown-item" href="/pages/projects/project_Lyme.html">A Living Vaccine</a>
+                            <a class="dropdown-item" href="/pages/projects/phage.html">The Trojan Phage</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="/pages/outreach/outreach.html">Human Practices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/pages/calendar/calendar.html">Team Calendar</a></li>
+                </ul>
             </div>
-        </div>
-
+        </nav>
         <section class = "jumbotron">
             <h1>2016 Season Human Practices</h1>
         </section>
 
         <section class="container-fluid" id="outreach-content">
-
-            <!--<h1>The Brambleton Lyme 5K</h1>
-
-<p>The Brambleton Lyme 5K is a run held annually by Loudoun Lyme in order to support Capital Lyme.  The run is used to raise money and awareness for Lyme Disease.  Our team set up a booth at the run and we talked to people there to spread awareness about our solution to Lyme with Synthetic Biology.</p>
-
-<img src = "../../images/outreach/lyme5k_1.png" style = "max-width: 100%" />
-
-<blockquote class="twitter-tweet" data-lang="en">
-<p lang="en" dir="ltr">Purifying DNA and designing your own organism 
-<a href="https://twitter.com/LoCoSTEMday">@LoCoSTEMday</a> 
-<a href="https://t.co/BMFMA5Tdlb">pic.twitter.com/BMFMA5Tdlb</a>
-</p>&mdash; Rock Ridge iGem (@Rock_Ridge_IGEM) 
-<a href="https://twitter.com/Rock_Ridge_IGEM/status/782344209588162560">October 1, 2016</a>
-</blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
--->
-
-
-            <h1>The Brambleton Lyme 5K</h1>
-            <p>One of our most important fundraising events which occured this year was the Loudoun Lyme 5K Run.  The run was an excellent area for us to showcase our research, as it was based very close to our location and many people participated.  Through this run, we learned about other comapnies' work on lyme disease, presented our work, and interacted with many people who came to support Loudoun Lyme and Capital Lyme.  We additionally were able to make more and more people in our community aware about synthetic biology</p>
+            <h1 class="header-long">The Brambleton Lyme 5K</h1>
+            <p class="long">One of our most important fundraising events which occured this year was the Loudoun Lyme 5K Run.  The run was an excellent area for us to showcase our research, as it was based very close to our location and many people participated.  Through this run, we learned about other comapnies' work on lyme disease, presented our work, and interacted with many people who came to support Loudoun Lyme and Capital Lyme.  We additionally were able to make more and more people in our community aware about synthetic biology</p>
             <div class="row">
-                <div class="col-xs-6" id="a"></div>
-                <div class="col-xs-6" id="b"></div>
+                <div class="col"><img src="/images/outreach/5k_1.jpg" /></div>
+                <div class="col"><img src="/images/outreach/5k_2.jpg" /></div>
             </div>
 
-            <h1>Loudoun County STEM at NOVA</h1>
+            <h1 class="header-long">Loudoun County STEM at NOVA</h1>
             <blockquote class="twitter-tweet" data-lang="en">
                 <p lang="en" dir="ltr">Purifying DNA and designing your own organism 
                     <a href="https://twitter.com/LoCoSTEMday">@LoCoSTEMday</a> 
@@ -105,7 +67,7 @@
                 <a href="https://twitter.com/Rock_Ridge_IGEM/status/782344209588162560">October 1, 2016</a>
             </blockquote>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-            <p>The Loudoun County STEM Day was another key opportunity for us to interact with our community to educate them about synthetic biology.  During the event, we talked to many residents around our NOVA College campus about how synthetic biology is impacting the world and what our team is doing to help drive it.  Many young students also came to the event, and for them we had a short activity on purifying DNA from strawberries and students were able to take home a sample of DNA.</p>
+            <p class="long">The Loudoun County STEM Day was another key opportunity for us to interact with our community to educate them about synthetic biology.  During the event, we talked to many residents around our NOVA College campus about how synthetic biology is impacting the world and what our team is doing to help drive it.  Many young students also came to the event, and for them we had a short activity on purifying DNA from strawberries and students were able to take home a sample of DNA.</p>
         </section>
     </body>
 </html>
