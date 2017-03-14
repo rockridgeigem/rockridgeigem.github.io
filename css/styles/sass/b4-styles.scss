@@ -24,6 +24,10 @@ nav{
     a:hover{
         @include nav-hover();
     }
+    .active{
+        background: $igem-blue-faded !important;
+        color: $white !important;
+    }
 }
 
 .jumbotron{
@@ -191,18 +195,71 @@ nav{
 }
 #phage-parallax{
     position: relative;
-    height: 300vh;
     .initial-plasmid{
+        width: 50%;
+        position: absolute;
         img{
-            width: 40%;
-            position: absolute;
-            top: 0;
+            width: 100%;
         }
     }
     #first{
-        left: 0px;
+        position: fixed;
+        left: 100px;
+        //left: 100px;
     }
     #second{
-        right: 0;
+        right: 100px;
+    }
+    #step-1{
+        height: 90vh;
+        background: url("/images/phage/step-1.svg") rgba(0,0,0,0);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        //background-attachment: fixed;
+    }
+    #combined{
+        height: 130vh;
+        background: url("/images/phage/combined.svg");
+        background-size: -webkit-calc(20% - 75px);
+        background-size:    -moz-calc(20% - 75px);
+        background-size:     -ms-calc(20% - 75px);
+        background-size:         calc(20% - 75px);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        img{
+            @include centerH();
+            height: 100%;
+        }
+        #food{
+            position: fixed;
+        }
+    }
+    #phage{
+        background: url("/images/phage/phage.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 70vh;
+    }
+
+}
+
+
+
+#parralax-test{
+    height: 300vh;
+    .background{
+        z-index: -1;
+        background: url("/images/phage/step-1.svg");
+        //background: red;
+        height: 70vh;
+        background-attachment: fixed;
+    }
+    .content{
+        width: 100%;
+        z-index: 3;
+        //background: black;
     }
 }

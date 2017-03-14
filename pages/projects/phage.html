@@ -15,6 +15,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <!---Custom JS--->
         <script src="/js/parallax/parallax.js" type="text/javascript"></script>
+        <script src="/js/parallax/stellar/stellar.js" type="text/javascript"></script>
         <!--My CSS -->
         <link rel="stylesheet" href="/css/styles/stylesheets/b4-styles.css" >
     </head>
@@ -25,7 +26,7 @@
                 <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse" data-target="#igem-navigation" aria-controls="igem-navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="/images/universal/nav-brand.png"/></a>
+                <a class="navbar-brand" href="/index.html"><img src="/images/universal/nav-brand.png"/></a>
                 <div class="collapse navbar-collapse" id="igem-navigation">
                     <ul class="nav navbar-nav mr-auto">
                         <li class="nav-item">
@@ -57,29 +58,52 @@
                 </p>
                 <br><br>
                 </div>
-                
-            <img src="../../images/phage/bigger.png" />
-            <!--<section id="phage-parallax">
-<div class="initial-plasmid"><img id="first" src="/images/phage/crispr-plasmid.svg" /></div>
-<div class="initial-plasmid"><img id="second" src="/images/phage/virus-plasmid.svg" /></div>
-</section>-->
+
+            <img style="width: 100%" src="../../images/phage/bigger.png" />
+            <section id="phage-parallax">
+                <!--
+<div id="first" class="initial-plasmid"><img src="/images/phage/crispr-plasmid.svg" /></div>
+<div id="second" class="initial-plasmid"><img src="/images/phage/virus-plasmid.svg" /></div>
+-->
+                <div class="center-img" id="step-1"></div>
+                <div class="center-img background" id="combined" data-stellar-background-ratio="0.2"><img src="/images/phage/pippetter.svg" id="pipetter" /></div>
+                <div class="center-img" id="phage" data-stellar-ratio="0.2"></div>
+            </section>
             </section>
         <script type="text/javascript">
-            var xpos = 20;
-            var curr;
+            var $plasmid = $("#combined");
+            var $phage = $("#phage");
+            var $pipetter = $("#pipetter");
             $(document).ready(function(){
-                /*alert($("#x").css("height"));
-                alert($(window).scrollTop());*/
-                curr = $("#second").css("right");
-                alert(curr);
-
+                $(window).stellar(); 
+                
             });
             $(window).scroll(function(){
-                if(parseInt($("#x").css("height")) < $(window).scrollTop()){
-
-                    $("#second").css("right",  curr + xpos + "px");
+                var $plasmidTop = $plasmid.offset().top;
+                var $scrolltop = $(window).scrollTop();
+                var $difference = $scrolltop - $plasmidTop;
+                var $bgSize = .4 * $(window).width();
+                let _originalSize = $plasmid.css('background-size');
+                if($difference > 300){
+                    var $size = $bgSize - $difference;
+                    //console.log($sizepre + " " + $size);
+                    if($size > $pipetter.width()){
+                        $size = $pipetter.width();
+                    }
+                    if($size > _originalSize){
+                        $size = _originalSize;
+                    }
+                    if($size < 50){
+                        $size = 50;
+                    }
+                    $plasmid.css({
+                        'background-size': $size + 'px'
+                    });
+                    console.log($difference);
                 }
-            })
+            });
+
         </script>
+
     </body>
 </html>

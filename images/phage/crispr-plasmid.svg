@@ -25,19 +25,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="54.14468"
-     inkscape:cy="200.17196"
+     inkscape:zoom="1.979899"
+     inkscape:cx="87.611306"
+     inkscape:cy="121.57606"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     showborder="true"
+     showborder="false"
      inkscape:object-nodes="true"
      inkscape:object-paths="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-intersection-paths="true"
      inkscape:snap-nodes="false"
-     inkscape:window-width="1253"
+     inkscape:window-width="1255"
      inkscape:window-height="756"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -45,7 +45,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -54,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,48 +66,28 @@
      transform="translate(186.32984,-20.318107)">
     <circle
        id="path4142"
-       style="fill:#ffffff;fill-opacity:1;stroke:#31ecb1;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:0;stroke:#31ecb1;stroke-width:1.20000005;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(-0.8660254,-0.5,0.5,-0.8660254,0,0)"
        cx="0.10371189"
        cy="-151.24901"
        r="110" />
     <path
        style="fill:#31ecb1;fill-opacity:1;stroke:#713bd6;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4136"
-       sodipodi:type="arc"
-       sodipodi:cx="-75.714287"
-       sodipodi:cy="130.93364"
-       sodipodi:rx="110"
-       sodipodi:ry="110"
-       sodipodi:start="0"
-       sodipodi:end="0.52359878"
-       d="m 34.285713,130.93364 a 110,110 0 0 1 -14.737206,55 l -95.262794,-55 z" />
+       d="M 209.58789 110.61523 A 98.971504 98.971504 0 0 1 196.25 160.05664 L 205.87891 165.61523 A 110 110 0 0 0 220.61523 110.61523 L 209.58789 110.61523 z "
+       transform="translate(-186.32984,20.318107)"
+       id="path4136" />
     <path
-       d="m 240.93365,75.71431 a 110,110 0 0 1 -14.7372,55 l -95.2628,-55 z"
-       sodipodi:end="0.52359878"
-       sodipodi:start="0"
-       sodipodi:ry="110"
-       sodipodi:rx="110"
-       sodipodi:cy="75.71431"
-       sodipodi:cx="130.93365"
-       sodipodi:type="arc"
-       id="path4138"
        style="fill:#31ecb1;fill-opacity:1;stroke:#713bd6;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="matrix(0,1,-1,0,0,0)" />
+       d="M 61.173828 196.25 L 55.615234 205.87891 A 110 110 0 0 0 110.61523 220.61523 L 110.61523 209.58789 A 98.971504 98.971504 0 0 1 61.173828 196.25 z "
+       transform="translate(-186.32984,20.318107)"
+       id="path4138" />
     <path
-       transform="matrix(-0.8660254,-0.5,0.5,-0.8660254,0,0)"
        style="fill:#31ecb1;fill-opacity:1;stroke:#713bd6;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4140"
-       sodipodi:type="arc"
-       sodipodi:cx="0.10371189"
-       sodipodi:cy="-151.24901"
-       sodipodi:rx="110"
-       sodipodi:ry="110"
-       sodipodi:start="0"
-       sodipodi:end="0.52359878"
-       d="M 110.10371,-151.24901 A 110,110 0 0 1 95.366506,-96.249008 L 0.10371189,-151.24901 Z" />
+       d="M 55.615234 15.353516 A 110 110 0 0 0 15.353516 55.615234 L 24.980469 61.173828 A 98.971504 98.971504 0 0 1 61.191406 25.011719 L 55.615234 15.353516 z "
+       transform="translate(-186.32984,20.318107)"
+       id="path4140" />
     <circle
-       style="fill:#ffffff;fill-opacity:1;stroke:#31ecb1;stroke-width:1.52691066;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:0;stroke:#31ecb1;stroke-width:1.52691066;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4147"
        cx="-75.714287"
        cy="130.93364"
