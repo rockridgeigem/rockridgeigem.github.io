@@ -75,8 +75,16 @@
             var $phage = $("#phage");
             var $pipetter = $("#pipetter");
             $(document).ready(function(){
-                $(window).stellar(); 
-                
+                $(window).stellar({
+                    horizontalScrolling: false,
+                    verticalScrolling: true,
+                    horizontalOffset: 0,
+                    verticalOffset: 0,
+                    parallaxBackgrounds: true,
+                    parallaxElements: true,
+                    responsive: true
+                }); 
+
             });
             $(window).scroll(function(){
                 var $plasmidTop = $plasmid.offset().top;
