@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pippetter.svg">
+   sodipodi:docname="pippetter.svg"
+   inkscape:export-filename="/Users/vKulkarni/git/rockridgeigem.github.io/images/phage/pippetter.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -27,13 +30,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.4968348"
-     inkscape:cx="591.11204"
-     inkscape:cy="1720.4005"
+     inkscape:cx="264.04155"
+     inkscape:cy="593.26528"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showborder="true"
-     inkscape:window-width="1255"
+     inkscape:window-width="1253"
      inkscape:window-height="756"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -73,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

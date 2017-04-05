@@ -8094,25 +8094,24 @@ button.close {
 /* line 8, ../sass/b4-styles.scss */
 nav {
   margin: 0;
-  background: #fffffe;
   font-family: "Mitr", sans-serif;
 }
-/* line 12, ../sass/b4-styles.scss */
+/* line 11, ../sass/b4-styles.scss */
 nav .navbar-brand {
   margin: 0;
   padding: 0;
   background-color: #cccccc;
 }
-/* line 16, ../sass/b4-styles.scss */
+/* line 15, ../sass/b4-styles.scss */
 nav .navbar-brand img {
   height: inherit;
 }
-/* line 20, ../sass/b4-styles.scss */
+/* line 19, ../sass/b4-styles.scss */
 nav li {
   color: #005253;
   margin-left: 10px;
 }
-/* line 24, ../sass/b4-styles.scss */
+/* line 23, ../sass/b4-styles.scss */
 nav a:hover {
   -webkit-transition: 0.1s ease;
   transition: 0.1s ease;
@@ -8120,29 +8119,35 @@ nav a:hover {
   border-right: 3px solid #006A6B;
   color: #006A6B;
 }
-/* line 27, ../sass/b4-styles.scss */
+/* line 26, ../sass/b4-styles.scss */
 nav .active {
   background: rgba(0, 82, 83, 0.78) !important;
   color: #fffffe !important;
 }
 
-/* line 33, ../sass/b4-styles.scss */
+/* line 32, ../sass/b4-styles.scss */
+#index-blur {
+  background: url("/images/blur.jpg");
+  background-size: cover;
+}
+
+/* line 37, ../sass/b4-styles.scss */
 .jumbotron {
   font-family: "Ubuntu", sans-serif;
   background: none;
 }
-/* line 36, ../sass/b4-styles.scss */
+/* line 40, ../sass/b4-styles.scss */
 .jumbotron h1 {
   color: #005253;
   text-align: center;
 }
 
-/* line 42, ../sass/b4-styles.scss */
+/* line 46, ../sass/b4-styles.scss */
 #plasmid-container {
   width: 100%;
   max-height: 500px;
 }
-/* line 45, ../sass/b4-styles.scss */
+/* line 49, ../sass/b4-styles.scss */
 #plasmid-container #cont-big-img {
   position: relative;
   margin-left: 50%;
@@ -8152,11 +8157,11 @@ nav .active {
   width: inherit;
   height: inherit;
 }
-/* line 51, ../sass/b4-styles.scss */
+/* line 55, ../sass/b4-styles.scss */
 #plasmid-container #cont-big-img #theActualImage {
   width: inherit;
 }
-/* line 53, ../sass/b4-styles.scss */
+/* line 57, ../sass/b4-styles.scss */
 #plasmid-container #cont-big-img #theActualImage #deltaImg {
   height: inherit;
   margin-left: 50%;
@@ -8165,12 +8170,12 @@ nav .active {
   -ms-transform: translateX(-50%);
 }
 @media screen and (max-width: 50em) {
-  /* line 53, ../sass/b4-styles.scss */
+  /* line 57, ../sass/b4-styles.scss */
   #plasmid-container #cont-big-img #theActualImage #deltaImg {
     width: inherit;
   }
 }
-/* line 60, ../sass/b4-styles.scss */
+/* line 64, ../sass/b4-styles.scss */
 #plasmid-container #cont-big-img #theActualImage #plasmid-flash {
   background-color: rgba(0, 82, 83, 0.6);
   color: #fffffe;
@@ -8188,24 +8193,24 @@ nav .active {
   padding: 10px;
 }
 
-/* line 80, ../sass/b4-styles.scss */
+/* line 84, ../sass/b4-styles.scss */
 #button-bank button {
   color: #006A6B;
   font-family: "PT Sans", sans-serif;
 }
-/* line 84, ../sass/b4-styles.scss */
+/* line 88, ../sass/b4-styles.scss */
 #button-bank button:hover {
   background-color: #005253;
   color: #fffffe;
   border-color: #005253;
 }
 
-/* line 90, ../sass/b4-styles.scss */
+/* line 94, ../sass/b4-styles.scss */
 #faces {
   position: absolute;
   align-content: center;
 }
-/* line 93, ../sass/b4-styles.scss */
+/* line 97, ../sass/b4-styles.scss */
 #faces img {
   margin-left: 50%;
   transform: translateX(-50%);
@@ -8214,22 +8219,22 @@ nav .active {
   width: 150px;
 }
 @media screen and (max-width: 50em) {
-  /* line 93, ../sass/b4-styles.scss */
+  /* line 97, ../sass/b4-styles.scss */
   #faces img {
     width: 100px;
   }
 }
 
-/* line 102, ../sass/b4-styles.scss */
+/* line 106, ../sass/b4-styles.scss */
 #right {
   float: right;
 }
 
-/* line 106, ../sass/b4-styles.scss */
+/* line 110, ../sass/b4-styles.scss */
 #foursquare {
   position: relative;
 }
-/* line 108, ../sass/b4-styles.scss */
+/* line 112, ../sass/b4-styles.scss */
 #foursquare #index-square {
   width: 150px;
   height: 150px;
@@ -8249,13 +8254,13 @@ nav .active {
   left: calc(50% - 75px);
 }
 
-/* line 127, ../sass/b4-styles.scss */
+/* line 131, ../sass/b4-styles.scss */
 .four-section {
   height: 50vh;
   font-family: "Droid Sans", sans-serif;
   position: relative;
 }
-/* line 131, ../sass/b4-styles.scss */
+/* line 135, ../sass/b4-styles.scss */
 .four-section h1 {
   margin: 0;
   position: absolute;
@@ -8266,20 +8271,20 @@ nav .active {
   text-align: center;
 }
 @media screen and (max-width: 50em) {
-  /* line 141, ../sass/b4-styles.scss */
+  /* line 145, ../sass/b4-styles.scss */
   .four-section h1 {
     font-size: 3em;
   }
 }
 
-/* line 146, ../sass/b4-styles.scss */
+/* line 150, ../sass/b4-styles.scss */
 #proj {
   color: #fffffe;
   background: #005253 url("/images/index/Vector_Proj.svg") no-repeat top;
   background-size: cover;
 }
 
-/* line 152, ../sass/b4-styles.scss */
+/* line 156, ../sass/b4-styles.scss */
 #team {
   color: #005253;
   background: #fffffe url("/images/index/index_team.svg") no-repeat top;
@@ -8287,65 +8292,65 @@ nav .active {
   border: .4em solid #25bbbd;
 }
 
-/* line 158, ../sass/b4-styles.scss */
+/* line 162, ../sass/b4-styles.scss */
 #human {
   color: #fffffe;
   background: #005253 url("/images/index/outreach.svg") no-repeat center;
   background-size: contain;
 }
 
-/* line 166, ../sass/b4-styles.scss */
+/* line 170, ../sass/b4-styles.scss */
 #lastyear {
   color: #fffffe;
   background: #006A6B url("/images/index/oldLogo.svg") no-repeat center;
   background-size: cover;
 }
 
-/* line 174, ../sass/b4-styles.scss */
+/* line 178, ../sass/b4-styles.scss */
 #outreach-content .row img {
   width: 100%;
 }
 
-/* line 180, ../sass/b4-styles.scss */
+/* line 184, ../sass/b4-styles.scss */
 .header-long {
   font-family: "Droid Sans", sans-serif;
   color: #006A6B;
 }
 
-/* line 184, ../sass/b4-styles.scss */
+/* line 188, ../sass/b4-styles.scss */
 .long {
   font-family: "PT Sans", sans-serif;
   font-size: 1.25em;
 }
 
-/* line 189, ../sass/b4-styles.scss */
+/* line 193, ../sass/b4-styles.scss */
 #foo-spon img {
   width: 100%;
 }
 
-/* line 196, ../sass/b4-styles.scss */
+/* line 200, ../sass/b4-styles.scss */
 #phage-parallax {
   position: relative;
 }
-/* line 198, ../sass/b4-styles.scss */
+/* line 202, ../sass/b4-styles.scss */
 #phage-parallax .initial-plasmid {
   width: 50%;
   position: absolute;
 }
-/* line 201, ../sass/b4-styles.scss */
+/* line 205, ../sass/b4-styles.scss */
 #phage-parallax .initial-plasmid img {
   width: 100%;
 }
-/* line 205, ../sass/b4-styles.scss */
+/* line 209, ../sass/b4-styles.scss */
 #phage-parallax #first {
   position: fixed;
   left: 100px;
 }
-/* line 210, ../sass/b4-styles.scss */
+/* line 214, ../sass/b4-styles.scss */
 #phage-parallax #second {
   right: 100px;
 }
-/* line 213, ../sass/b4-styles.scss */
+/* line 217, ../sass/b4-styles.scss */
 #phage-parallax #step-1 {
   height: 90vh;
   background: url("/images/phage/step-1.svg") transparent;
@@ -8353,7 +8358,7 @@ nav .active {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 221, ../sass/b4-styles.scss */
+/* line 226, ../sass/b4-styles.scss */
 #phage-parallax #combined {
   height: 130vh;
   background: url("/images/phage/combined.svg");
@@ -8365,39 +8370,68 @@ nav .active {
   background-position: center;
   background-attachment: fixed;
 }
-/* line 231, ../sass/b4-styles.scss */
+/* line 238, ../sass/b4-styles.scss */
 #phage-parallax #combined img {
   margin-left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-  height: 100%;
 }
-/* line 235, ../sass/b4-styles.scss */
+/* line 242, ../sass/b4-styles.scss */
+#phage-parallax #combined #cell-2 {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+/* line 245, ../sass/b4-styles.scss */
 #phage-parallax #combined #food {
   position: fixed;
 }
-/* line 239, ../sass/b4-styles.scss */
+/* line 249, ../sass/b4-styles.scss */
 #phage-parallax #phage {
+  background: url("/images/phage/phage-head.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  height: 30vh;
+}
+/* line 258, ../sass/b4-styles.scss */
+#phage-parallax #phage-transport {
+  height: 200vh;
   background: url("/images/phage/phage.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-attachment: fixed;
+  background-size: 25%;
+}
+/* line 263, ../sass/b4-styles.scss */
+#phage-parallax #phage-transport img {
+  width: 130%;
+  position: absolute;
+}
+/* line 268, ../sass/b4-styles.scss */
+#phage-parallax #cell-land {
+  background-size: cover;
   height: 70vh;
 }
+/* line 272, ../sass/b4-styles.scss */
+#phage-parallax #cell-land img {
+  width: 100%;
+}
 
-/* line 251, ../sass/b4-styles.scss */
+/* line 280, ../sass/b4-styles.scss */
 #parralax-test {
   height: 300vh;
 }
-/* line 253, ../sass/b4-styles.scss */
+/* line 282, ../sass/b4-styles.scss */
 #parralax-test .background {
   z-index: -1;
   background: url("/images/phage/step-1.svg");
   height: 70vh;
   background-attachment: fixed;
 }
-/* line 260, ../sass/b4-styles.scss */
+/* line 289, ../sass/b4-styles.scss */
 #parralax-test .content {
   width: 100%;
   z-index: 3;

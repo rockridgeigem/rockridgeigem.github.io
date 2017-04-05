@@ -7,7 +7,6 @@
 
 nav{
     margin: 0;
-    background: $white;
     font-family: $mitr;
     .navbar-brand{
         margin: 0;
@@ -28,6 +27,11 @@ nav{
         background: $igem-blue-faded !important;
         color: $white !important;
     }
+}
+
+#index-blur{  
+    background: url("/images/blur.jpg");
+    background-size: cover;
 }
 
 .jumbotron{
@@ -121,7 +125,7 @@ nav{
         left: -webkit-calc(50% - 75px);
         left:    -moz-calc(50% - 75px);
         left:     -ms-calc(50% - 75px);
-        left:         calc(50% - 75px);
+        left:         calc(50% - 75px);        
     }
 }
 .four-section{
@@ -216,6 +220,7 @@ nav{
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        
         //background-attachment: fixed;
     }
     #combined{
@@ -225,25 +230,49 @@ nav{
         background-size:    -moz-calc(20% - 75px);
         background-size:     -ms-calc(20% - 75px);
         background-size:         calc(20% - 75px);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
+        
+//        background-repeat: no-repeat;
+//        background-position: center;
+//        background-attachment: fixed;
+        @include stellar-bg();
         img{
             @include centerH();
-            height: 100%;
+            
+        }
+        #cell-2{
+            @include centerH();
         }
         #food{
             position: fixed;
         }
     }
     #phage{
-        background: url("/images/phage/phage.svg");
+        background: url("/images/phage/phage-head.svg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
-        height: 70vh;
+        background-size: auto;
+        height: 30vh;
+        
     }
 
+    #phage-transport{
+        height: 200vh;
+        background: url("/images/phage/phage.svg");
+        @include stellar-bg();
+        background-size: 25%;
+        img{
+            width: 130%;
+            position: absolute;
+        }
+    }
+    #cell-land{
+        //background: url("/images/phage/Cell3.svg") no-repeat;
+        background-size: cover;
+        height: 70vh;
+        img{
+            width: 100%;
+        }
+    }
 }
 
 
