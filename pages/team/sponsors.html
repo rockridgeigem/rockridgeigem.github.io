@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"></meta>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Our Sponsors</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <link rel="icon" type="image/png" href="/images/universal/favicon.png">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+  <nav id="theNav" class="navbar navbar-toggleable-sm navbar-light">
+    <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse" data-target="#igem-navigation" aria-controls="igem-navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/index.html"><img src="/images/universal/nav-brand.png"/></a>
+    <div class="collapse navbar-collapse" id="igem-navigation">
+      <ul class="nav navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="team-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">The Team</a>
+          <div class="dropdown-menu" aria-labelledby="team-dropdown">
+            <a class="dropdown-item" href="/pages/team/team.html">Team Members</a>
+            <a class="dropdown-item" href="/pages/team/sponsors.html">Sponsors</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="projects-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Projects</a>
+          <div class="dropdown-menu" aria-labelledby="projects-dropdown">
+            <a class="dropdown-item" href="/pages/projects/living_vaccine.html">A Living Vaccine</a>
+            <a class="dropdown-item" href="/pages/projects/trojan_phage.html">The Trojan Phage</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/pages/outreach/human_practices.html">Human Practices</a></li>
+         
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h1>Sponsors from 2015</h1>
+    </div>
+    <div id="scene">
+      <div id="sponsors-scene">
+          <div class="layer" data-depth="0.7"><img src="/images/team/sponsor-logos/l1.svg" /></div>
+          <div class="layer" data-depth="0.2"><img src="/images/team/sponsor-logos/l2.svg" /></div>
+          <div class="layer" data-depth="0.4"><img src="/images/team/sponsor-logos/l3.svg" /></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/js/wagerfield-parallax/parallax.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          var scene = document.getElementById("scene");
+          var parallax = new Parallax(scene);
+      });
+  </script>
+</body>
+</html>

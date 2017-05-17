@@ -1,0 +1,39 @@
+@import "bourbon";
+@import "colors";
+
+@mixin nav-hover(){
+    transition: 0.1s ease;
+    border-left: 3px solid $igem-green;
+    border-right: 3px solid $igem-green;
+    color: $igem-green;
+}
+@mixin page-header{
+    font-family: $droid-sans;
+    font-size: 1.6em;
+    line-height: 170%;
+    color: $imp-blue;
+}
+@mixin centerH(){
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+@mixin centerV(){
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+@mixin rotate($deg){
+    transform: rotate($deg);
+}
+@mixin miniHeader(){
+    font-family: $droid-sans;
+    color: $dark-red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+@mixin stellar-bg(){
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

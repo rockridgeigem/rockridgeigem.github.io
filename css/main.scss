@@ -1,0 +1,160 @@
+@import "bourbon";
+@import "colors";
+@import "mixins";
+@import "fonts";
+html{font-size: 16px;}
+body{
+  font-family: $pt;
+}
+.container-fluid{width: 100%;}
+nav{
+  margin: 0;
+  .navbar-brand{
+    margin: 0;
+    padding: 0;
+    background-color: $grey;
+    img{
+      height: 40px;
+    }
+  }
+  .nav-item a{
+    $offset: 20px;
+    color: $igem-green !important;
+    margin: 0 $offset;
+    font-family: $mitr;
+  }
+  a.nav-link:hover{
+    background: #eee;
+    transition: 0.1s ease;
+  }
+  a:hover{
+    @include nav-hover();
+  }
+  .dropdown-menu{
+    border: none;
+    a{
+      margin: 0;
+    }
+  }
+  .active{
+    background: $igem-green-fade !important;
+    color: $white !important;
+  }
+}
+.index-foursquare{
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+  position: relative;
+  h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    text-align: center;
+    color: $white;
+    font-family: $droid;
+  }
+  @media screen and (max-width: 50em){
+    h1{
+      font-size: 3em;
+    }
+  }
+  &.index-project{
+    background: url("/images/index/index-vproj.svg") $igem-green no-repeat top;
+    background-size: cover;
+  }
+  &.index-human-practices{
+    background: url("/images/index/index-voutreach.svg") $igem-green-u1 no-repeat center;
+    background-size: contain;
+  }
+  &.index-igem-2015{
+    background: url("/images/index/oldLogo.svg") $igem-green-u2 no-repeat center;
+    background-size: contain;
+    // /h1{font-size: }
+  }
+  &.index-team{
+    background: url("/images/index/index-vteam.svg") $igem-green-u3 no-repeat top;
+    background-size: cover;
+    h1{color: $igem-green-d;}
+  }
+}
+#index-emblem{
+  width: 150px;
+  height: 150px;
+  background: url("/images/index/index-emblem.png") $grey no-repeat center;
+  background-size: contain;
+  display: block;
+  border-radius: 1.5em;
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px);
+}
+
+.jumbotron{
+  background: rgba(128, 128, 128, 0.05);
+  text-align: center;
+  h1{
+    font-family: $ubuntu;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: $igem-green-u1;
+
+  }
+}
+
+#plasmid-parallax-layer{
+  //x1background: rgba(0,0,0,0.5);
+  #delta-img-cont{
+    //background: red;
+    position: relative;
+    max-height: 500px;
+    #deltaImg{
+      @include centerH();
+    }
+    #plasmid-overlay-text{
+      background-color: rgba(0, 82, 83, 0.6);
+      color: $white;
+      overflow: scroll;
+      display: block;
+      text-align: center;
+      border-radius: 1em;
+      padding: 10px;
+    }
+  }
+}
+#faces-layer{
+  width: 100%;
+  img{
+    width: 150px;
+    @include centerH();
+  }
+}
+#sponsors-scene{
+  img{
+    width: 100%;
+  }
+}
+.header-l{
+  font-family: $droid;
+  color: $igem-green-u1;
+  font-size: 2em;
+  padding: 10px 0px;
+}
+#project-lyme{
+  img{
+    width: 100%;
+  }
+  #work-block{
+    height: 100%;
+  }
+}
+#outreach-content{
+  .col{
+    img{
+      width: 100%;
+    }
+  }
+}

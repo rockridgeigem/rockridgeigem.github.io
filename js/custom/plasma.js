@@ -1,48 +1,80 @@
-$(document).ready(function(){
-    var dataName = "";
-    var images = {
-        "Varun": "../../images/team/plas/varun.png",
-        "Gwyn": "../../images/team/plas/gwyn.png",
-        "Katarina": "../../images/team/plas/kat.png",
-        "Shrunal": "../../images/team/plas/shrunal.png",
-        "Uday": "../../images/team/plas/uday.png",
-        "Vignesh": "../../images/team/plas/viggy.png"
+var $dataName, $images, $ori, $hobbies, $positionProj, $whyIgem;
+var $plasmidFlash;
+
+$(function(){
+    $dataName = "";
+    $plasmidFlash = $("#plasmid-overlay-text");
+    $images = {
+        "Varun": "/images/team/plas/varun.png",
+        "Shrunal": "/images/team/plas/shrunal.png",
+        "Vignesh": "/images/team/plas/viggy.png"
     };
-    var ori = {
+    $ori = {
         "Varun" : "Varun Kulkarni.  Born in India, Junior at RRH"
-    }
-    var hobbies = {
+    };
+    $hobbies = {
         "Varun" : "Programming, Tennis, and Being Awesome"
-    }
-    var positionProj = {
+    };
+    $positionProj = {
         "Varun" : "iGEM's Lead Tech Specialist and Web Designer, Contributed to the Trojan Phage"
-    }
-    var whyIgem = {
+    };
+    $whyIgem = {
         "Varun" : "I joined iGEM because I've been interested in applied biology integrated with technology, which sounds just like iGEM"
-    }
-    $("#faces img").click(function(){
-        dataName = $(this).data('name');
-        $("#plasmid-container img").attr("src", images[dataName]);
-        $("#plasmid-flash").hide();
-        $("#plasmid-flash").text("");
-    });
-    
-    
-    
-    $("#area-hobbies").click(function(){
-        $("#plasmid-flash").text(hobbies[dataName]);
-        $("#plasmid-flash").show();
-    });
-    $("#area-ori").click(function(){
-        $("#plasmid-flash").text(ori[dataName]);
-        $("#plasmid-flash").show();
-    });
-    $("#area-position").click(function(){
-        $("#plasmid-flash").text(positionProj[dataName]);
-        $("#plasmid-flash").show();
-    });
-    $("#area-why").click(function(){
-        $("#plasmid-flash").text(whyIgem[dataName]);
-        $("#plasmid-flash").show();
-    });
+    };
+    $plasmidFlash.hide();
+});
+
+function fixBlankShowText(){
+  if($plasmidFlash.text() === ""){
+    $plasmidFlash.hide();
+  }else{
+    $plasmidFlash.show();
+  }
+}
+
+function clickHandlerFace(){
+  $("#deltaImg").attr("src", $images[$dataName]);
+  $plasmidFlash.hide();
+  $plasmidFlash.text("");
+}
+function clickHandlerHobby(){
+  $plasmidFlash.text($hobbies[$dataName]);
+  fixBlankShowText();
+
+}
+function clickHandlerOri(){
+  $plasmidFlash.text($ori[$dataName]);
+  fixBlankShowText();
+
+}
+function clickHandlerPosition(){
+  $plasmidFlash.text($positionProj[$dataName]);
+  fixBlankShowText();
+
+}
+function clickHandlerWhy(){
+  $plasmidFlash.text($whyIgem[$dataName]);
+  fixBlankShowText();
+
+}
+
+$("#faces-layer img").click(function(){
+  $dataName = $(this).data('name');
+  clickHandlerFace();
+});
+$("#area-hobbies").click(function(event){
+  event.preventDefault();
+  clickHandlerHobby();
+});
+$("#area-ori").click(function(event){
+  event.preventDefault();
+  clickHandlerOri();
+});
+$("#area-position").click(function(event){
+  event.preventDefault();
+  clickHandlerPosition();
+});
+$("#area-why").click(function(event){
+  event.preventDefault();
+  clickHandlerWhy();
 });

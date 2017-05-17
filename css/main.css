@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Mitr|PT+Sans|Ubuntu");
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "PT Sans", sans-serif; }
+
+.container-fluid {
+  width: 100%; }
+
+nav {
+  margin: 0; }
+  nav .navbar-brand {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc; }
+    nav .navbar-brand img {
+      height: 40px; }
+  nav .nav-item a {
+    color: #005253 !important;
+    margin: 0 20px;
+    font-family: "Mitr", sans-serif; }
+  nav a.nav-link:hover {
+    background: #eee;
+    -webkit-transition: 0.1s ease;
+    transition: 0.1s ease; }
+  nav a:hover {
+    -webkit-transition: 0.1s ease;
+    transition: 0.1s ease;
+    border-left: 3px solid #005253;
+    border-right: 3px solid #005253;
+    color: #005253; }
+  nav .dropdown-menu {
+    border: none; }
+    nav .dropdown-menu a {
+      margin: 0; }
+  nav .active {
+    background: rgba(0, 82, 83, 0.9) !important;
+    color: #FDFFFC !important; }
+
+.index-foursquare {
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+  position: relative; }
+  .index-foursquare h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    text-align: center;
+    color: #FDFFFC;
+    font-family: "Droid Sans", sans-serif; }
+  @media screen and (max-width: 50em) {
+    .index-foursquare h1 {
+      font-size: 3em; } }
+  .index-foursquare.index-project {
+    background: url("/images/index/index-vproj.svg") #005253 no-repeat top;
+    background-size: cover; }
+  .index-foursquare.index-human-practices {
+    background: url("/images/index/index-voutreach.svg") #006A6B no-repeat center;
+    background-size: contain; }
+  .index-foursquare.index-igem-2015 {
+    background: url("/images/index/oldLogo.svg") #008888 no-repeat center;
+    background-size: contain; }
+  .index-foursquare.index-team {
+    background: url("/images/index/index-vteam.svg") #01ACAC no-repeat top;
+    background-size: cover; }
+    .index-foursquare.index-team h1 {
+      color: #396756; }
+
+#index-emblem {
+  width: 150px;
+  height: 150px;
+  background: url("/images/index/index-emblem.png") #cccccc no-repeat center;
+  background-size: contain;
+  display: block;
+  border-radius: 1.5em;
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 75px); }
+
+.jumbotron {
+  background: rgba(128, 128, 128, 0.05);
+  text-align: center; }
+  .jumbotron h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #006A6B; }
+
+#plasmid-parallax-layer #delta-img-cont {
+  position: relative;
+  max-height: 500px; }
+  #plasmid-parallax-layer #delta-img-cont #deltaImg {
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  #plasmid-parallax-layer #delta-img-cont #plasmid-overlay-text {
+    background-color: rgba(0, 82, 83, 0.6);
+    color: #FDFFFC;
+    overflow: scroll;
+    display: block;
+    text-align: center;
+    border-radius: 1em;
+    padding: 10px; }
+
+#faces-layer {
+  width: 100%; }
+  #faces-layer img {
+    width: 150px;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+#sponsors-scene img {
+  width: 100%; }
+
+.header-l {
+  font-family: "Droid Sans", sans-serif;
+  color: #006A6B;
+  font-size: 2em;
+  padding: 10px 0px; }
+
+#project-lyme img {
+  width: 100%; }
+
+#project-lyme #work-block {
+  height: 100%; }
+
+#outreach-content .col img {
+  width: 100%; }
