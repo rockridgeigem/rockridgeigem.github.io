@@ -65,7 +65,8 @@ nav {
     background-size: contain; }
   .index-foursquare.index-igem-2015 {
     background: url("/images/index/oldLogo.svg") #008888 no-repeat center;
-    background-size: contain; }
+    background-size: contain;
+    /* /h1{font-size: }*/ }
   .index-foursquare.index-team {
     background: url("/images/index/index-vteam.svg") #01ACAC no-repeat top;
     background-size: cover; }
@@ -92,21 +93,25 @@ nav {
     font-weight: bold;
     color: #006A6B; }
 
-#plasmid-parallax-layer #delta-img-cont {
-  position: relative;
-  max-height: 500px; }
-  #plasmid-parallax-layer #delta-img-cont #deltaImg {
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); }
-  #plasmid-parallax-layer #delta-img-cont #plasmid-overlay-text {
-    background-color: rgba(0, 82, 83, 0.6);
-    color: #FDFFFC;
-    overflow: scroll;
-    display: block;
-    text-align: center;
-    border-radius: 1em;
-    padding: 10px; }
+#plasmid-parallax-layer {
+  /*x1background: rgba(0,0,0,0.5);*/ }
+  #plasmid-parallax-layer #delta-img-cont {
+    /*background: red;*/
+    position: relative;
+    max-height: 500px; }
+    #plasmid-parallax-layer #delta-img-cont #deltaImg {
+      margin-left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    #plasmid-parallax-layer #delta-img-cont #plasmid-overlay-text {
+      background-color: rgba(0, 82, 83, 0.6);
+      color: #FDFFFC;
+      overflow: scroll;
+      display: block;
+      text-align: center;
+      border-radius: 1em;
+      padding: 10px;
+      width: 100%; }
 
 #faces-layer {
   width: 100%; }
@@ -133,3 +138,8 @@ nav {
 
 #outreach-content .col img {
   width: 100%; }
+
+.twitter-tweet {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }

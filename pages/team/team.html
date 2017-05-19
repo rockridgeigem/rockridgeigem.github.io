@@ -37,7 +37,7 @@
           </div>
         </li>
         <li class="nav-item"><a class="nav-link" href="/pages/outreach/human_practices.html">Human Practices</a></li>
-         
+
       </ul>
     </div>
   </nav>
@@ -74,35 +74,48 @@
   <script type="text/javascript">
   var $scene, $parallax, $plasmidFlash, $window; //objects
   var $deltaImageWidth, $deltaImageHeight; //integers
-  function initAll(){
+  function doWork(){
+    $plasmidFlash.css("width", $deltaImageWidth + "px");
+    $plasmidFlash.css("margin-left", ($deltaImageWidth / 1.9) + "px");
+    $plasmidFlash.css("margin-top", ($deltaImageHeight / 2) + "px");
+  }
+
+  $(window).on('load', function() {
     $scene = $("#scene");
     $parallax = new Parallax(scene);
     $deltaImageWidth = $("#deltaImg").width();
     $deltaImageHeight = $("#deltaImg").height();
     $plasmidFlash = $("#plasmid-overlay-text");
     $window = $(window);
-  }
-  function setupAll(){
-    initAll();
-    $plasmidFlash.css("width", $deltaImageWidth + "px");
-    $plasmidFlash.css("margin-top", ($deltaImageHeight / 3) + "px");
-    $plasmidFlash.hide();
-    $marginOff = ($window.width() / 2) - ($plasmidFlash.width() / 2);
-
-    $plasmidFlash.css("margin-left", ($marginOff + "px"));
-    $marginTop = ($("#delta-img-cont").height()/2) - ($plasmidFlash.height() / 2);
-    $("#plasmid-overlay-text").css("margin-top", ($marginTop + "px"));
-  }
-  $(function(){
-    setupAll();
+    doWork();
   });
-
-  $(document).ready(function(){
-    if($(window).width() <= 800){
-      $("#about_map").remove();
-    }
-    initAll();
-  });
+  // function initAll(){
+  //   $scene = $("#scene");
+  //   $parallax = new Parallax(scene);
+  //   $deltaImageWidth = $("#deltaImg").width();
+  //   $deltaImageHeight = $("#deltaImg").height();
+  //   $plasmidFlash = $("#plasmid-overlay-text");
+  //   $window = $(window);
+  // }
+  // function setupAll(){
+  //   initAll();
+  //   alert($deltaImageWidth);
+  //   $plasmidFlash.css("width", $deltaImageWidth + "px");
+  //   $plasmidFlash.css("margin-top", ($deltaImageHeight / 3) + "px");
+  //   $plasmidFlash.hide();
+  //   $marginOff = ($window.width() / 2) - ($plasmidFlash.width() / 2);
+  //
+  //   $plasmidFlash.css("margin-left", ($marginOff + "px"));
+  //   $marginTop = ($("#delta-img-cont").height()/2) - ($plasmidFlash.height() / 2);
+  //   $("#plasmid-overlay-text").css("margin-top", ($marginTop + "px"));
+  // }
+  // $(document).ready(function(){
+  //   if($(window).width() <= 800){
+  //     $("#about_map").remove();
+  //   }
+  //   initAll();
+  //   setupAll();
+  // });
   </script>
   <script src="/js/custom/plasma-min.js" type="text/javascript"></script>
   <script src="/js/wagerfield-parallax/parallax.js" type="text/javascript"></script>

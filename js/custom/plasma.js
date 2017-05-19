@@ -10,16 +10,20 @@ $(function(){
         "Vignesh": "/images/team/plas/viggy.png"
     };
     $ori = {
-        "Varun" : "Varun Kulkarni.  Born in India, Junior at RRH"
+        "Varun" : "Varun Kulkarni.  Born in India, Junior at RRH",
+        "Vignesh": "Vignesh Valaboju, Graduating to UVa in 2017, From Ashburn, VA",
     };
     $hobbies = {
-        "Varun" : "Programming, Tennis, and Being Awesome"
+        "Varun" : "Programming, Tennis, and Being Awesome",
+        "Vignesh": "Playing Soccer; Synbio and Math; Watching Sports; Wasting time on social media"
     };
     $positionProj = {
-        "Varun" : "iGEM's Lead Tech Specialist and Web Designer, Contributed to the Trojan Phage"
+        "Varun" : "iGEM's Lead Tech Specialist and Web Designer, Contributed to the Trojan Phage",
+        "Vignesh": "Lyme Disease Living Vaccine"
     };
     $whyIgem = {
-        "Varun" : "I joined iGEM because I've been interested in applied biology integrated with technology, which sounds just like iGEM"
+        "Varun" : "I joined iGEM because I've been interested in applied biology integrated with technology, which sounds just like iGEM",
+        "Vignesh": "I joioned iGEM because Synthetic Biology has always interested me and through the club I've been able to learn more about a fascinating subject, meet new people across the globe, and meet with various scientists and learn about their work!"
     };
     $plasmidFlash.hide();
 });

@@ -51,7 +51,8 @@ nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     font-size: 4em;
     text-align: center;
     color: $white;
@@ -73,7 +74,7 @@ nav{
   &.index-igem-2015{
     background: url("/images/index/oldLogo.svg") $igem-green-u2 no-repeat center;
     background-size: contain;
-    // /h1{font-size: }
+    /* /h1{font-size: }*/
   }
   &.index-team{
     background: url("/images/index/index-vteam.svg") $igem-green-u3 no-repeat top;
@@ -106,9 +107,9 @@ nav{
 }
 
 #plasmid-parallax-layer{
-  //x1background: rgba(0,0,0,0.5);
+  /*x1background: rgba(0,0,0,0.5);*/
   #delta-img-cont{
-    //background: red;
+    /*background: red;*/
     position: relative;
     max-height: 500px;
     #deltaImg{
@@ -122,6 +123,8 @@ nav{
       text-align: center;
       border-radius: 1em;
       padding: 10px;
+      width: 100%;
+
     }
   }
 }
@@ -157,4 +160,7 @@ nav{
       width: 100%;
     }
   }
+}
+.twitter-tweet{
+  @include centerH();
 }
