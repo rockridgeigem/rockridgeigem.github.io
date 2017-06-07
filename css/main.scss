@@ -154,10 +154,29 @@ nav{
     height: 100%;
   }
 }
-#outreach-content{
-  .col{
+.parallax-phage{
+  #step-1{
+    @include centerbg();
+    background-image: url("/images/phage/step-1.svg");
+    height: 70vh;
+  }
+	#step-2{
+		@include centerbg();
+		background-image: url("/images/phage/combined.svg");
+    background-attachment: fixed;
+    background-size: 10%;
+		height: 100vh;
     img{
       width: 100%;
+    }
+	}
+  #step-3{
+    .slide{display: none;}
+    div{
+      width: 100%;
+      img{
+        width: 100%;
+      }
     }
   }
 }

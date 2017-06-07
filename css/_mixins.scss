@@ -37,3 +37,8 @@
     background-position: center;
     background-attachment: fixed;
 }
+@mixin centerbg {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

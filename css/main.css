@@ -102,7 +102,7 @@ nav {
     #plasmid-parallax-layer #delta-img-cont #deltaImg {
       margin-left: 50%;
       -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); }
+              transform: translateX(-50%); }
     #plasmid-parallax-layer #delta-img-cont #plasmid-overlay-text {
       background-color: rgba(0, 82, 83, 0.6);
       color: #FDFFFC;
@@ -119,7 +119,7 @@ nav {
     width: 150px;
     margin-left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); }
+            transform: translateX(-50%); }
 
 #sponsors-scene img {
   width: 100%; }
@@ -136,10 +136,33 @@ nav {
 #project-lyme #work-block {
   height: 100%; }
 
-#outreach-content .col img {
+.parallax-phage #step-1 {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/images/phage/step-1.svg");
+  height: 70vh; }
+
+.parallax-phage #step-2 {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/images/phage/combined.svg");
+  background-attachment: fixed;
+  background-size: 10%;
+  height: 100vh; }
+  .parallax-phage #step-2 img {
+    width: 100%; }
+
+.parallax-phage #step-3 .slide {
+  display: none; }
+
+.parallax-phage #step-3 div {
   width: 100%; }
+  .parallax-phage #step-3 div img {
+    width: 100%; }
 
 .twitter-tweet {
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%); }
+          transform: translateX(-50%); }
