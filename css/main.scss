@@ -180,6 +180,11 @@ nav{
     }
   }
 }
+#outreach-content{
+  img{
+    width: 100%;
+  }
+}
 .twitter-tweet{
-  @include centerH();
+  //@include centerH();
 }

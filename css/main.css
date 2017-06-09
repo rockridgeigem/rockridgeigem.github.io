@@ -162,7 +162,5 @@ nav {
   .parallax-phage #step-3 div img {
     width: 100%; }
 
-.twitter-tweet {
-  margin-left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%); }
+#outreach-content img {
+  width: 100%; }
