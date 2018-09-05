@@ -78,11 +78,14 @@
   <script type="text/javascript" src="/js/stellar/stellar.js"></script>
   <script type="text/javascript">
     $(window).on('load', function(){
+      console.log($(document).height())
     });
     $(window).scroll(function(){
       if($(window).scrollTop()+50 < $("#delta-img").position().top){
         $index = 0;
       }
+      console.log($(window).scrollTop());
+      console.log($(document).scrollTop());
     });
     var $index = 0;
     var $images = new Array();
@@ -103,7 +106,7 @@
       $("#delta-img").attr("src", $images[$index]);
       $index++;
       if($index > $images.length){$index = 0;}
-      setTimeout("slideShowFunction()", 1000);
+      // setTimeout("slideShowFunction()", 1000);
     }
 
   </script>
