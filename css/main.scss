@@ -124,7 +124,9 @@ nav{
       border-radius: 1em;
       padding: 10px;
       width: 100%;
-
+      display: none;
+      //right: 40px;
+      //@include centerH();
     }
   }
 }

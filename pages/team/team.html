@@ -51,7 +51,7 @@
       <section class="layer" data-depth="0.2" id="plasmid-parallax-layer">
         <div id="delta-img-cont">
           <img id="deltaImg" usemap = "#about_map" src="/images/team/plas/introPlas.svg" />
-          <div class="layer" data-depth="0.4" id="plasmid-overlay-text"><br></div>
+          <div class="layer" data-depth="1" id="plasmid-overlay-text"><br></div>
         </div>
 
       </section>
@@ -74,11 +74,11 @@
   <script type="text/javascript">
   var $scene, $parallax, $plasmidFlash, $window; //objects
   var $deltaImageWidth, $deltaImageHeight; //integers
-  function doWork(){
-    $plasmidFlash.css("width", $deltaImageWidth + "px");
-    $plasmidFlash.css("margin-left", ($deltaImageWidth / 1.9) + "px");
-    $plasmidFlash.css("margin-top", ($deltaImageHeight / 2) + "px");
-  }
+  //   function doWork(){
+  //   $plasmidFlash.css("width", $deltaImageWidth + "px");
+  //   $plasmidFlash.css("margin-left", ($deltaImageWidth / 1.9) + "px");
+  //   $plasmidFlash.css("margin-top", ($deltaImageHeight / 2) + "px");
+  // }
 
   $(window).on('load', function() {
     $scene = $("#scene");
@@ -88,6 +88,7 @@
     $plasmidFlash = $("#plasmid-overlay-text");
     $window = $(window);
     doWork();
+
   });
   // function initAll(){
   //   $scene = $("#scene");
@@ -119,5 +120,8 @@
   </script>
   <script src="/js/custom/plasma-min.js" type="text/javascript"></script>
   <script src="/js/wagerfield-parallax/parallax.js" type="text/javascript"></script>
+  <script>
+      $plasmidFlash.innerText = "FOOO";
+  </script>
 </body>
 </html>

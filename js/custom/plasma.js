@@ -1,4 +1,4 @@
-var $dataName, $images, $ori, $hobbies, $positionProj, $whyIgem;
+/*var $dataName, $images, $ori, $hobbies, $positionProj, $whyIgem;
 var $plasmidFlash;
 
 $(function(){
@@ -25,7 +25,9 @@ $(function(){
         "Varun" : "I joined iGEM because I've been interested in applied biology integrated with technology, which sounds just like iGEM",
         "Vignesh": "I joioned iGEM because Synthetic Biology has always interested me and through the club I've been able to learn more about a fascinating subject, meet new people across the globe, and meet with various scientists and learn about their work!"
     };
-    $plasmidFlash.hide();
+    //$plasmidFlash.css("background", "#000000");
+    // $plasmidFlash.hidden = true;
+
 });
 
 function fixBlankShowText(){
@@ -82,3 +84,4 @@ $("#area-why").click(function(event){
   event.preventDefault();
   clickHandlerWhy();
 });
+*/
